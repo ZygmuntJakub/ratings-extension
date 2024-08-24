@@ -8,7 +8,14 @@
     "default_icon": {
       "16": "assets/favicon-16x16.png",
       "32": "assets/favicon-32x32.png",
-      "96": "assets/favicon-96x96.png"
+      "48": "assets/favicon-48x48.png",
+      "128": "assets/favicon-128x128.png"
     }
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.netflix.com/*"],
+      "js": ["scripts/content.js"]
+    }
+  ]
 }
