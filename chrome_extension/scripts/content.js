@@ -88,10 +88,25 @@ async function fetchRatings({ cards, data }) {
 
       // create new timeout window
       timeoutId = setTimeout(() => {
+        const query = Array.from(queue)
+          .map((c) => {
+            const { id, title } = data.get(c);
+            return `${id},${title}`;
+          })
+          .join("|");
+        chrome.runtime.sendMessage(
+          {
+            type: "ratings",
+            query,
+          },
+          (response) => {
+            console.log(response);
+          },
+        );
         for (const c of queue) {
           ratings.set(c, { value: Math.round(Math.random() * 10) });
-          queue.delete(c);
         }
+        queue.clear();
         resolve({ cards, data, ratings });
       }, DELAY);
     }

@@ -9,8 +9,8 @@ type RatingSerializer struct {
 
 type RatingResponse struct {
 	StreamingVendorId string
-	Value             float64
-	Count             uint
+	Value             string
+	Count             string
 }
 
 func (s *RatingSerializer) Response() RatingResponse {
@@ -19,8 +19,8 @@ func (s *RatingSerializer) Response() RatingResponse {
 
 	return RatingResponse{
 		StreamingVendorId: streamingVendor.InternalId,
-		Value:             rating.value,
-		Count:             rating.count,
+		Value:             rating.Value,
+		Count:             rating.Count,
 	}
 }
 
