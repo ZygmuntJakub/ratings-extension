@@ -1,106 +1,263 @@
 id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rating_filmweb_value,rating_filmweb_count,rating_filmweb_url
-1,"70136137,Seks w wielkim mieście","80057918,Lucyfer"
-2,"70242311,Orange Is the New Black","81405070,Resident Alien"
-3,"80201680,The Kominsky Method","80177342,Good Girls"
-4,"80114988,GLOW","80017537,Grace i Frankie"
-5,"70281562,Brooklyn 9-9","70136117,Dr House"
-6,"81561941,Hitler i naziści: Sąd nad złem","70136135,Mad Men"
-7,"81361154,Sprawa rodzinna","80149258,Uciekaj!"
-8,"70136117,Dr House","80114855,MINDHUNTER"
-9,"70178217,House of Cards","70136118,Zagubieni"
-10,"70143836,Breaking Bad","70136126,Dexter"
-11,"80238738,Yellowstone","80114855,MINDHUNTER"
-12,"70157334,Detektyw Monk","70195800,W garniturach"
-13,"81024821,Problem trzech ciał","70136120,Biuro"
-14,"81678765,Ripley","80002479,Peaky Blinders"
-15,"70300800,BoJack Horseman","70157334,Detektyw Monk"
-16,"81913749,Doppelgänger. Sobowtór","81582382,Wybawienie"
-17,"81282732,Związek","81715819,Pierwszaki"
-18,"81672780,Whitney Houston: I Wanna Dance with Somebody","81198916,Minionki: Wejście Gru"
-19,"81251375,Flash","81686583,Rozpuszczeni i bezkarni"
-20,"60026122,Jak stracić chłopaka w 10 dni","81582382,Wybawienie"
-21,"80240371,Kłamstwo doskonałe","80115017,Kłamstwo"
-22,"70044686,Zodiak","60025007,Godziny"
-23,"70035186,Kod da Vinci","60000209,Utalentowany pan Ripley"
-24,"80997258,KAOS","70305196,Przeznaczenie"
-25,"81553471,1670","81659092,Wypadek"
-26,"81446288,Stamtąd","81037371,Emily w Paryżu"
-27,"80186863,The Umbrella Academy","70157334,Detektyw Monk"
-28,"81659092,Wypadek","81282732,Związek"
-29,"80997258,KAOS","81667161,Bez tchu"
-30,"81037371,Emily w Paryżu","81666858,Koszmarni eks"
-31,"70136118,Zagubieni","81486454,Magia syren"
-32,"81659092,Wypadek","81265803,Porwanie lotu IC 814"
-33,"81666165,Rekrut","70202589,Sherlock"
-34,"81221644,Rojst","70272726,Upadek"
-35,"80024057,Sposób na morderstwo","81709592,Morderczynie"
-36,"80192098,Dom z papieru","80100172,Dark"
-37,"81582382,Wybawienie","81913749,Doppelgänger. Sobowtór"
-38,"81677045,Bogdan Boner: Pierwszy dzień szkoły","81672780,Whitney Houston: I Wanna Dance with Somebody"
-39,"80192836,Pomniejszenie","70035186,Kod da Vinci"
-40,"70058019,Ktoś całkiem obcy","70002022,Chłopcy z ferajny"
-41,"80058399,Marsjanin","26004747,Podziemny krąg"
-42,"81198916,Minionki: Wejście Gru","81056197,Le Mans '66"
-43,"81463014,Gad","70102779,Stan gry"
-44,"81011819,Glass","1178866,Gra"
-45,"60004419,Obietnica","70038133,Monachium"
-46,"81674326,Fair Play","81314956,Zostaw świat za sobą"
-47,"80058480,Lobster","70278933,Ona"
-48,"1151721,Donnie Brasco","81518647,Skrytka"
-49,"80113783,Zwierzęta nocy","60031214,Między słowami"
-50,"80117799,Nowy początek","70167068,Kocha, lubi, szanuje"
-51,"81774205,Krucjata","81588093,Już mnie nie oszukasz"
-52,"80025172,Narcos","81632782,Sprawa Asunty"
-53,"70281312,Czarna lista","81520697,Antracyt"
-54,"70153394,Świry","81713150,Erynie"
-55,"81506171,Facet z zasadami","81186296,Playlista"
-56,"81019069,Unorthodox","81256740,Jeden dzień"
-57,"81380441,Obserwator","81774221,Osiecka"
-58,"81441399,Sygnał","81632782,Sprawa Asunty"
-59,"60011152,Ojciec Chrzestny","80117799,Nowy początek"
-60,"70132721,The Social Network","81064867,Pewnego razu... w Hollywood"
-61,"20557937,The Matrix","60000724,Forrest Gump"
-62,"80061341,Spotlight","81260280,Na Zachodzie bez zmian"
-63,"70113002,Kac Vegas","70167068,Kocha, lubi, szanuje"
-64,"80205227,Lady Bird","70027007,Maska"
-65,"70261674,Czas na miłość","563104,Dzień świstaka"
-66,"70097581,Kobiety pragną bardziej","70228042,Dyktator"
-67,"70305903,Interstellar","81056197,Le Mans '66"
-68,"80107552,Inferno","81511779,Bullet Train"
-69,"70283196,Obrońcy skarbów","60031236,Kill Bill Volume 1"
-70,"80013871,Snajper","70202129,Wyścig z czasem"
-71,"70264888,Czarne lustro","70300800,BoJack Horseman"
-72,"80192098,Dom z papieru","70308702,Kompania braci"
-73,"80234304,Gambit królowej","80024057,Sposób na morderstwo"
-74,"80113701,Dobre Miejsce","80191522,Paradise PD"
-75,"81459282,Eksplodujące kotki","81416676,Baby Fever"
-76,"81021929,Siły Kosmiczne","81559021,Samce alfa"
-77,"70153385,Chłopaki z baraków","80238565,Derry Girls"
-78,"80185764,Pierwszy śnieg","70209135,Ósma strona"
-79,"60010341,Fatalne zauroczenie","70208104,Safe House"
-80,"81674326,Fair Play","60004419,Obietnica"
-81,"81564396,Gdzie śpiewają raki","81700296,Dziewczyny z Dubaju"
-82,"80117456,Pasażerowie","81600418,Mocny temat"
-83,"477351,Angielski pacjent","80061341,Spotlight"
-84,"70261674,Czas na miłość","60011152,Ojciec Chrzestny"
-85,"81719583,The 8 Show","81284301,Eric"
-86,"81216677,Kleo","81417084,Dekameron"
-87,"80057281,Stranger Things","81447461,Awantura"
-88,"81458416,Glass Onion: Film z serii „Na noże”","81436688,Sekrety jedzenia: Naukowo o odżywianiu"
-89,"80175802,The Sinner","80206099,Wąż"
-90,"80234304,Gambit królowej","80117552,Ozark"
-91,"81441399,Sygnał","80244630,Co kryją jej oczy"
-92,"80117470,Trzynaście powodów","70242311,Orange Is the New Black"
-93,"80176893,The Good Doctor","80192612,Młody Sheldon"
-94,"80211991,Ty","80097140,Altered Carbon"
-95,"80241181,Szpital New Amsterdam","80025678,The Crown"
-96,"70281562,Brooklyn 9-9","70143811,Plotkara"
-97,"70097581,Kobiety pragną bardziej","80047616,Praktykant"
-98,"70079583,Mroczny Rycerz","81616260,Babilon"
-99,"81252357,Nie patrz w górę","81458416,Glass Onion: Film z serii „Na noże”"
-100,"80221908,Narodziny gwiazdy","81092221,Joker"
-101,"80225841,Ocean's 8","70044605,W pogoni za szczęściem"
-102,"70021641,Mr. ","70060009,American Gangster"
-103,"80991754,Clickbait","80994082,Lupin"
-104,"80113647,Designated Survivor","81231974,Wednesday"
-105,"70140403,Law ","81223488,Beckham"
+1,Seks w wielkim mieście,70136137
+2,Biuro,70136120
+3,The Kominsky Method,80201680
+4,BoJack Horseman,70300800
+5,Orange Is the New Black,70242311
+6,Kroniki Seinfelda,70153373
+7,Archer,70171942
+8,GLOW,80114988
+9,Dr House,70136117
+10,Mad Men,70136135
+11,Brooklyn 9-9,70281562
+12,Hitler i naziści: Sąd nad złem,81561941
+13,Sprawa rodzinna,81361154
+14,Uciekaj!,80149258
+15,MINDHUNTER,80114855
+16,Dr House,70136117
+17,Dexter,70136126
+18,House of Cards,70178217
+19,Czarne lustro,70264888
+20,Breaking Bad,70143836
+21,The End of the F***ing World,80175722
+22,Sześć stóp pod ziemią,70180080
+23,Ozark,80117552
+24,Dahmer,81287562
+25,Problem trzech ciał,81024821
+26,Ripley,81678765
+27,Zbrodnia,81204911
+28,Sherlock,70202589
+29,Zabić ból,81095069
+30,"Światło, którego nie widać",81083008
+31,Morderczynie,81709592
+32,Lucyfer,80057918
+33,Resident Alien,81405070
+34,Good Girls,80177342
+35,Wybory Paytona Hobarta,80241248
+36,Grace i Frankie,80017537
+37,FUBAR,81397077
+38,Facet z Florydy,81157207
+39,KAOS,80997258
+40,Zagubieni,70136118
+41,Peaky Blinders,80002479
+42,Kłamstwo doskonałe,80240371
+43,Dżentelmeni,81437051
+44,Mocny temat,81600418
+45,Eric,81284301
+46,W garniturach,70195800
+47,Wypadek,81659092
+48,Doppelgänger. Sobowtór,81913749
+49,Wybawienie,81582382
+50,Detektyw Monk,70157334
+51,Stamtąd,81446288
+52,Emily w Paryżu,81037371
+53,Problem trzech ciał,81024821
+54,The Umbrella Academy,80186863
+55,Wybawienie,81582382
+56,Doppelgänger. Sobowtór,81913749
+57,Pierwszaki,81715819
+58,Związek,81282732
+59,Minionki: Wejście Gru,81198916
+60,Whitney Houston: I Wanna Dance with Somebody,81672780
+61,Rozpuszczeni i bezkarni,81686583
+62,W potrzasku. Belfast '71,70301585
+63,Wybawienie,81582382
+64,Lobster,80058480
+65,Late Night,80240954
+66,Dzień świstaka,563104
+67,Między słowami,60031214
+68,Kac Vegas,70113002
+69,Nie patrz w górę,81252357
+70,"Kocha, lubi, szanuje",70167068
+71,Lady Bird,80205227
+72,Bogdan Boner: Pierwszy dzień szkoły,81677045
+73,Bez tchu,81667161
+74,Koszmarni eks,81666858
+75,Miłość jest ślepa: Wielka Brytania,81676358
+76,Yellowstone,80238738
+77,Awantura,81447461
+78,Gambit królowej,80234304
+79,Kompania braci,70308702
+80,The Crown,80025678
+81,Bodyguard,80235864
+82,Yellowstone,80238738
+83,Skrytka,81518647
+84,Zodiak,70044686
+85,Kłamstwo,80115017
+86,Zwierzęta nocy,80113783
+87,Gdzie śpiewają raki,81564396
+88,Baby Fever,81416676
+89,Boyhood,70301281
+90,Osiecka,81774221
+91,Ktoś całkiem obcy,70058019
+92,Kleo,81216677
+93,Clark,81113742
+94,Pomniejszenie,80192836
+95,Samce alfa,81559021
+96,Le Mans '66,81056197
+97,Gra,1178866
+98,Unorthodox,81019069
+99,Dark,80100172
+100,Jeden dzień,81256740
+101,The OA,80044950
+102,Playlista,81186296
+103,Upadek,70272726
+104,Porwanie lotu IC 814,81265803
+105,Magia syren,81486454
+106,The Good Doctor,80176893
+107,Młody Sheldon,80192612
+108,Skazani na Shawshank,70005379
+109,Rekrut,81666165
+110,Kingsman: Tajne służby,80013870
+111,Dom z papieru,80192098
+112,Redeeming Love,81522433
+113,Rzeźbiarz łez,81711218
+114,Jak stracić chłopaka w 10 dni,60026122
+115,Kod da Vinci,70035186
+116,Marsjanin,80058399
+117,Bullet Train,81511779
+118,Incepcja,70131314
+119,Bohemian Rhapsody,80994899
+120,Bez przebaczenia,1080395
+121,Paradise PD,80191522
+122,Siły Kosmiczne,81021929
+123,Dobre Miejsce,80113701
+124,Eksplodujące kotki,81459282
+125,Oderwij wzdłuż linii,81304528
+126,Derry Girls,80238565
+127,Nasz kandydat,81520506
+128,1670,81553471
+129,Krucjata,81774205
+130,Rojst,81221644
+131,"Lubię wracać tam, gdzie byłem",81774204
+132,Ziarno prawdy,81078805
+133,Erynie,81713150
+134,Chrzciny,81728892
+135,Narcos,80025172
+136,Trzynaście powodów,80117470
+137,Altered Carbon,80097140
+138,Brudna forsa,80118100
+139,Superhero,70090328
+140,Destrukcja,80083754
+141,Pewnego razu... w Hollywood,81064867
+142,O wszystko zadbam,81350429
+143,Chrzciny,81728892
+144,W głowie psa,81681888
+145,Gad,81463014
+146,The 8 Show,81719583
+147,Dekameron,81417084
+148,Punkty zwrotne: Bomba i zimna wojna,81614129
+149,Facet z zasadami,81506171
+150,Obserwator,81380441
+151,Czarna lista,70281312
+152,Clickbait,80991754
+153,Zagłada domu Usherów,81414665
+154,The Sinner,80175802
+155,Sposób na morderstwo,80024057
+156,Utalentowany pan Ripley,60000209
+157,Zostaw świat za sobą,81314956
+158,Obietnica,60004419
+159,Podziemny krąg,26004747
+160,Krzywe linie Boga,81453541
+161,Lektor,70109683
+162,Astronauta,81301595
+163,Wyjazd na weekend,81283586
+164,Jak Aleksander Wielki został bogiem,81325194
+165,Dobry opiekun,81260083
+166,Uśmiech Mony Lizy,60031284
+167,Zwerbowany,81396545
+168,Ósma strona,70209135
+169,Nowy początek,80117799
+170,Okruchy dnia,60011325
+171,Spotlight,80061341
+172,Ratched,80213445
+173,Dwóch papieży,80174451
+174,Wąż,80206099
+175,Dziewiąte wrota,60000200
+176,Donnie Brasco,1151721
+177,Chłopcy z ferajny,70002022
+178,Angielski pacjent,477351
+179,Siedem lat w Tybecie,1179053
+180,Nędznicy,5670503
+181,Jaś Fasola: Nadciąga totalny kataklizm,1171655
+182,Ona,70278933
+183,Belfast,81457437
+184,Godziny,60025007
+185,"Tamte dni, tamte noce",80169498
+186,Bliscy nieznajomi,80240088
+187,Nowy początek,80117799
+188,Midnight Express,759396
+189,Midnight Express,759396
+190,Przeznaczenie,70305196
+191,Inside Job,70139555
+192,Kod nieśmiertelności,70141646
+193,Lot nad kukułczym gniazdem,825812
+194,NYAD,81447231
+195,Lektor,70109683
+196,Egzorcysta: Początek,70000088
+197,Glass,81011819
+198,Stan gry,70102779
+199,Red Eye,70028900
+200,Pasażerowie,80117456
+201,Wyścig z czasem,70202129
+202,Kod nieśmiertelności,70141646
+203,Obrońcy skarbów,70283196
+204,Fatalne zauroczenie,60010341
+205,Ojciec Chrzestny,60011152
+206,Czas na miłość,70261674
+207,Glass Onion: Film z serii „Na noże”,81458416
+208,Jak zostalem gangsterem. Historia prawdziwa,81286570
+209,Interstellar,70305903
+210,Maska,70027007
+211,1983,80205593
+212,Służby specjalne,81307530
+213,Raport Pileckiego,81713152
+214,Jak pokochałam gangstera,81399298
+215,Znaki,81189092
+216,Forst,81488784
+217,Informacja Zwrotna,81507265
+218,Co kryją jej oczy,80244630
+219,Lupin,80994082
+220,Sprawa Asunty,81632782
+221,Sygnał,81441399
+222,Informacja Zwrotna,81507265
+223,"Ania, nie Anna",80136311
+224,Kalifat,80240005
+225,Telefonistki,80100929
+226,Już nie żyjesz,80219707
+227,Designated Survivor,80113647
+228,Sex Education,80197526
+229,Recepta na przekręt,81614419
+230,Rocketman,81044418
+231,The Matrix,20557937
+232,Zabójca,80234448
+233,Motyl Still Alice,70301350
+234,Monachium,70038133
+235,Praktykant,80047616
+236,Fair Play,81674326
+237,Niepokój,70059990
+238,Znachor,81516046
+239,Monachium,70038133
+240,Na Zachodzie bez zmian,81260280
+241,Wymazać siebie,80240538
+242,Strzępy,81748136
+243,Zaginione nocą,81163835
+244,After Life,80998491
+245,Anatomia skandalu,81152788
+246,Kim jest Anna?,81008305
+247,Narodziny gwiazdy,80221908
+248,Irlandczyk,80175798
+249,Pierwszy śnieg,80185764
+250,Czarny telefon,81488656
+251,Perfumiarz,81410551
+252,Niewidzialny Strażnik,80173176
+253,Podwójne morderstwo: Cisza białego miasta,81038589
+254,Potwór w masce,81708886
+255,Kolekcjoner,1180086
+256,Demon Barber of Fleet Street,70017767
+257,Pierwszy śnieg,80185764
+258,Bodkin,81423482
+259,Atypowy,80117540
+260,Ranczo,81307608
+261,Rita,70285368
+262,Wednesday,81231974

@@ -91,7 +91,7 @@ async function fetchRatings({ cards, data }) {
         const query = Array.from(queue)
           .map((c) => {
             const { id, title } = data.get(c);
-            return `${id},${title}`;
+            return `${id}|${title}`;
           })
           .join("|");
         chrome.runtime.sendMessage(
