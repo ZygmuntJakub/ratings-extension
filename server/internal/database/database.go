@@ -2,6 +2,7 @@ package database
 
 import (
 	"encoding/csv"
+	"errors"
 	"fmt"
 	"os"
 	"path"
@@ -79,4 +80,41 @@ func (db *DB[T]) ReadAll() ([]T, error) {
 	}
 
 	return res, nil
+}
+
+func (db *DB[T]) ReadFirst(condition func(entity T) bool) (T, error) {
+	db.mu.Lock()
+	defer db.mu.Unlock()
+	var result T
+
+	wd, err := os.Getwd()
+	if err != nil {
+		return result, err
+	}
+
+	file, err := os.Open(path.Join(wd, db.File))
+	if err != nil {
+		return result, err
+	}
+	defer file.Close()
+
+	reader := csv.NewReader(file)
+	reader.FieldsPerRecord = -1
+	data, err := reader.ReadAll()
+	if err != nil {
+		return result, err
+	}
+
+	for _, row := range data[1:] {
+		value, err := db.RowDeserialize(row)
+		if err != nil {
+			return result, err
+		}
+
+		if condition(value) {
+			return value, nil
+		}
+	}
+
+	return result, errors.New("Cannot meet condition")
 }

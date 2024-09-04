@@ -1,4 +1,4 @@
-id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rating_filmweb_value,rating_filmweb_count,rating_filmweb_url
+id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rating_filmweb_title,rating_filmweb_year,rating_filmweb_type
 1,Seks w wielkim mieście,70136137
 2,Biuro,70136120
 3,The Kominsky Method,80201680
@@ -4614,3 +4614,8 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 4613,Nierozłączki: Lilka i Pestka,81338302
 4614,Świat Miraculum: Zjednoczeni herosi w Nowym Jorku,81754915
 4615,Mustang: Duch wolności – Razem po przygody,81054415
+4616,Skazany na śmierć,70140425,,,,,,
+4617,Great News,80158516,,,,,,
+4618,Brews Brothers,81019632,,,,,,
+4619,White Gold,80191680,,,,,,
+4620,Neumatt,81562449,,,,,,
