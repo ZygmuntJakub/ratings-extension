@@ -6,7 +6,7 @@ mKino is a simple extension that allows you check show ratings and reviews
 - [x] Collect all show names and platform id
 - [x] Mock http server with rating responses
 - [x] Add data source - CSV File
-- [ ] Collect real data
+- [x] Collect real data
 - [ ] Show ratings on netflix shows (with hover)
 - [ ] Add data source - Database (MongoDB or ElasticSearch)
 - [ ] Add addon UI

@@ -1,480 +1,480 @@
-id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rating_filmweb_title,rating_filmweb_year,rating_filmweb_type
-1,Seks w wielkim mieście,70136137
-2,Biuro,70136120
-3,The Kominsky Method,80201680
-4,BoJack Horseman,70300800
-5,Orange Is the New Black,70242311
-6,Kroniki Seinfelda,70153373
-7,Archer,70171942
-8,GLOW,80114988
-9,Dr House,70136117
-10,Mad Men,70136135
-11,Brooklyn 9-9,70281562
-12,Hitler i naziści: Sąd nad złem,81561941
-13,Sprawa rodzinna,81361154
-14,Uciekaj!,80149258
-15,MINDHUNTER,80114855
-16,Dr House,70136117
-17,Dexter,70136126
-18,House of Cards,70178217
-19,Czarne lustro,70264888
-20,Breaking Bad,70143836
-21,The End of the F***ing World,80175722
-22,Sześć stóp pod ziemią,70180080
-23,Ozark,80117552
-24,Dahmer,81287562
-25,Problem trzech ciał,81024821
-26,Ripley,81678765
-27,Zbrodnia,81204911
-28,Sherlock,70202589
-29,Zabić ból,81095069
-30,"Światło, którego nie widać",81083008
-31,Morderczynie,81709592
-32,Lucyfer,80057918
-33,Resident Alien,81405070
-34,Good Girls,80177342
-35,Wybory Paytona Hobarta,80241248
-36,Grace i Frankie,80017537
-37,FUBAR,81397077
-38,Facet z Florydy,81157207
-39,KAOS,80997258
-40,Zagubieni,70136118
-41,Peaky Blinders,80002479
-42,Kłamstwo doskonałe,80240371
-43,Dżentelmeni,81437051
-44,Mocny temat,81600418
-45,Eric,81284301
-46,W garniturach,70195800
-47,Wypadek,81659092
-48,Doppelgänger. Sobowtór,81913749
-49,Wybawienie,81582382
-50,Detektyw Monk,70157334
-51,Stamtąd,81446288
-52,Emily w Paryżu,81037371
-53,Problem trzech ciał,81024821
-54,The Umbrella Academy,80186863
-55,Wybawienie,81582382
-56,Doppelgänger. Sobowtór,81913749
-57,Pierwszaki,81715819
-58,Związek,81282732
-59,Minionki: Wejście Gru,81198916
-60,Whitney Houston: I Wanna Dance with Somebody,81672780
-61,Rozpuszczeni i bezkarni,81686583
-62,W potrzasku. Belfast '71,70301585
-63,Wybawienie,81582382
-64,Lobster,80058480
-65,Late Night,80240954
-66,Dzień świstaka,563104
-67,Między słowami,60031214
-68,Kac Vegas,70113002
-69,Nie patrz w górę,81252357
-70,"Kocha, lubi, szanuje",70167068
-71,Lady Bird,80205227
-72,Bogdan Boner: Pierwszy dzień szkoły,81677045
-73,Bez tchu,81667161
-74,Koszmarni eks,81666858
-75,Miłość jest ślepa: Wielka Brytania,81676358
-76,Yellowstone,80238738
-77,Awantura,81447461
-78,Gambit królowej,80234304
-79,Kompania braci,70308702
-80,The Crown,80025678
-81,Bodyguard,80235864
-82,Yellowstone,80238738
-83,Skrytka,81518647
-84,Zodiak,70044686
-85,Kłamstwo,80115017
-86,Zwierzęta nocy,80113783
-87,Gdzie śpiewają raki,81564396
-88,Baby Fever,81416676
-89,Boyhood,70301281
-90,Osiecka,81774221
-91,Ktoś całkiem obcy,70058019
-92,Kleo,81216677
-93,Clark,81113742
-94,Pomniejszenie,80192836
-95,Samce alfa,81559021
-96,Le Mans '66,81056197
-97,Gra,1178866
-98,Unorthodox,81019069
-99,Dark,80100172
-100,Jeden dzień,81256740
-101,The OA,80044950
-102,Playlista,81186296
-103,Upadek,70272726
-104,Porwanie lotu IC 814,81265803
+id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rating_filmweb_title,rating_filmweb_year,rating_filmweb_type,rating_filmweb_subType,rating_filmweb_originalTitle,rating_filmweb_posterPath,rating_filmweb_value,rating_filmweb_count,rating_filmweb_wantToSee
+1,Seks w wielkim mieście,70136137,459569,Seks w wielkim mieście,2008,film,film_cinema,Sex and the City,/95/69/459569/7527779_1.$.jpg,6.42167,80068,5093
+2,Biuro,70136120,202887,Biuro,2005,serial,serial_tv,The Office,/28/87/202887/7906640_2.$.jpg,8.76457,90662,29713
+3,The Kominsky Method,80201680,808065,The Kominsky Method,2018,serial,serial_tv,The Kominsky Method,/80/65/808065/7902784_1.$.jpg,7.7823,19343,8578
+4,BoJack Horseman,70300800,718443,BoJack Horseman,2014,serial,serial_tv,BoJack Horseman,/84/43/718443/7901886_1.$.jpg,8.56266,65850,13880
+5,Orange Is the New Black,70242311,666215,Orange Is the New Black,2013,serial,serial_tv,Orange Is the New Black,/62/15/666215/7790617_2.$.jpg,7.72193,102169,32120
+6,Kroniki Seinfelda,70153373,34055,Kroniki Seinfelda,1990,serial,serial_tv,Seinfeld,/40/55/34055/7285616_1.$.jpg,7.82051,5120,4070
+7,Archer,70171942,541885,Archer,2009,serial,serial_tv,Archer,/18/85/541885/8082952_1.$.jpg,8.12489,9937,6017
+8,GLOW,80114988,779245,GLOW,2017,serial,serial_tv,GLOW,/92/45/779245/7792513_2.$.jpg,7.18614,8875,4130
+9,Dr House,70136117,130177,Dr House,2004,serial,serial_tv,House M.D.,/01/77/130177/7221239_2.$.jpg,8.21012,481651,64244
+10,Mad Men,70136135,436999,Mad Men,2007,serial,serial_tv,Mad Men,/69/99/436999/7286413_3.$.jpg,8.10036,34736,36389
+11,Brooklyn 9-9,70281562,685359,Brooklyn 9-9,2013,serial,serial_tv,Brooklyn Nine-Nine,/53/59/685359/7966705_1.$.jpg,8.04824,41042,12358
+12,Hitler i naziści: Sąd nad złem,81561941,10054074,Hitler i naziści: Sąd nad złem,2024,serial,mini_serial,Hitler and the Nazis: Evil on Trial,/40/74/10054074/8129909.$.jpg,6.81801,533,191
+13,Sprawa rodzinna,81361154,10030242,Sprawa rodzinna,2024,film,film_cinema,A Family Affair,/02/42/10030242/8129188.$.jpg,4.68704,9244,1143
+14,Uciekaj!,80149258,750704,Uciekaj!,2017,film,film_cinema,Get Out,/07/04/750704/7783094_2.$.jpg,7.04358,157743,30689
+15,MINDHUNTER,80114855,764111,Mindhunter,2017,serial,serial_tv,Mindhunter,/41/11/764111/7894593_1.$.jpg,7.9761,106024,34328
+16,Dr House,70136117,130177,Dr House,2004,serial,serial_tv,House M.D.,/01/77/130177/7221239_2.$.jpg,8.21012,481651,64244
+17,Dexter,70136126,331618,Dexter,2006,serial,serial_tv,Dexter,/16/18/331618/7331585_2.$.jpg,8.19146,196696,64364
+18,House of Cards,70178217,620036,House of Cards,2013,serial,serial_tv,House of Cards,/00/36/620036/7855884_1.$.jpg,8.33716,171764,66947
+19,Czarne lustro,70264888,640699,Czarne lustro,2011,serial,episode_anthology,Black Mirror,/06/99/640699/8075655_1.$.jpg,8.30035,174473,51705
+20,Breaking Bad,70143836,430668,Breaking Bad,2008,serial,serial_tv,Breaking Bad,/06/68/430668/7730445_2.$.jpg,8.80338,301285,67525
+21,The End of the F***ing World,80175722,789148,The End of the F***ing World,2017,serial,serial_tv,The End of the F***ing World,/91/48/789148/7903090_1.$.jpg,7.4199,128020,18761
+22,Sześć stóp pod ziemią,70180080,89546,Sześć stóp pod ziemią,2001,serial,serial_tv,Six Feet Under,/95/46/89546/8017536_1.$.jpg,7.92987,37913,33315
+23,Ozark,80117552,779550,Ozark,2017,serial,serial_tv,Ozark,/95/50/779550/7797986_2.$.jpg,7.66084,57843,22617
+24,Dahmer,81287562,34084,Dahmer,2002,film,film_cinema,Dahmer,/40/84/34084/7184177_1.$.jpg,5.49093,827,1390
+25,Problem trzech ciał,81024821,10030298,Problem trzech ciał,2024,serial,serial_tv,3 Body Problem,/02/98/10030298/8117491_1.$.jpg,6.55544,19516,10195
+26,Ripley,81678765,840403,Ripley,2024,serial,mini_serial,Ripley,/04/03/840403/8111466_2.$.jpg,7.71976,8564,10170
+27,Zbrodnia,81204911,713285,Zbrodnia,2014,serial,serial_tv,Zbrodnia,/32/85/713285/7709125_1.$.jpg,6.36119,11033,2911
+28,Sherlock,70202589,528992,Sherlock,2010,serial,serial_tv,Sherlock,/89/92/528992/7864164_2.$.jpg,8.54766,225506,57271
+29,Zabić ból,81095069,859026,Zabić ból,2023,serial,mini_serial,Painkiller,/90/26/859026/8080103_1.$.jpg,7.02785,6104,2635
+30,"Światło, którego nie widać",81083008,10034623,"Światło, którego nie widać",2023,serial,mini_serial,All the Light We Cannot See,/46/23/10034623/8094344_1.$.jpg,6.84351,6582,3900
+31,Morderczynie,81709592,10017832,Morderczynie,2023,serial,serial_tv,Morderczynie,/78/32/10017832/8096341_1.$.jpg,6.71586,13539,2698
+32,Lucyfer,80057918,742520,Lucyfer,2016,serial,serial_tv,Lucifer,/25/20/742520/7928120_1.$.jpg,7.87901,118206,27662
+33,Resident Alien,81405070,831187,Resident Alien,2021,serial,serial_tv,Resident Alien,/11/87/831187/8110827_1.$.jpg,7.28864,4057,2433
+34,Good Girls,80177342,786959,Good Girls,2018,serial,serial_tv,Good Girls,/69/59/786959/7971756_1.$.jpg,7.41638,14405,3800
+35,Wybory Paytona Hobarta,80241248,807247,Wybory Paytona Hobarta,2019,serial,serial_tv,The Politician,/72/47/807247/7896478_1.$.jpg,7.00693,4615,1904
+36,Grace i Frankie,80017537,718441,Grace i Frankie,2015,serial,serial_tv,Grace and Frankie,/84/41/718441/8008787_1.$.jpg,7.85095,26923,8861
+37,FUBAR,81397077,10014149,Fubar,2023,serial,serial_tv,Fubar,/41/49/10014149/8068182_1.$.jpg,5.72909,3610,1182
+38,Facet z Florydy,81157207,10023101,Facet z Florydy,2023,serial,mini_serial,Florida Man,/31/01/10023101/8061563_1.$.jpg,6.39497,1114,333
+39,KAOS,80997258,810065,Kaos,2024,serial,serial_tv,Kaos,/00/65/810065/8141024.$.jpg,7.01596,1378,2327
+40,Zagubieni,70136118,133834,Zagubieni,2004,serial,serial_tv,Lost,/38/34/133834/7177044_2.$.jpg,7.55806,175107,25359
+41,Peaky Blinders,80002479,680981,Peaky Blinders,2013,serial,serial_tv,Peaky Blinders,/09/81/680981/7770961_2.$.jpg,8.55564,130755,56956
+42,Kłamstwo doskonałe,80240371,821611,Kłamstwo doskonałe,2019,film,film_cinema,The Good Liar,/16/11/821611/7903342_2.$.jpg,6.56505,20476,5101
+43,Dżentelmeni,81437051,817420,Dżentelmeni,2019,film,film_cinema,The Gentlemen,/74/20/817420/7908436_2.$.jpg,7.60272,80744,31198
+44,Mocny temat,81600418,10048344,Mocny temat,2024,film,film_cinema,Scoop,/83/44/10048344/8119387_1.$.jpg,5.82106,3476,1154
+45,Eric,81284301,10047792,Eric,2024,serial,mini_serial,Eric,/77/92/10047792/8120502_1.$.jpg,6.47451,7100,3626
+46,W garniturach,70195800,585726,W garniturach,2011,serial,serial_tv,Suits,/57/26/585726/7770934_2.$.jpg,8.11087,134394,51154
+47,Wypadek,81659092,10057566,Wypadek,2024,serial,serial_tv,Accidente,/75/66/10057566/8137282.$.jpg,5.54751,663,177
+48,Doppelgänger. Sobowtór,81913749,10056145,Doppelganger. Sobowtór,2024,serial,mini_serial,Doppelganger. Sobowtór,,6.85165,728,269
+49,Wybawienie,81582382,10016321,Wybawienie,2024,film,film_cinema,The Deliverance,/63/21/10016321/8134168.$.jpg,4.71163,2202,646
+50,Detektyw Monk,70157334,95231,Detektyw Monk,2002,serial,serial_tv,Monk,/52/31/95231/7343581_1.$.jpg,7.43243,79185,6626
+51,Stamtąd,81446288,10004652,Stamtąd,2022,serial,serial_tv,From,/46/52/10004652/8080256_1.$.jpg,7.39271,22378,12645
+52,Emily w Paryżu,81037371,832425,Emily w Paryżu,2020,serial,serial_tv,Emily in Paris,/24/25/832425/7990601_2.$.jpg,6.22311,38581,3420
+53,Problem trzech ciał,81024821,10030298,Problem trzech ciał,2024,serial,serial_tv,3 Body Problem,/02/98/10030298/8117491_1.$.jpg,6.55544,19516,10195
+54,The Umbrella Academy,80186863,797238,The Umbrella Academy,2019,serial,serial_tv,The Umbrella Academy,/72/38/797238/8099931_1.$.jpg,7.31428,61204,11593
+55,Wybawienie,81582382,10016321,Wybawienie,2024,film,film_cinema,The Deliverance,/63/21/10016321/8134168.$.jpg,4.71163,2202,646
+56,Doppelgänger. Sobowtór,81913749,10056145,Doppelganger. Sobowtór,2024,serial,mini_serial,Doppelganger. Sobowtór,,6.85165,728,269
+57,Pierwszaki,81715819,10053866,Pierwszaki,2024,film,film_cinema,Incoming,/38/66/10053866/8141267.$.jpg,5.65076,2116,307
+58,Związek,81282732,10013719,Związek,2024,film,film_cinema,The Union,/37/19/10013719/8133605.$.jpg,5.03935,4828,970
+59,Minionki: Wejście Gru,81198916,778537,Minionki: Wejście Gru,2022,film,film_cinema,Minions: The Rise of Gru,/85/37/778537/8020219_2.$.jpg,6.4924,16771,4172
+60,Whitney Houston: I Wanna Dance with Somebody,81672780,858051,Whitney Houston: I Wanna Dance with Somebody,2022,film,film_cinema,Whitney Houston: I Wanna Dance with Somebody,/80/51/858051/8049992_2.$.jpg,6.07882,6432,1996
+61,Rozpuszczeni i bezkarni,81686583,10057840,Rozpuszczeni i bezkarni,2024,film,film_cinema,Príncipes salvajes,/78/40/10057840/8141534.$.jpg,4.06215,177,49
+62,W potrzasku. Belfast '71,70301585,694279,W potrzasku. Belfast '71,2014,film,film_cinema,'71,/42/79/694279/7714511_1.$.jpg,6.69647,5380,4240
+63,Wybawienie,81582382,10016321,Wybawienie,2024,film,film_cinema,The Deliverance,/63/21/10016321/8134168.$.jpg,4.71163,2202,646
+64,Lobster,80058480,702950,Lobster,2015,film,film_cinema,The Lobster,/29/50/702950/7724743_1.$.jpg,6.82704,104548,41306
+65,Late Night,80240954,826647,Late Night,2019,film,film_cinema,Late Night,/66/47/826647/7930772_2.$.jpg,6.09266,11396,1745
+66,Dzień świstaka,563104,5293,Dzień świstaka,1993,film,film_cinema,Groundhog Day,/52/93/5293/7290669_1.$.jpg,7.204,148263,17333
+67,Między słowami,60031214,104454,Między słowami,2003,film,film_cinema,Lost in Translation,/44/54/104454/7535937_2.$.jpg,7.43618,176314,55023
+68,Kac Vegas,70113002,487211,Kac Vegas,2009,film,film_cinema,The Hangover,/72/11/487211/7258810_2.$.jpg,7.27244,730245,25631
+69,Nie patrz w górę,81252357,848823,Nie patrz w górę,2021,film,film_cinema,Don't Look Up,/88/23/848823/7983647_1.$.jpg,6.7435,138734,9117
+70,"Kocha, lubi, szanuje",70167068,564225,"Kocha, lubi, szanuje",2011,film,film_cinema,"Crazy, Stupid, Love.",/42/25/564225/7391828_2.$.jpg,7.35048,226334,30101
+71,Lady Bird,80205227,762864,Lady Bird,2017,film,film_cinema,Lady Bird,/28/64/762864/7824421_1.$.jpg,6.69453,98837,37020
+72,Bogdan Boner: Pierwszy dzień szkoły,81677045,10059635,Bogdan Boner: Pierwszy dzień szkoły,2024,film,film_cinema,Bogdan Boner: Pierwszy dzień szkoły,,6.29457,258,12
+73,Bez tchu,81667161,10046549,Bez tchu,2024,serial,serial_tv,Respira,/65/49/10046549/8141543.$.jpg,7.00315,317,299
+74,Koszmarni eks,81666858,10057152,Koszmarni eks,2024,serial,serial_tv,Worst Ex Ever,/71/52/10057152/8137956.$.jpg,6.46186,236,77
+75,Miłość jest ślepa: Wielka Brytania,81676358,10048868,Miłość jest ślepa: Wielka Brytania,2024,tvshow,,Love Is Blind: UK,/88/68/10048868/8137143.$.jpg,6.29907,107,28
+76,Yellowstone,80238738,799265,Yellowstone,2018,serial,serial_tv,Yellowstone,/92/65/799265/8091826_1.$.jpg,8.20867,22485,19049
+77,Awantura,81447461,851246,Awantura,2023,serial,serial_tv,Beef,/12/46/851246/8063259_1.$.jpg,7.44261,22304,10550
+78,Gambit królowej,80234304,840024,Gambit królowej,2020,serial,mini_serial,The Queen's Gambit,/00/24/840024/7932824_1.$.jpg,8.13094,169846,10033
+79,Kompania braci,70308702,35584,Kompania braci,2001,serial,mini_serial,Band of Brothers,/55/84/35584/7402986_1.$.jpg,8.72926,137973,56056
+80,The Crown,80025678,747284,The Crown,2016,serial,serial_tv,The Crown,/72/84/747284/8097580_1.$.jpg,8.19043,94975,31153
+81,Bodyguard,80235864,4287,Bodyguard,1992,film,film_cinema,The Bodyguard,/42/87/4287/7774429_1.$.jpg,7.17567,103641,9374
+82,Yellowstone,80238738,799265,Yellowstone,2018,serial,serial_tv,Yellowstone,/92/65/799265/8091826_1.$.jpg,8.20867,22485,19049
+83,Skrytka,81518647,10004580,Skrytka,2022,film,film_cinema,The Outfit,/45/80/10004580/8000471_2.$.jpg,6.93944,6011,2960
+84,Zodiak,70044686,191345,Zodiak,2007,film,film_cinema,Zodiac,/13/45/191345/7527406_2.$.jpg,7.18759,221181,56755
+85,Kłamstwo,80115017,760093,Kłamstwo,2016,film,film_cinema,Denial,/00/93/760093/7775011_2.$.jpg,6.71439,9856,8964
+86,Zwierzęta nocy,80113783,744969,Zwierzęta nocy,2016,film,film_cinema,Nocturnal Animals,/49/69/744969/7756602_1.$.jpg,7.2257,139349,43031
+87,Gdzie śpiewają raki,81564396,873851,Gdzie śpiewają raki,2022,film,film_cinema,Where the Crawdads Sing,/38/51/873851/8021050_2.$.jpg,6.86849,40985,10158
+88,Baby Fever,81416676,10012452,Baby Fever,2022,serial,serial_tv," Skruk",/24/52/10012452/8018010_1.$.jpg,6.06827,1084,216
+89,Boyhood,70301281,629125,Boyhood,2014,film,film_cinema,Boyhood,/91/25/629125/7628805_1.$.jpg,7.01357,85115,53216
+90,Osiecka,81774221,837774,Osiecka,2020,serial,serial_tv,Osiecka,/77/74/837774/7939878_2.$.jpg,6.25647,4523,1639
+91,Ktoś całkiem obcy,70058019,229424,Ktoś całkiem obcy,2007,film,film_cinema,Perfect Stranger,/94/24/229424/7175732_2.$.jpg,6.75645,28610,6425
+92,Kleo,81216677,10016153,Kleo,2022,serial,serial_tv,Kleo,/61/53/10016153/8136947.$.jpg,6.94029,2127,683
+93,Clark,81113742,853683,Clark,2022,serial,mini_serial,Clark,/36/83/853683/8025768_2.$.jpg,6.79826,3569,1621
+94,Pomniejszenie,80192836,503386,Pomniejszenie,2017,film,film_cinema,Downsizing,/33/86/503386/7818393_3.$.jpg,5.34757,36706,11330
+95,Samce alfa,81559021,10024660,Samce alfa,2022,serial,serial_tv,Machos alfa,/46/60/10024660/8054026_1.$.jpg,7.23147,3089,1089
+96,Le Mans '66,81056197,705791,Le Mans '66,2019,film,film_cinema,Ford v Ferrari,/57/91/705791/7898351_1.$.jpg,7.93009,90258,23593
+97,Gra,1178866,62,Gra,1997,film,film_cinema,The Game,/00/62/62/7521204_1.$.jpg,7.83791,228902,75471
+98,Unorthodox,81019069,848385,Unorthodox,2020,serial,mini_serial,Unorthodox,/83/85/848385/7918693_1.$.jpg,7.54457,55025,7374
+99,Dark,80100172,771383,Dark,2017,serial,serial_tv,Dark,/13/83/771383/7814585_2.$.jpg,8.19148,165807,37284
+100,Jeden dzień,81256740,571418,Jeden dzień,2011,film,film_cinema,One Day,/14/18/571418/7403658_1.$.jpg,7.48741,169406,42217
+101,The OA,80044950,743791,The OA,2016,serial,serial_tv,The OA,/37/91/743791/7878504_1.$.jpg,7.20951,32400,16136
+102,Playlista,81186296,10020071,Playlista,2022,serial,mini_serial,Spellistan,/00/71/10020071/8032432_1.$.jpg,6.90217,3363,965
+103,Upadek,70272726,11398,Upadek,1993,film,film_cinema,Falling Down,/13/98/11398/7869875_1.$.jpg,7.66686,99890,36212
+104,Porwanie lotu IC 814,81265803,10049492,Porwanie lotu IC 814,2024,serial,mini_serial,IC 814: The Kandahar Hijack,/94/92/10049492/8141458.$.jpg,5.87692,65,45
 105,Magia syren,81486454
-106,The Good Doctor,80176893
-107,Młody Sheldon,80192612
-108,Skazani na Shawshank,70005379
-109,Rekrut,81666165
-110,Kingsman: Tajne służby,80013870
-111,Dom z papieru,80192098
-112,Redeeming Love,81522433
-113,Rzeźbiarz łez,81711218
-114,Jak stracić chłopaka w 10 dni,60026122
-115,Kod da Vinci,70035186
-116,Marsjanin,80058399
-117,Bullet Train,81511779
-118,Incepcja,70131314
-119,Bohemian Rhapsody,80994899
-120,Bez przebaczenia,1080395
-121,Paradise PD,80191522
-122,Siły Kosmiczne,81021929
-123,Dobre Miejsce,80113701
-124,Eksplodujące kotki,81459282
-125,Oderwij wzdłuż linii,81304528
-126,Derry Girls,80238565
-127,Nasz kandydat,81520506
-128,1670,81553471
-129,Krucjata,81774205
-130,Rojst,81221644
-131,"Lubię wracać tam, gdzie byłem",81774204
-132,Ziarno prawdy,81078805
-133,Erynie,81713150
-134,Chrzciny,81728892
-135,Narcos,80025172
-136,Trzynaście powodów,80117470
-137,Altered Carbon,80097140
-138,Brudna forsa,80118100
-139,Superhero,70090328
-140,Destrukcja,80083754
-141,Pewnego razu... w Hollywood,81064867
-142,O wszystko zadbam,81350429
-143,Chrzciny,81728892
-144,W głowie psa,81681888
-145,Gad,81463014
-146,The 8 Show,81719583
-147,Dekameron,81417084
-148,Punkty zwrotne: Bomba i zimna wojna,81614129
-149,Facet z zasadami,81506171
-150,Obserwator,81380441
-151,Czarna lista,70281312
-152,Clickbait,80991754
-153,Zagłada domu Usherów,81414665
-154,The Sinner,80175802
-155,Sposób na morderstwo,80024057
-156,Utalentowany pan Ripley,60000209
-157,Zostaw świat za sobą,81314956
-158,Obietnica,60004419
-159,Podziemny krąg,26004747
-160,Krzywe linie Boga,81453541
-161,Lektor,70109683
-162,Astronauta,81301595
-163,Wyjazd na weekend,81283586
-164,Jak Aleksander Wielki został bogiem,81325194
-165,Dobry opiekun,81260083
-166,Uśmiech Mony Lizy,60031284
-167,Zwerbowany,81396545
-168,Ósma strona,70209135
-169,Nowy początek,80117799
-170,Okruchy dnia,60011325
-171,Spotlight,80061341
-172,Ratched,80213445
-173,Dwóch papieży,80174451
-174,Wąż,80206099
-175,Dziewiąte wrota,60000200
-176,Donnie Brasco,1151721
-177,Chłopcy z ferajny,70002022
-178,Angielski pacjent,477351
-179,Siedem lat w Tybecie,1179053
-180,Nędznicy,5670503
-181,Jaś Fasola: Nadciąga totalny kataklizm,1171655
-182,Ona,70278933
-183,Belfast,81457437
-184,Godziny,60025007
-185,"Tamte dni, tamte noce",80169498
-186,Bliscy nieznajomi,80240088
-187,Nowy początek,80117799
-188,Midnight Express,759396
-189,Midnight Express,759396
-190,Przeznaczenie,70305196
-191,Inside Job,70139555
-192,Kod nieśmiertelności,70141646
-193,Lot nad kukułczym gniazdem,825812
-194,NYAD,81447231
-195,Lektor,70109683
-196,Egzorcysta: Początek,70000088
-197,Glass,81011819
-198,Stan gry,70102779
-199,Red Eye,70028900
-200,Pasażerowie,80117456
-201,Wyścig z czasem,70202129
-202,Kod nieśmiertelności,70141646
-203,Obrońcy skarbów,70283196
-204,Fatalne zauroczenie,60010341
-205,Ojciec Chrzestny,60011152
-206,Czas na miłość,70261674
-207,Glass Onion: Film z serii „Na noże”,81458416
-208,Jak zostalem gangsterem. Historia prawdziwa,81286570
-209,Interstellar,70305903
-210,Maska,70027007
-211,1983,80205593
-212,Służby specjalne,81307530
-213,Raport Pileckiego,81713152
-214,Jak pokochałam gangstera,81399298
-215,Znaki,81189092
-216,Forst,81488784
-217,Informacja Zwrotna,81507265
-218,Co kryją jej oczy,80244630
-219,Lupin,80994082
-220,Sprawa Asunty,81632782
-221,Sygnał,81441399
-222,Informacja Zwrotna,81507265
-223,"Ania, nie Anna",80136311
-224,Kalifat,80240005
-225,Telefonistki,80100929
-226,Już nie żyjesz,80219707
-227,Designated Survivor,80113647
-228,Sex Education,80197526
-229,Recepta na przekręt,81614419
-230,Rocketman,81044418
-231,The Matrix,20557937
-232,Zabójca,80234448
-233,Motyl Still Alice,70301350
-234,Monachium,70038133
-235,Praktykant,80047616
-236,Fair Play,81674326
-237,Niepokój,70059990
-238,Znachor,81516046
-239,Monachium,70038133
-240,Na Zachodzie bez zmian,81260280
-241,Wymazać siebie,80240538
-242,Strzępy,81748136
-243,Zaginione nocą,81163835
-244,After Life,80998491
-245,Anatomia skandalu,81152788
-246,Kim jest Anna?,81008305
-247,Narodziny gwiazdy,80221908
-248,Irlandczyk,80175798
-249,Pierwszy śnieg,80185764
-250,Czarny telefon,81488656
-251,Perfumiarz,81410551
-252,Niewidzialny Strażnik,80173176
-253,Podwójne morderstwo: Cisza białego miasta,81038589
-254,Potwór w masce,81708886
-255,Kolekcjoner,1180086
-256,Demon Barber of Fleet Street,70017767
-257,Pierwszy śnieg,80185764
-258,Bodkin,81423482
-259,Atypowy,80117540
-260,Ranczo,81307608
-261,Rita,70285368
-262,Wednesday,81231974
-263,Arcane,81435684
-264,Ania,81713122
-265,Aquaman,81004278
-266,Avatar: Legenda Aanga,70142405
-267,Akademia pana Kleksa,81399299
-268,Aż do kości,80171659
-269,Agenci bardzo specjalni,60034587
-270,Anioły i demony,70103523
-271,Atlas,81012048
-272,Awatar: Ostatni władca wiatru,80237957
-273,American Gangster,70060009
-274,Alpinista,81500204
-275,Antracyt,81520697
-276,Apollo 13: Walka o przetrwanie,81444292
-277,Alvinnn!!! I wiewiórki,80097036
-278,Anihilacja,80206300
-279,Przewodnik po zbrodni według grzecznej dziewczynki,81759464
-280,Alice in Borderland,80200575
-281,Archiwista,81446621
-282,Akademia Dobra i Zła,80218885
-283,Agent i pół,80094318
-284,Amator,80096984
-285,Athlete A: Sport w cieniu skandalu,81034185
-286,Snajper,80013871
-287,Alvin i wiewiórki,70077552
-288,ATHENA,81312828
-289,Akademia Gimnastyki: Druga szansa,81422413
-290,All of Us Are Dead,81237994
-291,Pora na przygodę!,70241425
-292,Alvin i wiewiórki 3,70189308
-293,Alvin i wiewiórki 2,70115628
-294,A.X.L.,80195967
+106,The Good Doctor,80176893,790126,The Good Doctor,2017,serial,serial_tv,The Good Doctor,/01/26/790126/8112007_1.$.jpg,7.83338,36112,13246
+107,Młody Sheldon,80192612,788971,Młody Sheldon,2017,serial,serial_tv,Young Sheldon,/89/71/788971/7845603_2.$.jpg,7.54699,17163,4850
+108,Skazani na Shawshank,70005379,1048,Skazani na Shawshank,1994,film,film_cinema,The Shawshank Redemption,/10/48/1048/6925401_1.$.jpg,8.79424,928927,105377
+109,Rekrut,81666165,33334,Rekrut,2003,film,film_cinema,The Recruit,/33/34/33334/6900541_1.$.jpg,7.22362,65544,11250
+110,Kingsman: Tajne służby,80013870,682272,Kingsman: Tajne służby,2014,film,film_cinema,Kingsman: The Secret Service,/22/72/682272/7659878_1.$.jpg,7.32665,204994,27608
+111,Dom z papieru,80192098,792826,Dom z papieru,2017,serial,serial_tv,La casa de papel,/28/26/792826/7917652_1.$.jpg,8.09901,218879,27884
+112,Redeeming Love,81522433,858877,Redeeming Love,2022,film,film_cinema,Redeeming Love,/88/77/858877/8051416_2.$.jpg,6.79796,4895,1757
+113,Rzeźbiarz łez,81711218,10048753,Rzeźbiarz łez,2024,film,film_cinema,Fabbricante di lacrime,/87/53/10048753/8118690_2.$.jpg,5.09816,5756,773
+114,Jak stracić chłopaka w 10 dni,60026122,38301,Jak stracić chłopaka w 10 dni,2003,film,film_cinema,How to Lose a Guy in 10 Days,/83/01/38301/6900688_1.$.jpg,6.75754,140272,8161
+115,Kod da Vinci,70035186,124613,Kod da Vinci,2006,film,film_cinema,The Da Vinci Code,/46/13/124613/7612385_2.$.jpg,6.70095,579839,35704
+116,Marsjanin,80058399,715533,Marsjanin,2015,film,film_cinema,The Martian,/55/33/715533/7722529_2.$.jpg,7.57171,290271,34801
+117,Bullet Train,81511779,856701,Bullet Train,2022,film,film_cinema,Bullet Train,/67/01/856701/8021051_2.$.jpg,6.79747,66784,11720
+118,Incepcja,70131314,500891,Incepcja,2010,film,film_cinema,Inception,/08/91/500891/7354571_1.$.jpg,8.24775,624925,66838
+119,Bohemian Rhapsody,80994899,619201,Bohemian Rhapsody,2018,film,film_cinema,Bohemian Rhapsody,/92/01/619201/7863180_2.$.jpg,7.8716,232801,31075
+120,Bez przebaczenia,1080395,1241,Bez przebaczenia,1992,film,film_cinema,Unforgiven,/12/41/1241/8022079_1.$.jpg,7.90112,92730,41608
+121,Paradise PD,80191522,810632,Paradise PD,2018,serial,serial_tv,Paradise PD,/06/32/810632/7853417_1.$.jpg,7.00409,16885,2035
+122,Siły Kosmiczne,81021929,820789,Siły Kosmiczne,2020,serial,serial_tv,Space Force,/07/89/820789/7993481_1.$.jpg,6.24041,13082,2968
+123,Dobre Miejsce,80113701,765501,Dobre miejsce,2016,serial,serial_tv,The Good Place,/55/01/765501/7894875_1.$.jpg,7.46615,30402,8949
+124,Eksplodujące kotki,81459282,10012015,Eksplodujące kotki,2024,serial,serial_tv,Exploding Kittens,/20/15/10012015/8130595.$.jpg,6.51838,1360,595
+125,Oderwij wzdłuż linii,81304528,10003196,Oderwij wzdłuż linii,2021,serial,serial_tv,Strappare lungo i bordi,/31/96/10003196/7981624_1.$.jpg,8.35126,5913,2593
+126,Derry Girls,80238565,801752,Derry Girls,2018,serial,serial_tv,Derry Girls,/17/52/801752/7873906_1.$.jpg,7.69542,7430,3011
+127,Nasz kandydat,81520506,10023451,Nasz kandydat,2023,serial,serial_tv,En place,/34/51/10023451/8054123_1.$.jpg,6.036,250,96
+128,1670,81553471,10042364,1670,2023,serial,serial_tv,1670,/23/64/10042364/8099402_1.$.jpg,7.95261,99684,14197
+129,Krucjata,81774205,10023379,Krucjata,2022,serial,serial_tv,Krucjata,/33/79/10023379/8045723_1.$.jpg,6.95925,11829,3794
+130,Rojst,81221644,808109,Rojst,2018,serial,serial_tv,Rojst,/81/09/808109/8116129_1.$.jpg,7.34435,78618,20608
+131,"Lubię wracać tam, gdzie byłem",81774204,10045366,"Lubię wracać tam, gdzie byłem",2023,film,film_cinema,"Lubię wracać tam, gdzie byłem",,6.47654,682,76
+132,Ziarno prawdy,81078805,705248,Ziarno prawdy,2015,film,film_cinema,Ziarno prawdy,/52/48/705248/7692569_2.$.jpg,6.90391,75202,21403
+133,Erynie,81713150,870946,Erynie,2022,serial,serial_tv,Erynie,/09/46/870946/8038250_1.$.jpg,7.08998,5779,3672
+134,Chrzciny,81728892,856080,Chrzciny,2022,film,film_cinema,Chrzciny,/60/80/856080/8014420_1.$.jpg,6.17229,11742,3639
+135,Narcos,80025172,680486,Narcos,2015,serial,serial_tv,Narcos,/04/86/680486/7801516_1.$.jpg,8.45263,168233,42511
+136,Trzynaście powodów,80117470,762209,Trzynaście powodów,2017,serial,serial_tv,Thirteen Reasons Why,/22/09/762209/7843652_2.$.jpg,7.08631,150704,25582
+137,Altered Carbon,80097140,769613,Altered Carbon,2018,serial,serial_tv,Altered Carbon,/96/13/769613/7823943_1.$.jpg,7.36061,50972,20603
+138,Brudna forsa,80118100,802280,Brudna forsa,2018,serial,serial_tv,Dirty Money,/22/80/802280/7828311_1.$.jpg,7.45759,3042,2241
+139,Superhero,70090328,224961,Superhero,2008,film,film_cinema,Superhero Movie,/49/61/224961/7193847_2.$.jpg,5.68972,35055,3261
+140,Destrukcja,80083754,688536,Destrukcja,2015,film,film_cinema,Demolition,/85/36/688536/7809372_1.$.jpg,6.88673,50243,26127
+141,Pewnego razu... w Hollywood,81064867,804561,Pewnego razu... w Hollywood,2019,film,film_cinema,Once Upon a Time ... in Hollywood,/45/61/804561/7891889_2.$.jpg,7.25342,207299,34356
+142,O wszystko zadbam,81350429,846413,O wszystko zadbam,2020,film,film_cinema,I Care a Lot,/64/13/846413/7943330_2.$.jpg,5.88888,56732,4831
+143,Chrzciny,81728892,856080,Chrzciny,2022,film,film_cinema,Chrzciny,/60/80/856080/8014420_1.$.jpg,6.17229,11742,3639
+144,W głowie psa,81681888,10057421,W głowie psa,2024,film,film_cinema,Inside the Mind of a Dog,/74/21/10057421/8139011.$.jpg,6.51043,623,188
+145,Gad,81463014,10031941,Gad,2023,film,film_cinema,Reptile,/19/41/10031941/8087419_1.$.jpg,6.70761,28753,4675
+146,The 8 Show,81719583,10023976,The 8 Show,2024,serial,serial_tv,Deo eiteu syo,/39/76/10023976/8122638_2.$.jpg,6.66014,4293,1449
+147,Dekameron,81417084,10017947,Dekameron,2024,serial,serial_tv,The Decameron,/79/47/10017947/8137275.$.jpg,5.80238,1594,809
+148,Punkty zwrotne: Bomba i zimna wojna,81614129,10048338,Punkty zwrotne: Bomba i zimna wojna,2024,serial,serial_tv,Turning Point: The Bomb and the Cold War,/83/38/10048338/8118026_1.$.jpg,7.66187,695,379
+149,Facet z zasadami,81506171,10012901,Facet z zasadami,2024,serial,mini_serial,A Man in Full,/29/01/10012901/8123685_1.$.jpg,6.08404,1059,500
+150,Obserwator,81380441,875816,Obserwator,2022,serial,mini_serial,The Watcher,/58/16/875816/8091683_2.$.jpg,6.43373,28926,4530
+151,Czarna lista,70281312,683563,Czarna lista,2013,serial,serial_tv,The Blacklist,/35/63/683563/7653664_2.$.jpg,7.51721,22316,12947
+152,Clickbait,80991754,864204,Clickbait,2021,serial,mini_serial,Clickbait,/42/04/864204/7967063_1.$.jpg,6.98453,10924,2478
+153,Zagłada domu Usherów,81414665,10005539,Zagłada domu Usherów,2023,serial,mini_serial,The Fall of the House of Usher,/55/39/10005539/8085847_1.$.jpg,6.98066,13803,6186
+154,The Sinner,80175802,782140,Grzesznica,2017,serial,serial_tv,The Sinner,/21/40/782140/7974971_1.$.jpg,7.55423,42526,15309
+155,Sposób na morderstwo,80024057,710594,Sposób na morderstwo,2014,serial,serial_tv,How to Get Away with Murder,/05/94/710594/7735899_1.$.jpg,7.92043,49263,19136
+156,Utalentowany pan Ripley,60000209,867,Utalentowany pan Ripley,1999,film,film_cinema,The Talented Mr. Ripley,/08/67/867/7535096_1.$.jpg,7.43141,97848,31776
+157,Zostaw świat za sobą,81314956,10037850,Zostaw świat za sobą,2023,film,film_cinema,Leave the World Behind,/78/50/10037850/8097380_1.$.jpg,5.99116,39930,6847
+158,Obietnica,60004419,681639,Obietnica,2014,film,film_cinema,Obietnica,/16/39/681639/7595613_1.$.jpg,4.41996,27031,10727
+159,Podziemny krąg,26004747,837,Podziemny krąg,1999,film,film_cinema,Fight Club,/08/37/837/7522091_1.$.jpg,8.28693,632267,86359
+160,Krzywe linie Boga,81453541,875533,Krzywe linie Boga,2022,film,film_cinema,Los renglones torcidos de Dios,/55/33/875533/8087776_1.$.jpg,6.91729,17494,4963
+161,Lektor,70109683,439584,Lektor,2008,film,film_cinema,The Reader,/95/84/439584/7240104_2.$.jpg,7.80061,206802,63066
+162,Astronauta,81301595,10033746,Astronauta,2024,film,film_cinema,Spaceman,/37/46/10033746/8105993_1.$.jpg,5.35197,5438,2753
+163,Wyjazd na weekend,81283586,10007884,Wyjazd na weekend,2022,film,film_cinema,The Weekend Away,/78/84/10007884/8003301_1.$.jpg,5.25022,12657,698
+164,Jak Aleksander Wielki został bogiem,81325194,10045991,Jak Aleksander Wielki został bogiem,2024,serial,serial_tv,Alexander: The Making of a God,/59/91/10045991/8111814_1.$.jpg,5.98607,646,226
+165,Dobry opiekun,81260083,10018054,Dobry opiekun,2022,film,film_cinema,The Good Nurse,/80/54/10018054/8029220_1.$.jpg,6.37635,20457,4066
+166,Uśmiech Mony Lizy,60031284,34923,Uśmiech Mony Lizy,2003,film,film_cinema,Mona Lisa Smile,/49/23/34923/6900616_1.$.jpg,7.11885,42086,15181
+167,Zwerbowany,81396545,10024300,Zwerbowany,2022,serial,serial_tv,The Recruit,/43/00/10024300/8042445_1.$.jpg,6.56405,3388,960
+168,Ósma strona,70209135,608840,Ósma strona,2011,film,film_tv,Page Eight,/88/40/608840/7533487_2.$.jpg,6.37475,7485,4641
+169,Nowy początek,80117799,712896,Nowy początek,2016,film,film_cinema,Arrival,/28/96/712896/7756000_1.$.jpg,7.25393,191818,37264
+170,Okruchy dnia,60011325,1234,Okruchy dnia,1993,film,film_cinema,The Remains of the Day,/12/34/1234/7708219_1.$.jpg,7.73894,36183,28074
+171,Spotlight,80061341,723550,Spotlight,2015,film,film_cinema,Spotlight,/35/50/723550/7724898_1.$.jpg,7.55749,173808,53251
+172,Ratched,80213445,800056,Ratched,2020,serial,serial_tv,Ratched,/00/56/800056/7928650_1.$.jpg,7.30287,30677,7294
+173,Dwóch papieży,80174451,836600,Dwóch papieży,2019,film,film_cinema,The Two Popes,/66/00/836600/7897220_1.$.jpg,7.27855,109917,13918
+174,Wąż,80206099,847956,Wąż,2021,serial,mini_serial,The Serpent,/79/56/847956/7959254_1.$.jpg,7.34572,20184,5434
+175,Dziewiąte wrota,60000200,10682,Dziewiąte wrota,1999,film,film_cinema,The Ninth Gate,/06/82/10682/6900089_1.$.jpg,7.2039,211410,39867
+176,Donnie Brasco,1151721,516,Donnie Brasco,1997,film,film_cinema,Donnie Brasco,/05/16/516/7730453_1.$.jpg,7.77197,139825,52972
+177,Chłopcy z ferajny,70002022,1033,Chłopcy z ferajny,1990,film,film_cinema,Goodfellas,/10/33/1033/6941458_1.$.jpg,8.31484,315290,76619
+178,Angielski pacjent,477351,7,Angielski pacjent,1996,film,film_cinema,The English Patient,/00/07/7/7101251_1.$.jpg,7.38499,73834,36668
+179,Siedem lat w Tybecie,1179053,168,Siedem lat w Tybecie,1997,film,film_cinema,Seven Years in Tibet,/01/68/168/7984582_1.$.jpg,7.47286,142053,34758
+180,Nędznicy,5670503,829448,Nędznicy,2019,film,film_cinema,Les Misérables,/94/48/829448/7916637_1.$.jpg,7.40751,17207,14121
+181,Jaś Fasola: Nadciąga totalny kataklizm,1171655,527,Jaś Fasola: Nadciąga totalny kataklizm,1997,film,film_cinema,Bean,/05/27/527/7535034_1.$.jpg,7.0163,74844,2414
+182,Ona,70278933,646395,Ona,2013,film,film_cinema,Her,/63/95/646395/7595144_2.$.jpg,7.4557,173912,50774
+183,Belfast,81457437,866220,Belfast,2021,film,film_cinema,Belfast,/62/20/866220/8001826_2.$.jpg,7.05715,17953,13175
+184,Godziny,60025007,32380,Godziny,2002,film,film_cinema,The Hours,/23/80/32380/6900498_1.$.jpg,7.32187,109481,69006
+185,"Tamte dni, tamte noce",80169498,779394,"Tamte dni, tamte noce",2017,film,film_cinema,Call Me by Your Name,/93/94/779394/7840335_1.$.jpg,7.64262,126409,37736
+186,Bliscy nieznajomi,80240088,801813,Bliscy nieznajomi,2018,film,film_cinema,Three Identical Strangers,/18/13/801813/7834392_1.$.jpg,7.20227,6432,3649
+187,Nowy początek,80117799,712896,Nowy początek,2016,film,film_cinema,Arrival,/28/96/712896/7756000_1.$.jpg,7.25393,191818,37264
+188,Midnight Express,759396,7714,Midnight Express,1978,film,film_cinema,Midnight Express,/77/14/7714/7368690_1.$.jpg,7.46509,32142,34671
+189,Midnight Express,759396,7714,Midnight Express,1978,film,film_cinema,Midnight Express,/77/14/7714/7368690_1.$.jpg,7.46509,32142,34671
+190,Przeznaczenie,70305196,656595,Przeznaczenie,2014,film,film_cinema,Predestination,/65/95/656595/7660494_1.$.jpg,7.12532,74355,22941
+191,Inside Job,70139555,573864,Inside Job,2010,film,film_cinema,Inside Job,/38/64/573864/7444762_2.$.jpg,7.59389,17515,15575
+192,Kod nieśmiertelności,70141646,418967,Kod nieśmiertelności,2011,film,film_cinema,Source Code,/89/67/418967/7370853_1.$.jpg,7.32611,193802,30786
+193,Lot nad kukułczym gniazdem,825812,1019,Lot nad kukułczym gniazdem,1975,film,film_cinema,One Flew Over the Cuckoo's Nest,/10/19/1019/6974780_1.$.jpg,8.48287,410396,104376
+194,NYAD,81447231,870334,Nyad,2023,film,film_cinema,Nyad,/03/34/870334/8094341_1.$.jpg,6.61819,8355,2994
+195,Lektor,70109683,439584,Lektor,2008,film,film_cinema,The Reader,/95/84/439584/7240104_2.$.jpg,7.80061,206802,63066
+196,Egzorcysta: Początek,70000088,32988,Egzorcysta: Początek,2004,film,film_cinema,Exorcist: The Beginning,/29/88/32988/7543973_1.$.jpg,5.64941,21886,3239
+197,Glass,81011819,798782,Glass,2019,film,film_cinema,Glass,/87/82/798782/7872512_1.$.jpg,6.09699,65851,27304
+198,Stan gry,70102779,339949,Stan gry,2009,film,film_cinema,State of Play,/99/49/339949/7251268_2.$.jpg,7.18465,63484,18495
+199,Red Eye,70028900,147688,Red Eye,2005,film,film_cinema,Red Eye,/76/88/147688/7109945_1.$.jpg,6.25671,36710,7942
+200,Pasażerowie,80117456,558175,Pasażerowie,2016,film,film_cinema,Passengers,/81/75/558175/7760957_1.$.jpg,6.67044,174205,28102
+201,Wyścig z czasem,70202129,587175,Wyścig z czasem,2011,film,film_cinema,In Time,/71/75/587175/7390945_1.$.jpg,7.04495,203872,27740
+202,Kod nieśmiertelności,70141646,418967,Kod nieśmiertelności,2011,film,film_cinema,Source Code,/89/67/418967/7370853_1.$.jpg,7.32611,193802,30786
+203,Obrońcy skarbów,70283196,673404,Obrońcy skarbów,2014,film,film_cinema,The Monuments Men,/34/04/673404/7595027_2.$.jpg,5.64712,31895,13538
+204,Fatalne zauroczenie,60010341,1453,Fatalne zauroczenie,1987,film,film_cinema,Fatal Attraction,/14/53/1453/7976763_1.$.jpg,7.17648,35987,13947
+205,Ojciec Chrzestny,60011152,1089,Ojciec chrzestny,1972,film,film_cinema,The Godfather,/10/89/1089/7196615_1.$.jpg,8.63817,550165,96754
+206,Czas na miłość,70261674,644432,Czas na miłość,2013,film,film_cinema,About Time,/44/32/644432/7563710_1.$.jpg,7.58509,201636,41781
+207,Glass Onion: Film z serii „Na noże”,81458416,876242,"Glass Onion: Film z serii ""Na noże""",2022,film,film_cinema,Glass Onion: A Knives Out Mystery,/62/42/876242/8038804_1.$.jpg,6.57501,94096,6228
+208,Jak zostalem gangsterem. Historia prawdziwa,81286570,835083,Jak zostałem gangsterem. Historia prawdziwa,2019,film,film_cinema,Jak zostałem gangsterem. Historia prawdziwa,/50/83/835083/7907992_1.$.jpg,7.35145,131257,11412
+209,Interstellar,70305903,375629,Interstellar,2014,film,film_cinema,Interstellar,/56/29/375629/7670122_2.$.jpg,7.95442,398980,58081
+210,Maska,70027007,7585,Maska,1994,film,film_cinema,The Mask,/75/85/7585/8063373_1.$.jpg,6.77352,310715,8971
+211,1983,80205593,804769,1983,2018,serial,serial_tv,1983,/47/69/804769/7866076_1.$.jpg,6.26196,37036,9910
+212,Służby specjalne,81307530,699881,Służby specjalne,2014,film,film_cinema,Służby specjalne,/98/81/699881/7637158_1.$.jpg,7.01977,107637,20515
+213,Raport Pileckiego,81713152,10038612,Raport Pileckiego,2023,film,film_cinema,Raport Pileckiego,/86/12/10038612/8082760_2.$.jpg,6.50528,5399,2457
+214,Jak pokochałam gangstera,81399298,871817,Jak pokochałam gangstera,2022,film,film_cinema,Jak pokochałam gangstera,/18/17/871817/7990593_1.$.jpg,5.91756,54333,3068
+215,Znaki,81189092,32226,Znaki,2002,film,film_cinema,Signs,/22/26/32226/7535945_1.$.jpg,6.25567,180617,25591
+216,Forst,81488784,10011886,Forst,2024,serial,serial_tv,Forst,/18/86/10011886/8105740_2.$.jpg,4.9943,18069,3787
+217,Informacja Zwrotna,81507265,10011883,Informacja zwrotna,2023,serial,serial_tv,Informacja zwrotna,/18/83/10011883/8098597_1.$.jpg,7.48886,36086,9842
+218,Co kryją jej oczy,80244630,848394,Co kryją jej oczy,2021,serial,serial_tv,Behind Her Eyes,/83/94/848394/7944564_1.$.jpg,7.05701,28204,5943
+219,Lupin,80994082,855446,Lupin,2021,serial,serial_tv,Lupin,/54/46/855446/7941681_2.$.jpg,7.18391,55483,7363
+220,Sprawa Asunty,81632782,10049310,Sprawa Asunty,2024,serial,mini_serial,El caso Asunta,/93/10/10049310/8125002.$.jpg,6.10574,2856,622
+221,Sygnał,81441399,692649,Sygnał,2014,film,film_cinema,The Signal,/26/49/692649/7680923_1.$.jpg,5.90535,17950,7674
+222,Informacja Zwrotna,81507265,10011883,Informacja zwrotna,2023,serial,serial_tv,Informacja zwrotna,/18/83/10011883/8098597_1.$.jpg,7.48886,36086,9842
+223,"Ania, nie Anna",80136311,781264,"Ania, nie Anna",2017,serial,serial_tv,Anne,/12/64/781264/7846872_1.$.jpg,8.13731,55482,14242
+224,Kalifat,80240005,849666,Kalifat,2020,serial,serial_tv,Kalifat,/96/66/849666/7918872_1.$.jpg,8.10383,34816,10521
+225,Telefonistki,80100929,782922,Telefonistki,2017,serial,serial_tv,Las chicas del cable,/29/22/782922/8088907_1.$.jpg,7.43359,12860,6768
+226,Już nie żyjesz,80219707,810189,Już nie żyjesz,2019,serial,serial_tv,Dead to Me,/01/89/810189/7919545_1.$.jpg,7.26568,26061,6413
+227,Designated Survivor,80113647,766285," Designated Survivor",2016,serial,serial_tv," Designated Survivor",/62/85/766285/7745200_1.$.jpg,7.22506,16116,5887
+228,Sex Education,80197526,809758,Sex Education,2019,serial,serial_tv,Sex Education,/97/58/809758/8088782_2.$.jpg,7.57916,122984,11397
+229,Recepta na przekręt,81614419,10036496,Recepta na przekręt,2023,film,film_cinema,Pain Hustlers,/64/96/10036496/8095187_2.$.jpg,6.2979,11786,2299
+230,Rocketman,81044418,634647,Rocketman,2019,film,film_cinema,Rocketman,/46/47/634647/7887425_2.$.jpg,7.17726,65621,17815
+231,The Matrix,20557937,628,Matrix,1999,film,film_cinema,The Matrix,/06/28/628/7685907_1.$.jpg,7.57609,835249,39522
+232,Zabójca,80234448,10002852,Zabójca,2023,film,film_cinema,The Killer,/28/52/10002852/8095258_1.$.jpg,6.19844,35588,10002
+233,Motyl Still Alice,70301350,702277,Motyl Still Alice,2014,film,film_cinema,Still Alice,/22/77/702277/7715646_2.$.jpg,7.5075,80997,33758
+234,Monachium,70038133,181198,Monachium,2005,film,film_cinema,Munich,/11/98/181198/7106226_2.$.jpg,7.35722,57497,24161
+235,Praktykant,80047616,704026,Praktykant,2015,film,film_cinema,The Intern,/40/26/704026/7702551_1.$.jpg,7.19476,204363,22234
+236,Fair Play,81674326,10026692,Fair Play,2023,film,film_cinema,Fair Play,/66/92/10026692/8086178_1.$.jpg,6.00269,7448,1755
+237,Niepokój,70059990,284374,Niepokój,2007,film,film_cinema,Disturbia,/43/74/284374/7610271_2.$.jpg,7.00186,83853,15077
+238,Znachor,81516046,1175,Znachor,1981,film,film_cinema,Znachor,/11/75/1175/8069682_1.$.jpg,7.66584,152129,14291
+239,Monachium,70038133,181198,Monachium,2005,film,film_cinema,Munich,/11/98/181198/7106226_2.$.jpg,7.35722,57497,24161
+240,Na Zachodzie bez zmian,81260280,430867,Na Zachodzie bez zmian,2022,film,film_cinema,Im Westen nichts Neues,/08/67/430867/8035016_1.$.jpg,7.31523,59497,14431
+241,Wymazać siebie,80240538,788703,Wymazać siebie,2018,film,film_cinema,Boy Erased,/87/03/788703/8125835.$.jpg,6.90956,14861,10346
+242,Strzępy,81748136,10015974,Strzępy,2022,film,film_cinema,Strzępy,/59/74/10015974/8088271_2.$.jpg,7.23029,4299,3235
+243,Zaginione nocą,81163835,10055288,Zaginione nocą,2024,film,film_cinema,Svaniti nella notte,/52/88/10055288/8135300.$.jpg,4.83562,2482,257
+244,After Life,80998491,824412,After Life,2019,serial,serial_tv,After Life,/44/12/824412/7919447_1.$.jpg,7.85694,48834,15555
+245,Anatomia skandalu,81152788,10005447,Anatomia skandalu,2022,serial,mini_serial,Anatomy of a Scandal,/54/47/10005447/8005758_1.$.jpg,6.45747,8934,1698
+246,Kim jest Anna?,81008305,852646,Kim jest Anna?,2022,serial,mini_serial,Inventing Anna,/26/46/852646/7999997_1.$.jpg,5.84424,13559,1904
+247,Narodziny gwiazdy,80221908,542576,Narodziny gwiazdy,2018,film,film_cinema,A Star Is Born,/25/76/542576/7849767_2.$.jpg,7.40113,196071,27424
+248,Irlandczyk,80175798,513794,Irlandczyk,2019,film,film_cinema,The Irishman,/37/94/513794/7902504_1.$.jpg,7.09,100636,38220
+249,Pierwszy śnieg,80185764,668347,Pierwszy śnieg,2017,film,film_cinema,The Snowman,/83/47/668347/7802561_1.$.jpg,5.42172,50526,22830
+250,Czarny telefon,81488656,869059,Czarny telefon,2021,film,film_cinema,The Black Phone,/90/59/869059/7978011_1.$.jpg,6.45346,32576,7117
+251,Perfumiarz,81410551,10019062,Perfumiarz,2022,film,film_video,Der Parfumeur,/90/62/10019062/8029438_1.$.jpg,3.43931,346,206
+252,Niewidzialny Strażnik,80173176,779385,Niewidzialny strażnik,2017,film,film_cinema,El guardián invisible,/93/85/779385/7777707_2.$.jpg,6.51284,13864,3580
+253,Podwójne morderstwo: Cisza białego miasta,81038589,824452,Podwójne morderstwo: Cisza białego miasta,2019,film,film_cinema,El silencio de la ciudad blanca,/44/52/824452/8038070_2.$.jpg,5.29904,3451,512
+254,Potwór w masce,81708886,10037265,Potwór w masce,2023,film,film_cinema,Kaibutsu no Kikori,/72/65/10037265/8127361.$.jpg,5.71528,144,101
+255,Kolekcjoner,1180086,85,Kolekcjoner,1997,film,film_cinema,Kiss the Girls,/00/85/85/7984197_1.$.jpg,7.20031,54206,11880
+256,Demon Barber of Fleet Street,70017767,191945,Sweeney Todd: Demoniczny golibroda z Fleet Street,2007,film,film_cinema,Sweeney Todd: The Demon Barber of Fleet Street,/19/45/191945/7379045_1.$.jpg,7.51618,212718,66731
+257,Pierwszy śnieg,80185764,668347,Pierwszy śnieg,2017,film,film_cinema,The Snowman,/83/47/668347/7802561_1.$.jpg,5.42172,50526,22830
+258,Bodkin,81423482,10050390,Bodkin,2024,serial,serial_tv,Bodkin,/03/90/10050390/8126703.$.jpg,6.20256,1565,609
+259,Atypowy,80117540,778573,Atypowy,2017,serial,serial_tv,Atypical,/85/73/778573/7798674_2.$.jpg,7.72831,56594,11310
+260,Ranczo,81307608,262774,Ranczo,2006,serial,serial_tv,Ranczo,/27/74/262774/7222408_2.$.jpg,7.38399,83477,5171
+261,Rita,70285368,658827,Rita,2012,serial,serial_tv,Rita,/88/27/658827/7472830_2.$.jpg,7.51111,4995,1699
+262,Wednesday,81231974,877761,Wednesday,2022,serial,serial_tv,Wednesday,/77/61/877761/8032433_1.$.jpg,7.43892,86036,11919
+263,Arcane,81435684,873628,Arcane,2021,serial,serial_tv,Arcane,/36/28/873628/8130321.$.jpg,8.55418,39368,7280
+264,Ania,81713122,10007875,Ania,2022,film,film_cinema,Ania,/78/75/10007875/8023202_1.$.jpg,7.25861,9091,2133
+265,Aquaman,81004278,549085,Aquaman,2018,film,film_cinema,Aquaman,/90/85/549085/7867964_2.$.jpg,6.56305,113021,16484
+266,Avatar: Legenda Aanga,70142405,148944,Two Marriages,1983,serial,serial_tv,Two Marriages,,6,3,1
+267,Akademia pana Kleksa,81399299,3734,Akademia pana Kleksa,1983,film,film_cinema,Akademia pana Kleksa,/37/34/3734/7854160_1.$.jpg,6.92226,57639,3000
+268,Aż do kości,80171659,771035,Aż do kości,2017,film,film_cinema,To the Bone,/10/35/771035/7797045_1.$.jpg,6.8518,78495,18255
+269,Agenci bardzo specjalni,60034587,114295,Agenci bardzo specjalni,2004,film,film_cinema,White Chicks,/42/95/114295/7034549_2.$.jpg,6.52575,36234,3748
+270,Anioły i demony,70103523,330332,Anioły i demony,2009,film,film_cinema,Angels & Demons,/03/32/330332/7248812_2.$.jpg,7.01843,235816,19812
+271,Atlas,81012048,10018491,Atlas,2024,film,film_cinema,Atlas,/84/91/10018491/8118415_1.$.jpg,5.21245,8289,1404
+272,Awatar: Ostatni władca wiatru,80237957,832858,Awatar: Ostatni władca wiatru,2024,serial,serial_tv,Avatar: The Last Airbender,/28/58/832858/8110038_2.$.jpg,6.91696,6310,2794
+273,American Gangster,70060009,130130,American Gangster,2007,film,film_cinema,American Gangster,/01/30/130130/7338427_1.$.jpg,7.79204,203446,68488
+274,Alpinista,81500204,869462,Alpinista,2021,film,film_cinema,The Alpinist,/94/62/869462/7967618_1.$.jpg,7.78531,2273,1023
+275,Antracyt,81520697,10049489,Antracyt,2024,serial,mini_serial,Anthracite,/94/89/10049489/8122443_1.$.jpg,5.99816,2718,852
+276,Apollo 13: Walka o przetrwanie,81444292,10057055,Apollo 13: Walka o przetrwanie,2024,film,film_cinema,Apollo 13: Survival,/70/55/10057055/8142033.$.jpg,6.57692,26,80
+277,Alvinnn!!! I wiewiórki,80097036,744076,Alvinnn!!! I wiewiórki,2015,serial,serial_tv,ALVINNN!!! And the Chipmunks,/40/76/744076/7903176_2.$.jpg,4.72282,653,55
+278,Anihilacja,80206300,730844,Anihilacja,2018,film,film_cinema,Annihilation,/08/44/730844/7833139_2.$.jpg,6.2255,103521,19745
+279,Przewodnik po zbrodni według grzecznej dziewczynki,81759464,10051410,Przewodnik po zbrodni według grzecznej dziewczynki,2024,serial,serial_tv,A Good Girl's Guide to Murder,/14/10/10051410/8138057.$.jpg,6.29581,3367,1880
+280,Alice in Borderland,80200575,853619,Alice in Borderland,2020,serial,serial_tv,Imawa no Kuni no Alice,/36/19/853619/7936340_2.$.jpg,7.24215,16238,5251
+281,Archiwista,81446621,844463,Archiwista,2020,serial,serial_tv,Archiwista,/44/63/844463/8058669_1.$.jpg,6.11552,4181,931
+282,Akademia Dobra i Zła,80218885,870996,Akademia Dobra i Zła,2022,film,film_cinema,The School for Good and Evil,/09/96/870996/8028952_2.$.jpg,5.75075,8690,1347
+283,Agent i pół,80094318,595630,Agent i pół,2016,film,film_cinema,Central Intelligence,/56/30/595630/7747230_1.$.jpg,6.24736,53768,8562
+284,Amator,80096984,3808,Amator,1979,film,film_cinema,Amator,/38/08/3808/8012401_1.$.jpg,7.95816,34223,19544
+285,Athlete A: Sport w cieniu skandalu,81034185,850414,Athlete A: Sport w cieniu skandalu,2020,film,film_cinema,Athlete A,/04/14/850414/7924811_1.$.jpg,7.00784,2042,449
+286,Snajper,80013871,656040,Snajper,2014,film,film_cinema,American Sniper,/60/40/656040/7666910_2.$.jpg,7.57787,251105,41534
+287,Alvin i wiewiórki,70077552,209668,Alvin i wiewiórki,2007,film,film_cinema,Alvin and the Chipmunks,/96/68/209668/7177372_2.$.jpg,6.3012,53303,1490
+288,ATHENA,81312828,10015476,Athena,2022,film,film_cinema,Athena,/54/76/10015476/8028616_1.$.jpg,6.1046,3738,1865
+289,Akademia Gimnastyki: Druga szansa,81422413,10019058,Akademia Gimnastyki: Druga szansa,2022,serial,serial_tv,Gymnastics Academy: A Second Chance!,/90/58/10019058/8031355_1.$.jpg,6.41414,99,30
+290,All of Us Are Dead,81237994,852699,All of Us Are Dead,2022,serial,serial_tv,Jigeum uri hakgyoneun,/26/99/852699/8000200_1.$.jpg,6.86586,8797,2156
+291,Pora na przygodę!,70241425,565378,Pora na przygodę!,2010,serial,serial_tv,Adventure Time with Finn and Jake,/53/78/565378/7617547_1.$.jpg,8.09446,31516,7879
+292,Alvin i wiewiórki 3,70189308,592999,Alvin i wiewiórki 3,2011,film,film_cinema,Alvin and the Chipmunks: Chipwrecked,/29/99/592999/7743195_1.$.jpg,6.19505,19621,2471
+293,Alvin i wiewiórki 2,70115628,488821,Alvin i wiewiórki 2 ,2009,film,film_cinema,Alvin and the Chipmunks: The Squeakquel,/88/21/488821/7743097_1.$.jpg,6.23199,29519,1744
+294,A.X.L.,80195967,792123,A.X.L.,2018,film,film_cinema,A.X.L.,/21/23/792123/7899820_2.$.jpg,5.63227,3663,676
 295,Potwory: Historia Lyle’a i Erika Menendezów,81665094
-296,Rodzinka.pl,81713156
-297,Alba,81423382
-298,Arnold,81317673
-299,Ambulans,81495232
-300,Legenda Korry,80027563
-301,Alvin i wiewiórki: Wielka wyprawa,80063956
-302,Cały ten rap,81716585
-303,Ciche miejsce,80213226
-304,"Czekam, aż stanie się coś pięknego",81685656
-305,Uzależniona,70294663
-306,Asterix ,81316606
-307,Agent do zadań domowych,81771382
+296,Rodzinka.pl,81713156,599540,Rodzinka.pl,2011,serial,serial_tv,Rodzinka.pl,/95/40/599540/7369585_1.$.jpg,7.07205,111964,9634
+297,Alba,81423382,867173,Alba,2021,serial,serial_tv,Alba,/71/73/867173/7952153_1.$.jpg,6.25799,2597,565
+298,Arnold,81317673,10035856,Arnold,2023,serial,mini_serial,Arnold,/58/56/10035856/8070489_1.$.jpg,7.33397,5252,1244
+299,Ambulans,81495232,873545,Ambulans,2022,film,film_cinema,Ambulance,/35/45/873545/8005029_2.$.jpg,5.60737,11800,3039
+300,Legenda Korry,80027563,590629,Legenda Korry,2012,serial,serial_tv,The Legend of Korra,/06/29/590629/7930765_2.$.jpg,7.65362,12446,3223
+301,Alvin i wiewiórki: Wielka wyprawa,80063956,686358,Alvin i wiewiórki: Wielka wyprawa,2015,film,film_cinema,Alvin and the Chipmunks: The Road Chip,/63/58/686358/7716971_1.$.jpg,6.48237,9982,3313
+302,Cały ten rap,81716585,10055819,Cały ten rap,2024,serial,mini_serial,Cały ten rap,/58/19/10055819/8138059.$.jpg,5.00642,2647,710
+303,Ciche miejsce,80213226,795912,Ciche miejsce,2018,film,film_cinema,A Quiet Place,/59/12/795912/7837616_1.$.jpg,6.63709,119371,22301
+304,"Czekam, aż stanie się coś pięknego",81685656,10048330,"Czekam, aż stanie się coś pięknego",2024,film,film_cinema,Il treno dei bambini,/83/30/10048330/8136450.$.jpg,0,0,13
+305,Uzależniona,70294663,701122,Uzależniona,2014,film,film_cinema,Addicted,/11/22/701122/7624160_1.$.jpg,5.38093,7256,2003
+306,Asterix ,81316606,30896,Asterix i Obelix: Misja Kleopatra,2002,film,film_cinema,Astérix & Obélix: Mission Cléopâtre,/08/96/30896/6900390_1.$.jpg,7.32394,229430,5678
+307,Agent do zadań domowych,81771382,10032180,Agent do zadań domowych,2024,film,film_cinema,Keuroseu,/21/80/10032180/8136029.$.jpg,5.50168,297,52
 308,Prawdziwy dżentelmen,81610282
-309,NCIS,70142386
-310,Młodzi Tytani: Akcja!,80103408
-311,Charlie i fabryka czekolady,70021648
-312,Znowu w akcji,81307099
-313,"Ashley Madison: Seks, kłamstwa i skandal",81602884
-314,Ameryka: film,80189631
-315,Dom z koszmarów,70155777
-316,Morderstwo po amerykańsku: Laci Peterson,81582794
-317,Zabójczy rejs,80242619
-318,Apokawixa,81708180
-319,Wysoka dziewczyna,81002412
-320,Tesciowie 2,81686998
-321,Paul,70123711
-322,Autostopowicz z siekierą,81436777
-323,Kakegurui,80175351
-324,Emotki. Film,80121840
-325,ARQ,80092885
-326,Adoracja,81494906
-327,Kraina Jane Austen,70267492
-328,Akademia czekolady,81207686
-329,Część ciebie,81660270
-330,Adú,80993647
-331,Historia Kopciuszka,60036237
-332,Smoczy Książę,80212245
-333,Twoja nieznajoma,81332722
-334,Harmidom,81186971
-335,Wielkie plany Archibalda,80221550
-336,Ocalić Bikini Dolne: Sandy w akcji,81221340
-337,Hunter X Hunter (2011),70300472
-338,Mitchellowie kontra maszyny,81399614
-339,Spider-Man Uniwersum,81002747
-340,Leo,81218917
-341,Będziemy bohaterami,80994666
-342,Abstrakt: Sztuka designu,80057883
-343,Angielska gra,80244928
-344,The A List,80196382
-345,Absolutni debiutanci,81567028
-346,Tajna Agencja Kontroli Magii,81267965
-347,Alma,80241472
-348,Anna Nicole Smith: Nie znacie mnie,81380540
-349,Era Wodnika,80026224
-350,Adagio,81664676
-351,Morderstwo po amerykańsku: Zwyczajna rodzina,81130130
-352,Piękne życie,81580045
-353,BEASTARS,81054847
-354,Czarnobyl 1986,81435414
-355,Abyss,81087762
-356,Podłoga to lawa,81006858
-357,Aaron Hernandez: W głowie mordercy,81062828
-358,Erin i Aaron,81634726
-359,Cały on,81446038
-360,Rzut życia,80242342
-361,Fanatyk,81232964
-362,Pełne morze,80233258
-363,W czepku urodzony,81073387
+309,NCIS,70142386,125075,Agenci NCIS,2003,serial,serial_tv,Navy NCIS: Naval Criminal Investigative Service,/50/75/125075/7975010_1.$.jpg,7.38855,32145,5236
+310,Młodzi Tytani: Akcja!,80103408,685663,Młodzi Tytani: Akcja!,2013,serial,serial_tv,Teen Titans Go!,/56/63/685663/7859868_2.$.jpg,5.38963,2469,233
+311,Charlie i fabryka czekolady,70021648,104541,Charlie i fabryka czekolady,2005,film,film_cinema,Charlie and the Chocolate Factory,/45/41/104541/7107721_1.$.jpg,7.11113,353736,21306
+312,Znowu w akcji,81307099,38126,Looney Tunes znowu w akcji,2003,film,film_cinema,Looney Tunes: Back in Action,/81/26/38126/7403036_1.$.jpg,6.15072,13953,1682
+313,"Ashley Madison: Seks, kłamstwa i skandal",81602884,10052771,"Ashley Madison: Seks, kłamstwa i skandal",2024,serial,mini_serial,"Ashley Madison: Sex, Lies & Scandal",/27/71/10052771/8126543.$.jpg,5.6375,640,139
+314,Ameryka: film,80189631,861119,Ameryka: Film,2021,film,film_cinema,America: The Motion Picture,/11/19/861119/7962143_1.$.jpg,6.11449,1677,229
+315,Dom z koszmarów,70155777,877679,Dom z koszmarów,2021,film,film_cinema,Aftermath,/76/79/877679/7969203_1.$.jpg,5.11458,9679,632
+316,Morderstwo po amerykańsku: Laci Peterson,81582794,10028622,Morderstwo po amerykańsku: Laci Peterson,2024,serial,mini_serial,American Murder: Laci Peterson,/86/22/10028622/8139589.$.jpg,6.44809,944,134
+317,Zabójczy rejs,80242619,809774,Zabójczy rejs,2019,film,film_cinema,Murder Mystery,/97/74/809774/7888757_1.$.jpg,5.90883,70594,3604
+318,Apokawixa,81708180,10015510,Apokawixa,2022,film,film_cinema,Apokawixa,/55/10/10015510/8029347_2.$.jpg,5.05371,19569,3519
+319,Wysoka dziewczyna,81002412,829460,Wysoka dziewczyna,2019,film,film_cinema,Dylda,/94/60/829460/7897331_1.$.jpg,7.15914,6001,7709
+320,Tesciowie 2,81686998,10021076,Teściowie 2,2023,film,film_cinema,Teściowie 2,/10/76/10021076/8084175_2.$.jpg,6.22582,32597,3415
+321,Paul,70123711,490878,Paul,2011,film,film_cinema,Paul,/08/78/490878/7411340_1.$.jpg,6.6081,35494,5381
+322,Autostopowicz z siekierą,81436777,10025978,Autostopowicz z siekierą,2023,film,film_cinema,The Hatchet Wielding Hitchhiker,/59/78/10025978/8053892_1.$.jpg,5.55629,2434,199
+323,Kakegurui,80175351,789135,Kakegurui,2017,serial,serial_tv,Kakegurui,/91/35/789135/8003208_1.$.jpg,7.08218,3614,640
+324,Emotki. Film,80121840,752144,Emotki. Film,2017,film,film_cinema,The Emoji Movie,/21/44/752144/7802560_1.$.jpg,4.95194,22743,2765
+325,ARQ,80092885,772257,ARQ,2016,film,film_cinema,ARQ,/22/57/772257/7752384_1.$.jpg,6.20854,14947,3115
+326,Adoracja,81494906,458877,Adoracja,2008,film,film_cinema,Adoration,/88/77/458877/7544434_2.$.jpg,6.05455,550,1380
+327,Kraina Jane Austen,70267492,628207,Kraina Jane Austen,2013,film,film_cinema,Austenland,/82/07/628207/7555974_1.$.jpg,6.03726,11783,2631
+328,Akademia czekolady,81207686,10003462,Akademia czekolady,2021,tvshow,,School of Chocolate,/34/62/10003462/7985249_1.$.jpg,7.29517,393,44
+329,Część ciebie,81660270,89920,Część ciebie,2024,film,film_cinema,En del av dig,/99/20/89920/8129332.$.jpg,5.62525,491,148
+330,Adú,80993647,839137,Adú,2020,film,film_cinema,Adú,/91/37/839137/7934041_1.$.jpg,6.87408,1223,527
+331,Historia Kopciuszka,60036237,607825,Historia Kopciuszka,2010,film,film_tv,Aschenputtel,/78/25/607825/7450789_2.$.jpg,6.19161,1717,299
+332,Smoczy Książę,80212245,813518,Smoczy Książę,2018,serial,serial_tv,The Dragon Prince,/35/18/813518/7897907_1.$.jpg,7.90035,4516,2087
+333,Twoja nieznajoma,81332722,10005039,Twoja nieznajoma,2021,film,film_cinema,Anónima,/50/39/10005039/7986287_1.$.jpg,5.37962,2571,162
+334,Harmidom,81186971,724245,Harmidom,2016,serial,serial_tv,The Loud House,/42/45/724245/7780006_2.$.jpg,6.94248,678,160
+335,Wielkie plany Archibalda,80221550,838600,Wielkie plany Archibalda,2019,serial,serial_tv,Archibald's Next Big Thing,/86/00/838600/7899901_1.$.jpg,7.11628,43,9
+336,Ocalić Bikini Dolne: Sandy w akcji,81221340,10037577,Ocalić Bikini Dolne: Sandy w akcji,2024,film,film_cinema,Saving Bikini Bottom: The Sandy Cheeks Movie,/75/77/10037577/8132991.$.jpg,3.71698,371,104
+337,Hunter X Hunter (2011),70300472,629532,Hunter x Hunter,2011,serial,serial_tv,Hunter x Hunter,/95/32/629532/7423511_2.$.jpg,8.32733,6217,2036
+338,Mitchellowie kontra maszyny,81399614,849412,Mitchellowie kontra maszyny,2021,film,film_cinema,The Mitchells vs. The Machines,/94/12/849412/7954103_2.$.jpg,7.40317,25369,3382
+339,Spider-Man Uniwersum,81002747,743233,Spider-Man Uniwersum,2018,film,film_cinema,Spider-Man: Into the Spider-Verse,/32/33/743233/7866074_2.$.jpg,8.04611,92888,12407
+340,Leo,81218917,10040750,Leo,2023,film,film_cinema,Leo,/07/50/10040750/8088064_2.$.jpg,7.11198,10154,1445
+341,Będziemy bohaterami,80994666,865140,Będziemy bohaterami,2020,film,film_cinema,We Can Be Heroes,/51/40/865140/7938544_1.$.jpg,4.74574,2761,304
+342,Abstrakt: Sztuka designu,80057883,785613,Abstrakt: Sztuka designu,2017,serial,serial_tv,Abstract: The Art of Design,/56/13/785613/7787501_1.$.jpg,8.03639,5688,6002
+343,Angielska gra,80244928,834693,Angielska gra,2020,serial,mini_serial,The English Game,/46/93/834693/7919705_1.$.jpg,7.34995,5015,1475
+344,The A List,80196382,813876,The A List,2018,serial,serial_tv,The A List,/38/76/813876/7876407_2.$.jpg,5.39717,1415,258
+345,Absolutni debiutanci,81567028,10011885,Absolutni debiutanci,2023,serial,serial_tv,Absolutni debiutanci,/18/85/10011885/8097435_1.$.jpg,7.30239,10589,6550
+346,Tajna Agencja Kontroli Magii,81267965,869982,Tajna Agencja Kontroli Magii,2021,film,film_cinema,"Ganzel, Gretel i Agentstvo Magii",/99/82/869982/7947208_2.$.jpg,6.21993,2419,155
+347,Alma,80241472,554676,Alma,2009,film,film_cinema,Alma,/46/76/554676/7308631_1.$.jpg,6.88285,3534,662
+348,Anna Nicole Smith: Nie znacie mnie,81380540,10034592,Anna Nicole Smith: Nie znacie mnie,2023,film,film_cinema,Anna Nicole Smith: You Don't Know Me,/45/92/10034592/8067782_1.$.jpg,6.14368,1037,149
+349,Era Wodnika,80026224,713301,Era Wodnika,2015,serial,serial_tv,Aquarius,/33/01/713301/8044939_2.$.jpg,6.82062,4025,3959
+350,Adagio,81664676,10039419,Adagio,2023,film,film_cinema,Adagio,/94/19/10039419/8089501_1.$.jpg,5.70222,225,185
+351,Morderstwo po amerykańsku: Zwyczajna rodzina,81130130,860239,Morderstwo po amerykańsku: Zwyczajna rodzina,2020,film,film_cinema,American Murder: The Family Next Door,/02/39/860239/7932125_1.$.jpg,6.75997,15802,2041
+352,Piękne życie,81580045,496103,Piękne życie,2023,film,film_cinema,A Beautiful Life,/61/03/496103/8096834_1.$.jpg,6.35499,3417,541
+353,BEASTARS,81054847,840012,Beastars,2019,serial,serial_tv,Beastars,/00/12/840012/7915289_1.$.jpg,7.40751,3541,850
+354,Czarnobyl 1986,81435414,799827,Czarnobyl,2019,serial,mini_serial,Chernobyl,/98/27/799827/7900027_3.$.jpg,8.88716,220307,23755
+355,Abyss,81087762,993,Otchłań,1989,film,film_cinema,The Abyss,/09/93/993/7341998_1.$.jpg,7.33415,32752,11598
+356,Podłoga to lawa,81006858,854486,Podłoga to lawa,2020,tvshow,,Floor is Lava,/44/86/854486/8014430_1.$.jpg,5.00452,663,42
+357,Aaron Hernandez: W głowie mordercy,81062828,846557,Aaron Hernandez: W głowie mordercy,2020,serial,mini_serial,Killer Inside: The Mind of Aaron Hernandez,/65/57/846557/7909735_1.$.jpg,6.68336,2716,468
+358,Erin i Aaron,81634726,10043143,Erin i Aaron,2023,serial,serial_tv,Erin & Aaron,/31/43/10043143/8098547_1.$.jpg,5.80645,31,8
+359,Cały on,81446038,874555,Cały on,2021,film,film_cinema,He's All That,/45/55/874555/7971262_2.$.jpg,4.98056,8231,523
+360,Rzut życia,80242342,10008947,Rzut życia,2022,film,film_cinema,Hustle,/89/47/10008947/8014216_1.$.jpg,7.0425,24306,3727
+361,Fanatyk,81232964,32049,Fanatyk,2001,film,film_cinema,The Believer,/20/49/32049/6901624_1.$.jpg,7.36847,115129,61203
+362,Pełne morze,80233258,813250,Pełne morze,2019,serial,serial_tv,Alta mar,/32/50/813250/7908393_1.$.jpg,6.47947,4019,1635
+363,W czepku urodzony,81073387,810210,W czepku urodzony,2018,film,film_cinema,Lykke-Per,/02/10/810210/7861389_2.$.jpg,6.59286,2859,780
 364,Ashley Garcia: Genialna i zakochana,80244332
-365,Outlander,70285581
-366,Upadek Grace,81127902
-367,Życie w cuglach,80134695
-368,Amina,81450071
-369,Arsenał szpiega,81014547
-370,Gudetama: Przygoda z jajem,81090127
-371,Młodzi Tytani: Akcja! Film,80235947
+365,Outlander,70285581,690404,Outlander,2014,serial,serial_tv,Outlander,/04/04/690404/7653928_2.$.jpg,7.96937,31150,19591
+366,Upadek Grace,81127902,845703,Upadek Grace,2020,film,film_cinema,A Fall from Grace,/57/03/845703/7910334_1.$.jpg,6.33604,16730,2518
+367,Życie w cuglach,80134695,789361,Życie w cuglach,2017,serial,serial_tv,Free Rein,/93/61/789361/7831900_1.$.jpg,7.24764,1377,484
+368,Amina,81450071,10004505,Amina,2021,film,film_cinema,Amina,/45/05/10004505/7983665_1.$.jpg,3.73333,60,14
+369,Arsenał szpiega,81014547,868784,Arsenał szpiega,2021,serial,serial_tv,Spycraft,,6.56585,615,164
+370,Gudetama: Przygoda z jajem,81090127,10014725,Gudetama: Przygoda z jajem,2022,serial,serial_tv,Gudetama: Haha wo Tazunete Donkurai,/47/25/10014725/8041032_2.$.jpg,6.62363,457,107
+371,Młodzi Tytani: Akcja! Film,80235947,794543,Młodzi Tytani: Akcja! Film,2018,film,film_cinema,Teen Titans Go! To the Movies,/45/43/794543/7844106_2.$.jpg,6.20554,4617,1621
 372,Alien TV – Kosmiczni reporterzy,81003682
-373,Grizzy i lemingi,81154166
-374,Aż wióry lecą,81267200
-375,Mali agenci: Armagedon,81588091
-376,Zwyczajny serial,70221402
-377,Przez moje okno 3: Znów cię widzę,81484069
-378,AJ and the Queen,80237329
-379,KENGAN ASHURA,80992228
-380,Abby Hatcher,81071296
-381,Romantic Killer,81318888
-382,Enrico Piaggio - Vespa,81411169
-383,Przez moje okno 2: Rozdzieleni,81484068
-384,Podniebna poczta Kiki,60027106
-385,Trump: Amerykański sen,80206395
-386,Sam i Cat,80027564
-387,Jeszcze większe dzieci,70267242
-388,Zwierzęta z bliska,81145024
-389,Adam Sandler: Love You,81757746
-390,AlRawabi School for Girls,81034661
-391,Ángel Di María: Zburzyliśmy mur,81689477
-392,Junji Ito: Makabryczne japońskie opowieści,81295011
-393,Morska bestia,81018682
-394,Futro z misia,81500097
-395,Miłość dla dorosłych,81205314
-396,Archiwum niewyjaśnionych spraw,81593881
-397,LEGO Ninjago: Powstanie Smoków,81519765
-398,Tydzień życia,81183451
-399,ANIMA,81110498
-400,The Meg,80237937
-401,Mamma Mia! Here We Go Again,80235214
-402,Another Life,80236236
-403,Furioza,81570254
-404,VINLAND SAGA,81249833
-405,Ares,80995039
-406,Niesamowity Spider-Man,70208599
-407,Komi Can't Communicate,81228573
-408,From Me to You: Kimi ni Todoke,80236253
-409,S.W.A.T.: Jednostka specjalna,80179292
-410,Mr. ,70021641
-411,Dla waszego dobra,81411265
-412,Adam,81409044
-413,Masza i niedźwiedź,70286901
-414,Chilling Adventures of Sabrina,80223989
-415,Wielki George Foreman,81691509
-416,Shadowhunters: The Mortal Instruments,80084447
-417,Pojutrze,60034574
-418,Królowa Charlotta: Opowieść ze świata Bridgertonów,81476183
-419,GO! Żyj po swojemu,80220541
-420,Top Boy,80217669
-421,Dungeons ,81631823
-422,Bridgertonowie,80232398
-423,Brzydcy,81002266
-424,Big Mouth,80117038
-425,Zadzwoń do Saula,80021955
-426,Bogdan Boner: Egzorcysta,81297404
-427,Botoks,81221824
-428,Babilon,81616260
-429,Batman - Początek,70021642
-430,Bokser,81620854
-431,Bez mojej zgody,70113003
-432,Mroczny Rycerz,70079583
-433,Rzymskie dziewczyny,80211634
-434,Mroczny Rycerz powstaje,70213514
-435,Blade - Wieczny łowca,5670311
-436,Beckham,81223488
-437,Barbie Life in the Dreamhouse,70294800
-438,BOŻE CIAŁO,81278730
-439,Berserk,80243876
-440,Barbarzyńcy,81622499
-441,Zmierzch bogów,81153122
-442,Berlin,81586657
-443,Byliśmy królami,81601351
-444,Brzydka prawda,70103759
-445,Battleship: Bitwa o Ziemię,70217908
-446,Bielmo,81444818
-447,Będziesz następna!,81709600
+373,Grizzy i lemingi,81154166,802440,Grizzy i lemingi,2017,serial,serial_tv,Grizzy et les Lemmings,/24/40/802440/7919766_2.$.jpg,7.01072,373,61
+374,Aż wióry lecą,81267200,10009259,Aż wióry lecą,2022,tvshow,,Making Fun,,5.79592,49,12
+375,Mali agenci: Armagedon,81588091,10039962,Mali agenci: Armagedon,2023,film,film_cinema,Spy Kids: Armageddon,/99/62/10039962/8089103_1.$.jpg,4.27689,502,99
+376,Zwyczajny serial,70221402,595304,Zwyczajny serial,2009,serial,serial_tv,Regular Show,/53/04/595304/7424170_1.$.jpg,7.44269,5017,1605
+377,Przez moje okno 3: Znów cię widzę,81484069,10040645,Przez moje okno 3: Znów cię widzę,2024,film,film_cinema,A través de mi ventana 3: A través de tu mirada,/06/45/10040645/8110840_1.$.jpg,5.45137,2087,219
+378,AJ and the Queen,80237329,809281,AJ and the Queen,2020,serial,serial_tv,AJ and the Queen,/92/81/809281/7905999_1.$.jpg,6.99619,1838,378
+379,KENGAN ASHURA,80992228,827828,Kengan Ashura,2019,serial,serial_tv,Kengan Ashura,/78/28/827828/8064303_2.$.jpg,7.51566,1022,299
+380,Abby Hatcher,81071296,831503,Abby Hatcher,2018,serial,serial_tv,Abby Hatcher,/15/03/831503/8056370_1.$.jpg,4.72727,11,6
+381,Romantic Killer,81318888,10018142,Romantic Killer,2022,serial,serial_tv,Romantic Killer,/81/42/10018142/8033782_1.$.jpg,7.29984,637,130
+382,Enrico Piaggio - Vespa,81411169,872962,Enrico Piaggio - Vespa,2019,film,film_cinema,Enrico Piaggio - Vespa,/29/62/872962/7955404_1.$.jpg,6.3955,1421,273
+383,Przez moje okno 2: Rozdzieleni,81484068,10020865,Przez moje okno 2: Rozdzieleni,2023,film,film_cinema,A través del mar,/08/65/10020865/8074082_1.$.jpg,4.97349,3206,343
+384,Podniebna poczta Kiki,60027106,98182,Podniebna poczta Kiki,1989,film,film_cinema,Majo no Takkyūbin,/81/82/98182/7175350_1.$.jpg,7.48537,22624,5749
+385,Trump: Amerykański sen,80206395,806787,Trump: Amerykański sen,2017,serial,mini_serial,Trump: An American Dream,,7.02564,2145,252
+386,Sam i Cat,80027564,670590,Sam i Cat,2013,serial,serial_tv,Sam & Cat,/05/90/670590/7565321_1.$.jpg,6.51497,3841,509
+387,Jeszcze większe dzieci,70267242,643593,Jeszcze większe dzieci,2013,film,film_cinema,Grown Ups 2,/35/93/643593/7555640_2.$.jpg,6.63826,80273,8497
+388,Zwierzęta z bliska,81145024,10003469,Zwierzęta z bliska,2021,serial,serial_tv,Animal,/34/69/10003469/7983055_1.$.jpg,7.75428,643,155
+389,Adam Sandler: Love You,81757746,10059491,Adam Sandler: Love You,2024,tvshow,,Adam Sandler: Love You,/94/91/10059491/8141314.$.jpg,6.20513,39,20
+390,AlRawabi School for Girls,81034661,877204,AlRawabi School for Girls,2021,serial,serial_tv,AlRawabi School for Girls,/72/04/877204/7967336_1.$.jpg,7.0684,1038,213
+391,Ángel Di María: Zburzyliśmy mur,81689477,10059750,Ángel Di María: Zburzyliśmy mur,2024,serial,mini_serial,Ángel Di María: Romper la pared,,0,0,1
+392,Junji Ito: Makabryczne japońskie opowieści,81295011,10022792,Junji Ito: Makabryczne japońskie opowieści,2023,serial,episode_anthology,Itou Junji: Maniac,/27/92/10022792/8055250_1.$.jpg,6.07591,1449,516
+393,Morska bestia,81018682,10011435,Morska bestia,2022,film,film_cinema,The Sea Beast,/14/35/10011435/8019240_2.$.jpg,6.6825,10633,1595
+394,Futro z misia,81500097,835333,Futro z misia,2019,film,film_cinema,Futro z misia,/53/33/835333/7902252_2.$.jpg,3.29603,17147,2344
+395,Miłość dla dorosłych,81205314,10015063,Miłość dla dorosłych,2022,film,film_cinema,Kærlighed for voksne,/50/63/10015063/8027865_1.$.jpg,6.35887,12754,1707
+396,Archiwum niewyjaśnionych spraw,81593881,10050092,Archiwum niewyjaśnionych spraw,2024,serial,serial_tv,Files of the Unexplained,/00/92/10050092/8121166_1.$.jpg,5.31111,270,89
+397,LEGO Ninjago: Powstanie Smoków,81519765,10036055,Lego Ninjago: Powstanie smoków,2023,serial,serial_tv,Ninjago: Dragons Rising,/60/55/10036055/8117747_2.$.jpg,7.46491,114,106
+398,Tydzień życia,81183451,857286,Tydzień życia,2021,film,film_cinema,A Week Away,/72/86/857286/7946853_1.$.jpg,5.61436,1880,309
+399,ANIMA,81110498,834091,Anima,2019,film,film_cinema,Anima,/40/91/834091/7889873_1.$.jpg,7.36734,5420,2303
+400,The Meg,80237937,746246,The Meg,2018,film,film_cinema,The Meg,/62/46/746246/7849764_2.$.jpg,5.34021,48723,6281
+401,Mamma Mia! Here We Go Again,80235214,790375,Mamma Mia! Here We Go Again,2018,film,film_cinema,Mamma Mia! Here We Go Again,/03/75/790375/7853419_1.$.jpg,6.76834,67841,12517
+402,Another Life,80236236,809336,Another Life,2019,serial,serial_tv,Another Life,/93/36/809336/7891587_1.$.jpg,4.67293,4947,947
+403,Furioza,81570254,833810,Furioza,2021,film,film_cinema,Furioza,/38/10/833810/7972235_1.$.jpg,6.7422,60319,5373
+404,VINLAND SAGA,81249833,831401,Vinland Saga,2019,serial,serial_tv,Vinland Saga,/14/01/831401/7892041_1.$.jpg,8.16386,2911,1482
+405,Ares,80995039,740451,Ares,2016,film,film_cinema,Arès,/04/51/740451/7785626_2.$.jpg,5.71742,2693,564
+406,Niesamowity Spider-Man,70208599,401436,Niesamowity Spider-Man,2012,film,film_cinema,The Amazing Spider-Man,/14/36/401436/7464039_1.$.jpg,6.73944,159218,12460
+407,Komi Can't Communicate,81228573,10002419,"Komi-san wa, Komyushou desu.",2021,serial,serial_tv,"Komi-san wa, Komyushou desu.",/24/19/10002419/7984266_1.$.jpg,7.19546,573,155
+408,From Me to You: Kimi ni Todoke,80236253,10059818,Kimi ni Todoke 3rd Season,2024,serial,serial_tv,Kimi ni Todoke 3rd Season,/98/18/10059818/8142117.$.jpg,6,1,2
+409,S.W.A.T.: Jednostka specjalna,80179292,34735,S.W.A.T. Jednostka Specjalna,2003,film,film_cinema,S.W.A.T.,/47/35/34735/6900603_1.$.jpg,6.54664,46052,4116
+410,Mr. ,70021641,867,Utalentowany pan Ripley,1999,film,film_cinema,The Talented Mr. Ripley,/08/67/867/7535096_1.$.jpg,7.43141,97848,31776
+411,Dla waszego dobra,81411265,749478,Dla waszego dobra,2015,film,film_cinema,Per Amor Vostro,/94/78/749478/7746109_1.$.jpg,4.78519,135,160
+412,Adam,81409044,475159,Adam,2009,film,film_cinema,Adam,/51/59/475159/7427095_1.$.jpg,7.31871,27313,15698
+413,Masza i niedźwiedź,70286901,677081,Masza i niedźwiedź,2009,serial,serial_tv,Masha i Medved,/70/81/677081/7903405_2.$.jpg,7.74675,2693,207
+414,Chilling Adventures of Sabrina,80223989,800447,Chilling Adventures of Sabrina,2018,serial,serial_tv,Chilling Adventures of Sabrina,/04/47/800447/7879280_1.$.jpg,7.16262,50129,8450
+415,Wielki George Foreman,81691509,10028469,Wielki George Foreman,2023,film,film_cinema,Big George Foreman: The Miraculous Story of the Once and Future Heavyweight Champion of the World,/84/69/10028469/8056975_1.$.jpg,6.54839,1488,426
+416,Shadowhunters: The Mortal Instruments,80084447,746309,Shadowhunters,2016,serial,serial_tv,Shadowhunters,/63/09/746309/8035845_2.$.jpg,6.53182,25097,7475
+417,Pojutrze,60034574,34888,Pojutrze,2004,film,film_cinema,The Day After Tomorrow,/48/88/34888/6911962_1.$.jpg,6.84041,223849,16341
+418,Królowa Charlotta: Opowieść ze świata Bridgertonów,81476183,10020836,Królowa Charlotta: Opowieść ze świata Bridgertonów,2023,serial,mini_serial,Queen Charlotte: A Bridgerton Story,/08/36/10020836/8066842_1.$.jpg,6.82983,12640,1300
+419,GO! Żyj po swojemu,80220541,820786,GO! Żyj po swojemu,2019,serial,serial_tv,Go! Vive a Tu Manera,/07/86/820786/7872579_1.$.jpg,7.34443,691,216
+420,Top Boy,80217669,838827,Top Boy,2019,serial,serial_tv,Top Boy,/88/27/838827/8090267_1.$.jpg,7.85874,5536,3849
+421,Dungeons ,81631823,751495,Dungeons & Dragons: Złodziejski honor,2023,film,film_cinema,Dungeons & Dragons: Honor Among Thieves,/14/95/751495/8056026_2.$.jpg,7.05853,30943,8297
+422,Bridgertonowie,80232398,810557,Bridgertonowie,2020,serial,serial_tv,Bridgerton,/05/57/810557/7936423_1.$.jpg,6.91466,42818,5094
+423,Brzydcy,81002266,375638,Brzydcy,2024,film,film_cinema,Uglies,/56/38/375638/8139245.$.jpg,0,0,244
+424,Big Mouth,80117038,794594,Big Mouth,2017,serial,serial_tv,Big Mouth,/45/94/794594/7978260_1.$.jpg,7.38135,33004,3949
+425,Zadzwoń do Saula,80021955,697645,Zadzwoń do Saula,2015,serial,serial_tv,Better Call Saul,/76/45/697645/8016283_1.$.jpg,8.34126,81416,31750
+426,Bogdan Boner: Egzorcysta,81297404,865419,Bogdan Boner: Egzorcysta,2020,serial,serial_tv,Bogdan Boner: Egzorcysta,/54/19/865419/8038249_1.$.jpg,8.10016,8606,897
+427,Botoks,81221824,786410,Botoks,2017,film,film_cinema,Botoks,/64/10/786410/7799357_2.$.jpg,4.3696,115937,14388
+428,Babilon,81616260,842792,Babilon,2022,film,film_cinema,Babylon,/27/92/842792/8048047_2.$.jpg,6.87284,25653,20426
+429,Batman - Początek,70021642,106376,Batman - Początek,2005,film,film_cinema,Batman Begins,/63/76/106376/7115941_1.$.jpg,7.55524,363104,24421
+430,Bokser,81620854,10017699,Bokser,2024,film,film_cinema,Bokser,/76/99/10017699/8138743.$.jpg,0,0,488
+431,Bez mojej zgody,70113003,463328,Bez mojej zgody,2009,film,film_cinema,My Sister's Keeper,/33/28/463328/7321716_2.$.jpg,7.61313,117596,31090
+432,Mroczny Rycerz,70079583,236351,Mroczny Rycerz,2008,film,film_cinema,The Dark Knight,/63/51/236351/7198307_2.$.jpg,8.02867,526563,43518
+433,Rzymskie dziewczyny,80211634,803184,Rzymskie dziewczyny,2018,serial,serial_tv,Baby,/31/84/803184/7864239_1.$.jpg,6.45199,10655,2891
+434,Mroczny Rycerz powstaje,70213514,506756,Mroczny Rycerz powstaje,2012,film,film_cinema,The Dark Knight Rises,/67/56/506756/7476576_1.$.jpg,7.72332,313263,29379
+435,Blade - Wieczny łowca,5670311,15,Blade - Wieczny łowca,1998,film,film_cinema,Blade,/00/15/15/7046391_1.$.jpg,7.03987,116342,8064
+436,Beckham,81223488,10041729,Beckham,2023,serial,mini_serial,Beckham,/17/29/10041729/8093577_1.$.jpg,7.64766,17100,2421
+437,Barbie Life in the Dreamhouse,70294800,693574,Barbie: Life in the Dreamhouse,2012,serial,serial_tv,Barbie: Life in the Dreamhouse,/35/74/693574/7831515_1.$.jpg,7.00177,566,74
+438,BOŻE CIAŁO,81278730,808863,Boże Ciało,2019,film,film_cinema,Boże Ciało,/88/63/808863/7897966_2.$.jpg,7.69235,203992,24563
+439,Berserk,80243876,769749,Berserk,2016,serial,serial_tv,Berserk,/97/49/769749/8110059_2.$.jpg,6.29108,1065,667
+440,Barbarzyńcy,81622499,10015211,Barbarzyńcy,2022,film,film_cinema,Barbarian,/52/11/10015211/8019796_1.$.jpg,6.12739,21368,4225
+441,Zmierzch bogów,81153122,10055084,Zmierzch bogów,2024,serial,serial_tv,Twilight of the Gods,,0,0,74
+442,Berlin,81586657,10030822,Berlin,2023,serial,serial_tv,Berlín,/08/22/10030822/8102051_1.$.jpg,6.76912,12842,2907
+443,Byliśmy królami,81601351,11616,Kiedy byliśmy królami,1996,film,film_cinema,When We Were Kings,/16/16/11616/7150038_1.$.jpg,7.62279,509,1186
+444,Brzydka prawda,70103759,465494,Brzydka prawda,2009,film,film_cinema,The Ugly Truth,/54/94/465494/7276637_2.$.jpg,6.90533,131786,11073
+445,Battleship: Bitwa o Ziemię,70217908,540909,Battleship: Bitwa o Ziemię,2012,film,film_cinema,Battleship,/09/09/540909/7519144_2.$.jpg,5.92742,75599,9211
+446,Bielmo,81444818,870411,Bielmo,2022,film,film_cinema,The Pale Blue Eye,/04/11/870411/8041911_1.$.jpg,6.40442,35488,8307
+447,Będziesz następna!,81709600,490549,Ty będziesz następna,2009,film,film_cinema,Sorority Row,/05/49/490549/7565182_2.$.jpg,5.47692,13061,3303
 448,Brawurowe ucieczki: Więzienny romans,81654970
-449,Bloodline,80010655
-450,Blade: Wieczny łowca II,60022707
-451,Blade: Mroczna Trójca,60036252
-452,Bad Boys,269880
-453,Bad Boy,81273580
-454,Batman,70177020
-455,Baby Driver,80142090
-456,Bogdan Boner: Wielkanoc,81677044
-457,Reniferek,81219887
-458,Pan Wilk i spółka. Bad Guys,81513703
-459,Bloodhounds,81444051
-460,Baranek Shaun: Przygody na farmie,81193152
+449,Bloodline,80010655,708487,Bloodline,2015,serial,serial_tv,Bloodline,/84/87/708487/7675165_1.$.jpg,7.25355,8870,11897
+450,Blade: Wieczny łowca II,60022707,4225,Blade: Wieczny łowca II,2002,film,film_cinema,Blade II,/42/25/4225/7538074_1.$.jpg,6.93382,80534,5785
+451,Blade: Mroczna Trójca,60036252,98534,Blade: Mroczna Trójca,2004,film,film_cinema,Blade: Trinity,/85/34/98534/7537328_1.$.jpg,6.54828,65054,5089
+452,Bad Boys,269880,1040,Bad Boys,1995,film,film_cinema,Bad Boys,/10/40/1040/8061040_1.$.jpg,7.41704,170049,13058
+453,Bad Boy,81273580,846162,Bad Boy,2020,film,film_cinema,Bad Boy,/61/62/846162/7912498_1.$.jpg,4.26791,55477,3058
+454,Batman,70177020,1024,Batman,1989,film,film_cinema,Batman,/10/24/1024/7025455_1.$.jpg,7.30126,192100,19282
+455,Baby Driver,80142090,736411,Baby Driver,2017,film,film_cinema,Baby Driver,/64/11/736411/7793503_1.$.jpg,7.06863,196611,24822
+456,Bogdan Boner: Wielkanoc,81677044,10048865,Bogdan Boner: Wielkanoc,2024,film,film_cinema,Bogdan Boner: Wielkanoc,,6.40213,751,33
+457,Reniferek,81219887,10050192,Reniferek,2024,serial,mini_serial,Baby Reindeer,/01/92/10050192/8121155_1.$.jpg,7.23348,42175,10328
+458,Pan Wilk i spółka. Bad Guys,81513703,868022,Pan Wilk i spółka. Bad Guys,2022,film,film_cinema,The Bad Guys,/80/22/868022/8015093_2.$.jpg,6.91367,6915,1722
+459,Bloodhounds,81444051,10015127,Bloodhounds,2023,serial,serial_tv,Sa-nyang-gae-deul,/51/27/10015127/8071364_1.$.jpg,7.59241,1661,631
+460,Baranek Shaun: Przygody na farmie,81193152,871284,Baranek Shaun: Przygody na farmie,2020,serial,serial_tv,Shaun the Sheep: Adventures from Mossy Bottom,/12/84/871284/7951073_1.$.jpg,7.21154,52,15
 461,Farma dzieci,81612856
 462,Chestnut vs. Kobayashi: Mięsna wyżerka,81743617
-463,Bright,80119234
-464,Bogdan Boner: Walentynki,81677043
-465,Miraculous: Biedronka i Czarny Kot,80164216
-466,BAKI,80204451
-467,Rząd,70302482
-468,Booba,81011059
-469,Brud,80169469
-470,"Boo, Bitch",81249731
-471,Niebieskooki samuraj,81144203
-472,Bogdan Boner: Wigilia,81677041
-473,Brick,81731553
-474,Ben 10,70155571
-475,Baki Hanma,81236338
-476,Nie otwieraj oczu,80196789
+463,Bright,80119234,771723,Bright,2017,film,film_cinema,Bright,/17/23/771723/7814586_2.$.jpg,6.15157,73155,8547
+464,Bogdan Boner: Walentynki,81677043,10047755,Bogdan Boner: Walentynki,2024,film,film_cinema,Bogdan Boner: Walentynki,,6.49787,938,46
+465,Miraculous: Biedronka i Czarny Kot,80164216,10020149,Miraculous: Biedronka i Czarny Kot. Film,2023,film,film_cinema,Miraculous: Le film,/01/49/10020149/8074755_1.$.jpg,6.10109,2384,1039
+466,BAKI,80204451,811679,Baki,2018,serial,serial_tv,Baki,/16/79/811679/8038377_1.$.jpg,6.54302,1197,224
+467,Rząd,70302482,547296,Rząd,2010,serial,serial_tv,Borgen,/72/96/547296/8110063_2.$.jpg,7.99205,5787,5195
+468,Booba,81011059,812124,Booba,2014,serial,serial_tv,Booba,,5.76667,30,1
+469,Brud,80169469,532614,Brud,2013,film,film_cinema,Filth,/26/14/532614/7646432_1.$.jpg,7.16586,47589,28116
+470,"Boo, Bitch",81249731,10014635,"Boo, Bitch",2022,serial,mini_serial,"Boo, Bitch",/46/35/10014635/8018701_1.$.jpg,5.25144,1392,215
+471,Niebieskooki samuraj,81144203,10042027,Niebieskooki samuraj,2023,serial,serial_tv,Blue Eye Samurai,/20/27/10042027/8093558_1.$.jpg,8.17666,14497,8682
+472,Bogdan Boner: Wigilia,81677041,10044925,Bogdan Boner: Wigilia,2023,film,film_cinema,Bogdan Boner: Wigilia,/49/25/10044925/8114119_1.$.jpg,6.66862,1026,37
+473,Brick,81731553,119614,Kto ją zabił?,2005,film,film_cinema,Brick,/96/14/119614/7106985_2.$.jpg,6.4387,5710,9565
+474,Ben 10,70155571,317378,Ben 10,2005,serial,serial_tv,Ben 10,/73/78/317378/7504128_1.$.jpg,6.32472,5343,290
+475,Baki Hanma,81236338,876633,Baki Hanma,2021,serial,serial_tv,Hanma Baki,/66/33/876633/7979668_1.$.jpg,6.59546,529,100
+476,Nie otwieraj oczu,80196789,726369,Nie otwieraj oczu,2018,film,film_cinema,Bird Box,/63/69/726369/7862909_1.$.jpg,6.34763,122681,12091
 477,Bracia Sun,81389634
 478,Bartkowiak,81265968
 479,Barbie Dolphin Magic,80192815
@@ -4619,3 +4619,96 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 4618,Brews Brothers,81019632,,,,,,
 4619,White Gold,80191680,,,,,,
 4620,Neumatt,81562449,,,,,,
+4621,A Simple Favor,80988896,,,,,,,,,,
+4622,Dzikie łowy,80096995,,,,,,,,,,
+4623,Oru Thekkan Thallu Case,81628642,,,,,,,,,,
+4624,Aloha,80038361,,,,,,,,,,
+4625,Migration,81731620,,,,,,,,,,
+4626,Rybki z ferajny,70002007,,,,,,,,,,
+4627,Witajcie w dżungli,60031216,,,,,,,,,,
+4628,3:10 to Yuma,70065114,,,,,,,,,,
+4629,Arrested Development,70140358,,,,,,,,,,
+4630,Ugly Betty,70157131,,,,,,,,,,
+4631,Reigns: Three Kingdoms,81708317,,,,,,,,,,
+4632,Underwatermelon: Fruit Merge,81770857,,,,,,,,,,
+4633,Link Twin,81708315,,,,,,,,,,
+4634,OXENFREE,81569946,,,,,,,,,,
+4635,Rocket,81665457,,,,,,,,,,
+4636,Reigns,81708316,,,,,,,,,,
+4637,Infernax,81708314,,,,,,,,,,
+4638,Story Warriors: Baśnie,81708318,,,,,,,,,,
+4639,Reigns: Three Kingdoms,81708317,,,,,,,,,,
+4640,Dark Winds,81613903,,,,,,,,,,
+4641,Grey's Anatomy,70140391,,,,,,,,,,
+4642,Księga czarownic,80197103,,,,,,,,,,
+4643,Shameless (U.S.),70184207,,,,,,,,,,
+4644,Call the Midwife,70245163,,,,,,,,,,
+4645,Selling Sunset,80223108,,,,,,,,,,
+4646,Bez litości 3. Ostatni rozdział,81674658,,,,,,,,,,
+4647,The Little Things,81267316,,,,,,,,,,
+4648,The Great British Baking Show,80063224,,,,,,,,,,
+4649,Killing Eve,80177090,,,,,,,,,,
+4650,Gangs of London,80197467,,,,,,,,,,
+4651,SPIDER-MAN: POPRZEZ MULTIWERSUM,81594921,,,,,,,,,,
+4652,Diary of a Mad Black Woman,70019511,,,,,,,,,,
+4653,Hacksaw Ridge,80108975,,,,,,,,,,
+4654,Rango,70137742,,,,,,,,,,
+4655,The Long Game,81766487,,,,,,,,,,
+4656,Dark Waters,81192027,,,,,,,,,,
+4657,Dumb Money,81725549,,,,,,,,,,
+4658,The Son,81630458,,,,,,,,,,
+4659,Wicked Little Letters,81700125,,,,,,,,,,
+4660,The Miracle Club,81743382,,,,,,,,,,
+4661,Gangs of London,80197467,,,,,,,,,,
+4662,The Teachers' Lounge,81725559,,,,,,,,,,
+4663,"Love, Charlie: The Rise and Fall of Chef Charlie Trotter",81633762,,,,,,,,,,
+4664,The Super Mario Bros. Movie,81640914,,,,,,,,,,
+4665,Minionki,80033394,,,,,,,,,,
+4666,Trolls Band Together,81725540,,,,,,,,,,
+4667,Anyone But You,81760229,,,,,,,,,,
+4668,Dzieciak rządzi,80146758,,,,,,,,,,
+4669,Anne Rice's Mayfair Witches,81664607,,,,,,,,,,
+4670,Cudowny chłopak,80147986,,,,,,,,,,
+4671,Tyler Perry's Good Deeds,70206673,,,,,,,,,,
+4672,12th Fail,81761732,,,,,,,,,,
+4673,Mending the Line,81768966,,,,,,,,,,
+4674,Skazany,80125671,,,,,,,,,,
+4675,Jak poznałem waszą matkę,70143824,,,,,,,,,,
+4676,Reba,70155640,,,,,,,,,,
+4677,My Wife and Kids,70155621,,,,,,,,,,
+4678,Martin,70157348,,,,,,,,,,
+4679,Cyngiel,81728840,,,,,,,,,,
+4680,Bez urazy,81659034,,,,,,,,,,
+4681,Bajecznie bogaci Azjaci,80239019,,,,,,,,,,
+4682,Mr. Deeds - Milioner z przypadku,60022992,,,,,,,,,,
+4683,Room,80073823,,,,,,,,,,
+4684,On the Line,81640570,,,,,,,,,,
+4685,Alone,81329267,,,,,,,,,,
+4686,Mina,80123777,,,,,,,,,,
+4687,"Nicky, Ricky, Dicky i Dawn",80077508,,,,,,,,,,
+4688,Jujutsu Kaisen,81278456,,,,,,,,,,
+4689,Dom,70305922,,,,,,,,,,
+4690,The Circle,80098473,,,,,,,,,,
+4691,Ugotowany,80048561,,,,,,,,,,
+4692,I Can Only Imagine,80208955,,,,,,,,,,
+4693,Kapitan Phillips,70243460,,,,,,,,,,
+4694,Megan Leavey,80170259,,,,,,,,,,
+4695,The Peanut Butter Falcon,80203525,,,,,,,,,,
+4696,Into the Badlands,80067617,,,,,,,,,,
+4697,Ghostbusters: Frozen Empire,81762779,,,,,,,,,,
+4698,Niezgodna,70293461,,,,,,,,,,
+4699,White Collar,70166091,,,,,,,,,,
+4700,Land of Bad,81747468,,,,,,,,,,
+4701,Powrót do przyszłości,60010110,,,,,,,,,,
+4702,Madame Web,81762621,,,,,,,,,,
+4703,Mortal Kombat,81267307,,,,,,,,,,
+4704,Gran Turismo,81672085,,,,,,,,,,
+4705,Złapane w sieć: Mroczna historia Zona Divas,81517594,,,,,,,,,,
+4706,Amerykański koszmar,81620852,,,,,,,,,,
+4707,Zaginieni: Wyścig z czasem,80217818,,,,,,,,,,
+4708,Oponiarze,81758875,,,,,,,,,,
+4709,Rosario Tijeras (Mexico),80170690,,,,,,,,,,
+4710,Gorzka zemsta,80047032,,,,,,,,,,
+4711,Królowa flow,81022683,,,,,,,,,,
+4712,Las muñecas de la mafia,80036140,,,,,,,,,,
+4713,"Newly Rich, Newly Poor",81398330,,,,,,,,,,

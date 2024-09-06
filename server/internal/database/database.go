@@ -9,7 +9,11 @@ import (
 	"sync"
 )
 
-type DB[T any] struct {
+type Entity interface {
+	GetId() uint
+}
+
+type DB[T Entity] struct {
 	mu             sync.Mutex
 	File           string
 	RowSerialize   func(T) ([]string, error)
@@ -48,16 +52,13 @@ func (db *DB[T]) SaveAll(entities []T) error {
 	return nil
 }
 
-func (db *DB[T]) ReadAll() ([]T, error) {
-	db.mu.Lock()
-	defer db.mu.Unlock()
-
+func readCsv(filepath string) ([][]string, error) {
 	wd, err := os.Getwd()
 	if err != nil {
 		return nil, err
 	}
 
-	file, err := os.Open(path.Join(wd, db.File))
+	file, err := os.Open(path.Join(wd, filepath))
 	if err != nil {
 		return nil, err
 	}
@@ -65,7 +66,14 @@ func (db *DB[T]) ReadAll() ([]T, error) {
 
 	reader := csv.NewReader(file)
 	reader.FieldsPerRecord = -1
-	data, err := reader.ReadAll()
+	return reader.ReadAll()
+}
+
+func (db *DB[T]) ReadAll() ([]T, error) {
+	db.mu.Lock()
+	defer db.mu.Unlock()
+
+	data, err := readCsv(db.File)
 	if err != nil {
 		return nil, err
 	}
@@ -87,20 +95,7 @@ func (db *DB[T]) ReadFirst(condition func(entity T) bool) (T, error) {
 	defer db.mu.Unlock()
 	var result T
 
-	wd, err := os.Getwd()
-	if err != nil {
-		return result, err
-	}
-
-	file, err := os.Open(path.Join(wd, db.File))
-	if err != nil {
-		return result, err
-	}
-	defer file.Close()
-
-	reader := csv.NewReader(file)
-	reader.FieldsPerRecord = -1
-	data, err := reader.ReadAll()
+	data, err := readCsv(db.File)
 	if err != nil {
 		return result, err
 	}
@@ -117,4 +112,78 @@ func (db *DB[T]) ReadFirst(condition func(entity T) bool) (T, error) {
 	}
 
 	return result, errors.New("Cannot meet condition")
+}
+
+func (db *DB[T]) Read(condition func(entity T) bool) ([]T, error) {
+	db.mu.Lock()
+	defer db.mu.Unlock()
+
+	data, err := readCsv(db.File)
+	if err != nil {
+		return nil, err
+	}
+
+	res := make([]T, 0)
+	for _, row := range data[1:] {
+		value, err := db.RowDeserialize(row)
+		if err != nil {
+			return nil, err
+		}
+
+		if condition(value) {
+			res = append(res, value)
+		}
+	}
+
+	return res, nil
+}
+
+func (db *DB[T]) Update(entity T) error {
+	db.mu.Lock()
+	defer db.mu.Unlock()
+
+	wd, err := os.Getwd()
+	if err != nil {
+		return err
+	}
+
+	file, err := os.OpenFile(path.Join(wd, db.File), os.O_RDWR, 0644)
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+
+	reader := csv.NewReader(file)
+	reader.FieldsPerRecord = -1
+
+	data, err := reader.ReadAll()
+	if err != nil {
+		return err
+	}
+
+	for idx, row := range data[1:] {
+		value, err := db.RowDeserialize(row)
+		if err != nil {
+			return err
+		}
+
+		if value.GetId() == entity.GetId() {
+			updatedValue, err := db.RowSerialize(entity)
+			if err != nil {
+				return err
+			}
+			fmt.Println(updatedValue)
+			data[idx+1] = updatedValue
+		}
+	}
+
+	file.Seek(0, 0)
+	writer := csv.NewWriter(file)
+	err = writer.WriteAll(data)
+	if err != nil {
+		return err
+	}
+	writer.Flush()
+
+	return nil
 }

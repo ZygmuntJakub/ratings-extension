@@ -1,8 +1,11 @@
 package collector
 
 import (
+	"errors"
 	"fmt"
+	"math/rand"
 	"net/url"
+	"strconv"
 	"time"
 
 	"github.com/ZygmuntJakub/mkino-extension/internal/ratings"
@@ -14,37 +17,95 @@ type QueueEntity struct {
 }
 
 func RunCollector() {
+	brokenQueue := make(map[uint]bool)
 	for {
 		fmt.Println("Start collecting...")
 
-		emptyEntity, err := getEmptyEntity()
+		rm, err := getEmptyRating(brokenQueue)
 		if err != nil {
 			fmt.Println(err)
+			fmt.Println("Cannot get next empty rating. Ending...")
+			break
 		}
 
-		searchResultResponse, err := getSearchResult(emptyEntity)
+		ratingId := rm.Ratings[ratings.DEFAULT_RATING_VENDOR].InternalId
+		if ratingId == "" {
+			srr, err := getSearchResult(rm)
+			if err != nil {
+				fmt.Println(err)
+				fmt.Println("Cannot get search result.")
+				brokenQueue[rm.Id] = true
+				continue
+			}
+
+			ratingId, err = getSearchResultId(srr.SearchHits)
+			if err != nil {
+				fmt.Println(err)
+				fmt.Println("Cannot get search result id.")
+				brokenQueue[rm.Id] = true
+				continue
+			}
+
+			irs, err := getInfo(ratingId)
+			if err != nil {
+				fmt.Println(err)
+				fmt.Println("Cannot get info result.")
+				brokenQueue[rm.Id] = true
+				continue
+			}
+
+			rm.Ratings[ratings.DEFAULT_RATING_VENDOR] = ratings.Rating{
+				InternalId:    ratingId,
+				Title:         irs.Title,
+				Year:          strconv.FormatUint(uint64(irs.Year), 10),
+				Type:          irs.Type,
+				SubType:       irs.SubType,
+				OriginalTitle: irs.OriginalTitle,
+				PosterPath:    irs.PosterPath,
+			}
+		}
+
+		if rm.Ratings[ratings.DEFAULT_RATING_VENDOR].Value == "" {
+			fmt.Printf("Getting rating for: %s\n", rm.Ratings[ratings.DEFAULT_RATING_VENDOR].Title)
+			r, err := getRating(ratingId)
+			if err != nil {
+				fmt.Println(err)
+				fmt.Println("Cannot get rating.")
+				brokenQueue[rm.Id] = true
+				continue
+			}
+			fmt.Println(r)
+			res := rm.Ratings[ratings.DEFAULT_RATING_VENDOR]
+			res.Value = strconv.FormatFloat(r.Rate, 'f', -1, 64)
+			res.Count = strconv.FormatUint(uint64(r.Count), 10)
+			res.WantToSee = strconv.FormatUint(uint64(r.WantToSee), 10)
+			rm.Ratings[ratings.DEFAULT_RATING_VENDOR] = res
+		}
+
+		err = saveInfoResult(&rm)
 		if err != nil {
 			fmt.Println(err)
+			fmt.Println("Cannot save info result.")
+			brokenQueue[rm.Id] = true
+			continue
 		}
 
-		infoResultResponse, err := getInfoResult(searchResultResponse.SearchHits[0].Id)
-		if err != nil {
-			fmt.Println(err)
-		}
-
-		fmt.Println(infoResultResponse)
-
-		fmt.Println("Wait for next request...")
-		time.Sleep(5 * time.Second)
+		fmt.Println("Done. Wait for next request...")
+		time.Sleep(time.Duration(rand.Intn(3)+3) * time.Second)
 	}
 }
 
-func getEmptyEntity() (ratings.RatingModel, error) {
-	return ratings.ReadFirstEmpty()
+func getEmptyRating(bq map[uint]bool) (ratings.RatingModel, error) {
+	return ratings.ReadFirstEmpty(bq)
 }
 
+const (
+	CHARACTER_TYPE = "character"
+)
+
 type SearchHit struct {
-	Id uint `json:"id"`
+	Id   uint   `json:"id"`
+	Type string `json:"type"`
 }
 
 type SearchResultResponse struct {
@@ -64,7 +125,18 @@ func getSearchResult(rm ratings.RatingModel) (SearchResultResponse, error) {
 	return MakeGetRequest[SearchResultResponse](url)
 }
 
-type InfoResultResponse struct {
+func getSearchResultId(sh []SearchHit) (string, error) {
+	for _, value := range sh {
+		if value.Type == CHARACTER_TYPE {
+			continue
+		}
+
+		return strconv.FormatUint(uint64(value.Id), 10), nil
+	}
+	return "", errors.New("Cannot find movie/series type in search result")
+}
+
+type InfoResponse struct {
 	Title         string `json:"title"`
 	OriginalTitle string `json:"originalTitle"`
 	Year          uint   `json:"year"`
@@ -73,17 +145,37 @@ type InfoResultResponse struct {
 	PosterPath    string `json:"posterPath"`
 }
 
-func getInfoResult(id uint) (InfoResultResponse, error) {
-	fmt.Printf("Getting info for: %d\n", id)
+func getInfo(ratingId string) (InfoResponse, error) {
+	fmt.Printf("Getting info for: %s\n", ratingId)
 	url := fmt.Sprintf(
-		"https://www.filmweb.pl/api/v1/title/%d/info",
-		id,
+		"https://www.filmweb.pl/api/v1/title/%s/info",
+		ratingId,
 	)
 	fmt.Printf("Search URL: %s\n", url)
 
-	return MakeGetRequest[InfoResultResponse](url)
+	return MakeGetRequest[InfoResponse](url)
 }
 
-func saveInfoResult(irs InfoResultResponse) error {
-	return nil
+type RatingResponse struct {
+	Count     uint    `json:"count"`
+	Rate      float64 `json:"rate"`
+	WantToSee uint    `json:"countWantToSee"`
+}
+
+func getRating(ratingId string) (RatingResponse, error) {
+	fmt.Printf("Get rating: %s", ratingId)
+	url := fmt.Sprintf(
+		"https://www.filmweb.pl/api/v1/film/%s/rating",
+		ratingId,
+	)
+	fmt.Printf("Get rating URL: %s\n", url)
+
+	return MakeGetRequest[RatingResponse](url)
+}
+
+func saveInfoResult(rm *ratings.RatingModel) error {
+	fmt.Printf("Saving info: %s\n", rm.Ratings[ratings.DEFAULT_RATING_VENDOR].Title)
+
+	return ratings.Update(*rm)
+
 }

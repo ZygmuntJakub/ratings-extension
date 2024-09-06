@@ -36,8 +36,8 @@ func ratingsList(c *gin.Context) {
 				counter++
 				ratingsToSave = append(ratingsToSave, RatingModel{
 					Id:         counter,
-					Streamings: map[StreamingName]StreamingModel{DEFAULT_STREAMING: StreamingModel{InternalId: value}},
-					MovieData:  map[Language]MovieDataModel{DEFAULT_LANGUAGE: MovieDataModel{Title: querySplitted[idx+1]}},
+					Streamings: map[StreamingName]StreamingModel{DEFAULT_STREAMING: {InternalId: value}},
+					MovieData:  map[Language]MovieDataModel{DEFAULT_LANGUAGE: {Title: querySplitted[idx+1]}},
 				})
 			}
 		}
@@ -49,7 +49,7 @@ func ratingsList(c *gin.Context) {
 		}
 	}
 
-	res, err := ReadAll()
+	res, err := ReadOnlyWithRating()
 	if err != nil {
 		c.AbortWithError(http.StatusBadRequest, err)
 		return

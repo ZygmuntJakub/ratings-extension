@@ -24,15 +24,14 @@ function getAllCards(retry = 0) {
   });
 }
 
-async function updateRating({ cards, ratings }) {
-  for (let i = 0; i < cards.length; i++) {
-    const card = cards[i];
-    if (card.querySelector(".mk-rating-container")) {
-      continue;
-    }
-    const { value } = ratings.get(card);
+async function updateRating({ data, ratings }) {
+  data.forEach(({ id, card }) => {
+    if (card.querySelector(".mk-rating-container")) return;
+    if (!ratings.has(id)) return;
+
+    const { value } = ratings.get(id);
     const ratingContainer = createRatingContainer();
-    ratingContainer.innerHTML = `${value}/10 ⭐️`;
+    ratingContainer.innerHTML = `${(+value).toFixed(2)}⭐️`;
     ratingContainer.style.position = "absolute";
     ratingContainer.style.top = "10px";
     ratingContainer.style.right = "10px";
@@ -49,7 +48,7 @@ async function updateRating({ cards, ratings }) {
     }, DELAY);
 
     card.appendChild(ratingContainer);
-  }
+  });
 }
 
 const data = new Map();
@@ -57,13 +56,15 @@ const data = new Map();
 async function collectDataFromCards(cards) {
   for (let i = 0; i < cards.length; i++) {
     const card = cards[i];
-    if (data.has(card)) continue;
+
     const title = card.getElementsByClassName("fallback-text")[0].innerText;
     const id = card
       .getElementsByTagName("a")[0]
       .href.split("/")[4]
       .split("?")[0];
-    data.set(card, { title, id });
+
+    if (data.has(id)) continue;
+    data.set(id, { title, id, card });
   }
 
   return { cards, data };
@@ -75,13 +76,12 @@ let timeoutId = null;
 
 async function fetchRatings({ cards, data }) {
   return new Promise((resolve) => {
-    // filter already fetched ratings
-    for (let i = 0; i < cards.length; i++) {
-      const card = cards[i];
-      if (ratings.has(card)) {
-        continue;
+    data.forEach(({ id }) => {
+      if (ratings.has(id)) {
+        return;
       }
-      queue.add(card);
+
+      queue.add(id);
 
       // clear pending timeout
       if (timeoutId) clearTimeout(timeoutId);
@@ -89,9 +89,9 @@ async function fetchRatings({ cards, data }) {
       // create new timeout window
       timeoutId = setTimeout(() => {
         const query = Array.from(queue)
-          .map((c) => {
-            const { id, title } = data.get(c);
-            return `${id}|${title}`;
+          .map((id) => {
+            const res = data.get(id);
+            return `${res.id}|${res.title}`;
           })
           .join("|");
         chrome.runtime.sendMessage(
@@ -100,16 +100,15 @@ async function fetchRatings({ cards, data }) {
             query,
           },
           (response) => {
-            console.log(response);
+            for (const r of response.ratings) {
+              ratings.set(r.StreamingVendorId, { value: r.Value });
+            }
           },
         );
-        for (const c of queue) {
-          ratings.set(c, { value: Math.round(Math.random() * 10) });
-        }
         queue.clear();
         resolve({ cards, data, ratings });
       }, DELAY);
-    }
+    });
   });
 }
 
