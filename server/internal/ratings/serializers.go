@@ -2,6 +2,7 @@ package ratings
 
 import (
 	"fmt"
+	"net/url"
 
 	"github.com/gin-gonic/gin"
 )
@@ -14,7 +15,6 @@ type RatingSerializer struct {
 type RatingResponse struct {
 	StreamingVendorId string
 	Value             string
-	Count             string
 	Link              string
 }
 
@@ -24,7 +24,7 @@ func (s *RatingSerializer) Response() RatingResponse {
 	Link := fmt.Sprintf(
 		"https://www.filmweb.pl/%s/%s-%s-%s",
 		rating.Type,
-		rating.Title,
+		url.QueryEscape(rating.Title),
 		rating.Year,
 		rating.InternalId,
 	)
@@ -32,7 +32,6 @@ func (s *RatingSerializer) Response() RatingResponse {
 	return RatingResponse{
 		StreamingVendorId: streamingVendor.InternalId,
 		Value:             rating.Value,
-		Count:             rating.Count,
 		Link:              Link,
 	}
 }

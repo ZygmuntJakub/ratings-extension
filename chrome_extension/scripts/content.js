@@ -1,7 +1,9 @@
 const DELAY = 500;
 
-function createRatingContainer() {
-  const ratingContainer = document.createElement("div");
+function createRatingContainer(href) {
+  const ratingContainer = document.createElement("a");
+  ratingContainer.href = href;
+  ratingContainer.target = "_blank";
   ratingContainer.classList.add("mk-rating-container");
   return ratingContainer;
 }
@@ -16,65 +18,103 @@ function getAllCards(retry = 0) {
       return resolve([]);
     }
     const cards = document.getElementsByClassName("title-card");
+    const modal = document.getElementsByClassName("previewModal--container");
     if (cards.length === 0) {
       await sleep(1000);
       return resolve(await getAllCards());
     }
-    return resolve(cards);
+    return resolve({ cards, modal });
   });
 }
 
-async function updateRating({ data, ratings }) {
-  data.forEach(({ id, card }) => {
-    if (card.querySelector(".mk-rating-container")) return;
-    if (!ratings.has(id)) return;
+function getId(elem) {
+  const aTags = elem.getElementsByTagName("a");
+  if (aTags.length === 0) return;
+  for (let i = 0; i < aTags.length; i++) {
+    if (aTags[i].href.includes("title")) {
+      // "title" seems to be the most reliable than "watch"
+      return aTags[i].href.split("/")[4].split("?")[0];
+    }
+  }
+  for (let i = 0; i < aTags.length; i++) {
+    if (aTags[i].href.includes("watch")) {
+      return aTags[i].href.split("/")[4].split("?")[0];
+    }
+  }
+  return;
+}
 
-    const { value } = ratings.get(id);
-    const ratingContainer = createRatingContainer();
+const data = new Map();
+
+async function updateRating({ ratings, modal }) {
+  data.forEach(({ id, cards }) => {
+    cards.forEach((card) => {
+      if (card.querySelector(".mk-rating-container")) return;
+      if (!ratings.has(id)) return;
+
+      const { value, href } = ratings.get(id);
+      const ratingContainer = createRatingContainer(href);
+      ratingContainer.innerHTML = `${(+value).toFixed(2)}⭐️`;
+      ratingContainer.style.position = "absolute";
+      ratingContainer.style.top = "10px";
+      ratingContainer.style.right = "10px";
+      ratingContainer.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+      ratingContainer.style.color = "white";
+      ratingContainer.style.padding = "5px";
+      ratingContainer.style.borderRadius = "5px";
+      ratingContainer.style.fontSize = "12px";
+      ratingContainer.style.fontWeight = "bold";
+      ratingContainer.style.transition = "opacity 1s";
+      ratingContainer.style.opacity = 0;
+      setTimeout(() => {
+        ratingContainer.style.opacity = 1;
+      }, DELAY);
+
+      card.appendChild(ratingContainer);
+    });
+  });
+
+  if (modal[0] && !modal[0].querySelector(".mk-rating-container")) {
+    const id = getId(modal[0]);
+    if (!ratings.has(id)) return;
+    const { value, href } = ratings.get(id);
+    const ratingContainer = createRatingContainer(href);
     ratingContainer.innerHTML = `${(+value).toFixed(2)}⭐️`;
     ratingContainer.style.position = "absolute";
     ratingContainer.style.top = "10px";
-    ratingContainer.style.right = "10px";
+    ratingContainer.style.left = "10px";
     ratingContainer.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
     ratingContainer.style.color = "white";
     ratingContainer.style.padding = "5px";
     ratingContainer.style.borderRadius = "5px";
     ratingContainer.style.fontSize = "12px";
     ratingContainer.style.fontWeight = "bold";
-    ratingContainer.style.transition = "opacity 1s";
-    ratingContainer.style.opacity = 0;
-    setTimeout(() => {
-      ratingContainer.style.opacity = 1;
-    }, DELAY);
-
-    card.appendChild(ratingContainer);
-  });
+    modal[0].appendChild(ratingContainer);
+  }
 }
 
-const data = new Map();
-
-async function collectDataFromCards(cards) {
+async function collectDataFromCards({ cards, modal }) {
   for (let i = 0; i < cards.length; i++) {
     const card = cards[i];
 
     const title = card.getElementsByClassName("fallback-text")[0].innerText;
-    const id = card
-      .getElementsByTagName("a")[0]
-      .href.split("/")[4]
-      .split("?")[0];
+    const id = getId(card);
 
-    if (data.has(id)) continue;
-    data.set(id, { title, id, card });
+    if (data.has(id)) {
+      data.get(id).cards.add(card);
+    } else {
+      data.set(id, { title, id, cards: new Set([card]) });
+    }
   }
 
-  return { cards, data };
+  return { cards, data, modal };
 }
 
 const ratings = new Map();
 const queue = new Set();
 let timeoutId = null;
 
-async function fetchRatings({ cards, data }) {
+async function fetchRatings({ cards, data, modal }) {
   return new Promise((resolve) => {
     data.forEach(({ id }) => {
       if (ratings.has(id)) {
@@ -101,12 +141,15 @@ async function fetchRatings({ cards, data }) {
           },
           (response) => {
             for (const r of response.ratings) {
-              ratings.set(r.StreamingVendorId, { value: r.Value });
+              ratings.set(r.StreamingVendorId, {
+                value: r.Value,
+                href: r.Link,
+              });
             }
           },
         );
         queue.clear();
-        resolve({ cards, data, ratings });
+        resolve({ cards, data, ratings, modal });
       }, DELAY);
     });
   });
@@ -122,4 +165,11 @@ const observer = new MutationObserver(() => {
 observer.observe(document.body, {
   childList: true,
   subtree: true,
+});
+
+chrome.storage.sync.get("disableExtension", (data) => {
+  console.log(data);
+  if (data.disableExtension) {
+    observer.disconnect();
+  }
 });

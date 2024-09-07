@@ -11,7 +11,8 @@ chrome.runtime.onMessage.addListener(function (message, _, senderResponse) {
       })
       .then((res) => {
         senderResponse(res);
-      });
+      })
+      .catch(console.log);
   }
   return true;
 });
