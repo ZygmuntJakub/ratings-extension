@@ -1,7 +1,9 @@
 chrome.runtime.onMessage.addListener(function (message, _, senderResponse) {
   if (message.type === "ratings") {
     fetch(
-      encodeURI(`http://localhost:8080/api/v1/ratings?query=${message.query}`),
+      encodeURI(
+        `https://master.bieda.it/api/v1/ratings?query=${message.query}`,
+      ),
       {
         method: "GET",
       },
