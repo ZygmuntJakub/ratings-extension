@@ -100,8 +100,8 @@ func (db *DB[T]) ReadFirst(condition func(entity T) bool) (T, error) {
 		return result, err
 	}
 
-	for _, row := range data[1:] {
-		value, err := db.RowDeserialize(row)
+	for i := len(data) - 1; i >= 1; i-- {
+		value, err := db.RowDeserialize(data[i])
 		if err != nil {
 			return result, err
 		}

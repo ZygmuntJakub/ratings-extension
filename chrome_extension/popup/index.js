@@ -1,7 +1,7 @@
 const options = [
   {
-    value: "disableExtension",
-    label: "Wyłącz rozszerzenie",
+    value: "hideRatings",
+    label: "Ukryj oceny",
     defaultValue: false,
   },
 ];
@@ -11,9 +11,11 @@ options.forEach((option) => {
   const input = document.createElement("input");
   input.type = "checkbox";
   input.id = option.value;
-  input.checked = option.defaultValue;
+  chrome.storage.local.get([option.value], (result) => {
+    input.checked = result[option.value] ?? option.defaultValue;
+  });
   input.addEventListener("change", () => {
-    chrome.storage.sync.set({ [option.value]: input.checked });
+    chrome.storage.local.set({ [option.value]: input.checked });
   });
 
   const label = document.createElement("label");

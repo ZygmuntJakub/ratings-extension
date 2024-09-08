@@ -1,4 +1,4 @@
-# mkino-extension
+# ratings-extension
 mKino is a simple extension that allows you check show ratings and reviews
 
 ## MVP
@@ -8,7 +8,8 @@ mKino is a simple extension that allows you check show ratings and reviews
 - [x] Add data source - CSV File
 - [x] Collect real data
 - [x] Show ratings on netflix shows (with hover)
-- [ ] Add addon UI
+- [x] Add addon popup UI
+- [ ] Deploy server
 - [ ] Publish to Chrome Web Store
 - [ ] Add data source - Database (MongoDB or ElasticSearch)
 - [ ] Account feature

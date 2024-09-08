@@ -16,15 +16,25 @@ type QueueEntity struct {
 	title string
 }
 
+var (
+	brokenQueue = make(map[uint]bool)
+	TIME_OFFSET = 50
+)
+
+func beforeContinue(id uint, message string, err error) {
+	fmt.Println(message)
+	fmt.Println(err)
+	brokenQueue[id] = true
+	time.Sleep(time.Duration(rand.Intn(5)+TIME_OFFSET) * time.Second)
+}
+
 func RunCollector() {
-	brokenQueue := make(map[uint]bool)
 	for {
 		fmt.Println("Start collecting...")
 
 		rm, err := getEmptyRating(brokenQueue)
 		if err != nil {
-			fmt.Println(err)
-			fmt.Println("Cannot get next empty rating. Ending...")
+			beforeContinue(0, "Cannot get next empty rating. Ending...", err)
 			break
 		}
 
@@ -32,25 +42,19 @@ func RunCollector() {
 		if ratingId == "" {
 			srr, err := getSearchResult(rm)
 			if err != nil {
-				fmt.Println(err)
-				fmt.Println("Cannot get search result.")
-				brokenQueue[rm.Id] = true
+				beforeContinue(rm.Id, "Cannot get search result.", err)
 				continue
 			}
 
 			ratingId, err = getSearchResultId(srr.SearchHits)
 			if err != nil {
-				fmt.Println(err)
-				fmt.Println("Cannot get search result id.")
-				brokenQueue[rm.Id] = true
+				beforeContinue(rm.Id, "Cannot get search result id.", err)
 				continue
 			}
 
 			irs, err := getInfo(ratingId)
 			if err != nil {
-				fmt.Println(err)
-				fmt.Println("Cannot get info result.")
-				brokenQueue[rm.Id] = true
+				beforeContinue(rm.Id, "Cannot get info result.", err)
 				continue
 			}
 
@@ -69,9 +73,7 @@ func RunCollector() {
 			fmt.Printf("Getting rating for: %s\n", rm.Ratings[ratings.DEFAULT_RATING_VENDOR].Title)
 			r, err := getRating(ratingId)
 			if err != nil {
-				fmt.Println(err)
-				fmt.Println("Cannot get rating.")
-				brokenQueue[rm.Id] = true
+				beforeContinue(rm.Id, "Cannot get rating.", err)
 				continue
 			}
 			fmt.Println(r)
@@ -84,14 +86,12 @@ func RunCollector() {
 
 		err = saveInfoResult(&rm)
 		if err != nil {
-			fmt.Println(err)
-			fmt.Println("Cannot save info result.")
-			brokenQueue[rm.Id] = true
+			beforeContinue(rm.Id, "Cannot save info result.", err)
 			continue
 		}
 
 		fmt.Println("Done. Wait for next request...")
-		time.Sleep(time.Duration(rand.Intn(3)+3) * time.Second)
+		time.Sleep(time.Duration(rand.Intn(5)+TIME_OFFSET) * time.Second)
 	}
 }
 

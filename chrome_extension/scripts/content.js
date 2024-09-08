@@ -1,4 +1,18 @@
-const DELAY = 500;
+const DELAY = 1_000;
+const data = new Map();
+const rendered = new Set();
+let isDisabled = false;
+
+// disableExtension
+chrome.storage.local.get(["hideRatings"], (result) => {
+  isDisabled = result.hideRatings;
+});
+
+chrome.storage.onChanged.addListener((changes) => {
+  rendered.forEach(({ changeOpacity }) => {
+    changeOpacity(changes.hideRatings.newValue ? 0 : 1);
+  });
+});
 
 function createRatingContainer(href) {
   const ratingContainer = document.createElement("a");
@@ -44,8 +58,6 @@ function getId(elem) {
   return;
 }
 
-const data = new Map();
-
 async function updateRating({ ratings, modal }) {
   data.forEach(({ id, cards }) => {
     cards.forEach((card) => {
@@ -67,10 +79,16 @@ async function updateRating({ ratings, modal }) {
       ratingContainer.style.transition = "opacity 1s";
       ratingContainer.style.opacity = 0;
       setTimeout(() => {
-        ratingContainer.style.opacity = 1;
+        ratingContainer.style.opacity = isDisabled ? 0 : 1;
       }, DELAY);
 
       card.appendChild(ratingContainer);
+      rendered.add({
+        id,
+        changeOpacity: (opacity) => {
+          ratingContainer.style.opacity = opacity;
+        },
+      });
     });
   });
 
@@ -97,7 +115,8 @@ async function collectDataFromCards({ cards, modal }) {
   for (let i = 0; i < cards.length; i++) {
     const card = cards[i];
 
-    const title = card.getElementsByClassName("fallback-text")[0].innerText;
+    const title =
+      card?.getElementsByClassName("fallback-text")?.[0]?.innerText || "";
     const id = getId(card);
 
     if (data.has(id)) {
@@ -114,7 +133,7 @@ const ratings = new Map();
 const queue = new Set();
 let timeoutId = null;
 
-async function fetchRatings({ cards, data, modal }) {
+async function fetchRatings({ cards, modal, data }) {
   return new Promise((resolve) => {
     data.forEach(({ id }) => {
       if (ratings.has(id)) {
@@ -134,6 +153,8 @@ async function fetchRatings({ cards, data, modal }) {
             return `${res.id}|${res.title}`;
           })
           .join("|");
+        queue.clear();
+
         chrome.runtime.sendMessage(
           {
             type: "ratings",
@@ -146,11 +167,10 @@ async function fetchRatings({ cards, data, modal }) {
                 href: r.Link,
               });
             }
+            resolve({ cards, ratings, modal });
           },
         );
-        queue.clear();
-        resolve({ cards, data, ratings, modal });
-      }, DELAY);
+      }, 500);
     });
   });
 }
@@ -165,11 +185,4 @@ const observer = new MutationObserver(() => {
 observer.observe(document.body, {
   childList: true,
   subtree: true,
-});
-
-chrome.storage.sync.get("disableExtension", (data) => {
-  console.log(data);
-  if (data.disableExtension) {
-    observer.disconnect();
-  }
 });
