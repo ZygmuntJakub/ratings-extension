@@ -6,9 +6,9 @@ import (
 )
 
 func main() {
-	go func() {
-		collector.RunCollector()
-	}()
+	 go func() {
+	 	collector.RunCollector()
+	 }()
 	srv := server.NewServer()
 	srv.Run()
 }
