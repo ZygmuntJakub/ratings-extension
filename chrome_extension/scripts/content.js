@@ -60,6 +60,7 @@ function createRatingContainer(href, value) {
   ratingContainer.style.display = "flex";
   ratingContainer.style.alignItems = "center";
   ratingContainer.style.justifyContent = "center";
+  ratingContainer.style.transition = "opacity 0.3s";
 
   return ratingContainer;
 }

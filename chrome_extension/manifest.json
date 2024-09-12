@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Oceny filmów z Filmweb",
   "description": "Oceny filmów z Filmweb",
-  "version": "0.1",
+  "version": "0.2",
   "action": {
     "default_popup": "popup/index.html",
     "default_icon": {
