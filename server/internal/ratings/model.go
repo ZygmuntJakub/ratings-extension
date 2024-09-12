@@ -148,7 +148,10 @@ func ReadFirstEmpty(bq map[uint]bool) (RatingModel, error) {
 		if bq[entity.Id] { // Skip broken movies
 			return false
 		}
-		if entity.Ratings[DEFAULT_RATING_VENDOR].Value == "" {
+		value := entity.Ratings[DEFAULT_RATING_VENDOR].Value
+		count, _ := strconv.ParseInt(entity.Ratings[DEFAULT_RATING_VENDOR].Count, 10, 64)
+		if value == "" || count < 100 {
+			bq[entity.Id] = true
 			return true
 		}
 		return false

@@ -14,11 +14,53 @@ chrome.storage.onChanged.addListener((changes) => {
   });
 });
 
-function createRatingContainer(href) {
+function createRatingContainer(href, value) {
   const ratingContainer = document.createElement("a");
   ratingContainer.href = href;
   ratingContainer.target = "_blank";
   ratingContainer.classList.add("mk-rating-container");
+  const icon = document.createElement("img");
+  const parsedValue = (+value).toFixed(2);
+  let iconSrc = "assets/3.svg";
+  switch (true) {
+    case parsedValue >= 8:
+      iconSrc = "assets/5.svg";
+      break;
+    case parsedValue >= 6:
+      iconSrc = "assets/4.svg";
+      break;
+    case parsedValue >= 4:
+      iconSrc = "assets/3.svg";
+      break;
+    case parsedValue >= 2:
+      iconSrc = "assets/2.svg";
+      break;
+    case parsedValue > 0:
+      iconSrc = "assets/1.svg";
+      break;
+  }
+
+  icon.src = chrome.runtime.getURL(iconSrc);
+  icon.style.width = "20px";
+  icon.style.height = "20px";
+  icon.style.marginRight = "5px";
+
+  ratingContainer.appendChild(icon);
+  ratingContainer.innerHTML += `${parsedValue}`;
+
+  ratingContainer.style.top = "10px";
+  ratingContainer.style.position = "absolute";
+  ratingContainer.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+  ratingContainer.style.color = "white";
+  ratingContainer.style.padding = "3px";
+  ratingContainer.style.borderRadius = "5px";
+  ratingContainer.style.fontSize = "14px";
+  ratingContainer.style.fontWeight = "bold";
+  ratingContainer.style.verticalAlign = "middle";
+  ratingContainer.style.display = "flex";
+  ratingContainer.style.alignItems = "center";
+  ratingContainer.style.justifyContent = "center";
+
   return ratingContainer;
 }
 
@@ -31,8 +73,10 @@ function getAllCards(retry = 0) {
     if (retry > 5) {
       return resolve([]);
     }
-    const cards = document.getElementsByClassName("title-card");
-    const modal = document.getElementsByClassName("previewModal--container");
+    // const cards = document.getElementsByClassName("title-card");
+    const cards = document.querySelectorAll(".title-card");
+    // const modal = document.getElementsByClassName("previewModal--container");
+    const modal = document.querySelectorAll(".previewModal--container");
     if (cards.length === 0) {
       await sleep(1000);
       return resolve(await getAllCards());
@@ -58,6 +102,10 @@ function getId(elem) {
   return;
 }
 
+const ratingComponent = (value) => {
+  const parsedValue = (+value).toFixed(2);
+};
+
 async function updateRating({ ratings, modal }) {
   data.forEach(({ id, cards }) => {
     cards.forEach((card) => {
@@ -65,18 +113,8 @@ async function updateRating({ ratings, modal }) {
       if (!ratings.has(id)) return;
 
       const { value, href } = ratings.get(id);
-      const ratingContainer = createRatingContainer(href);
-      ratingContainer.innerHTML = `${(+value).toFixed(2)}⭐️`;
-      ratingContainer.style.position = "absolute";
-      ratingContainer.style.top = "10px";
+      const ratingContainer = createRatingContainer(href, value);
       ratingContainer.style.right = "10px";
-      ratingContainer.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
-      ratingContainer.style.color = "white";
-      ratingContainer.style.padding = "5px";
-      ratingContainer.style.borderRadius = "5px";
-      ratingContainer.style.fontSize = "12px";
-      ratingContainer.style.fontWeight = "bold";
-      ratingContainer.style.transition = "opacity 1s";
       ratingContainer.style.opacity = 0;
       setTimeout(() => {
         ratingContainer.style.opacity = isDisabled ? 0 : 1;
@@ -96,17 +134,8 @@ async function updateRating({ ratings, modal }) {
     const id = getId(modal[0]);
     if (!ratings.has(id)) return;
     const { value, href } = ratings.get(id);
-    const ratingContainer = createRatingContainer(href);
-    ratingContainer.innerHTML = `${(+value).toFixed(2)}⭐️`;
-    ratingContainer.style.position = "absolute";
-    ratingContainer.style.top = "10px";
+    const ratingContainer = createRatingContainer(href, value);
     ratingContainer.style.left = "10px";
-    ratingContainer.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
-    ratingContainer.style.color = "white";
-    ratingContainer.style.padding = "5px";
-    ratingContainer.style.borderRadius = "5px";
-    ratingContainer.style.fontSize = "12px";
-    ratingContainer.style.fontWeight = "bold";
     modal[0].appendChild(ratingContainer);
   }
 }
@@ -136,11 +165,9 @@ let timeoutId = null;
 async function fetchRatings({ cards, modal, data }) {
   return new Promise((resolve) => {
     data.forEach(({ id }) => {
-      if (ratings.has(id)) {
-        return;
+      if (!ratings.has(id)) {
+        queue.add(id);
       }
-
-      queue.add(id);
 
       // clear pending timeout
       if (timeoutId) clearTimeout(timeoutId);

@@ -72,7 +72,7 @@ func RunCollector() {
 		if rm.Ratings[ratings.DEFAULT_RATING_VENDOR].Value == "" {
 			fmt.Printf("Getting rating for: %s\n", rm.Ratings[ratings.DEFAULT_RATING_VENDOR].Title)
 			r, err := getRating(ratingId)
-			if err != nil {
+			if err != nil || r.Count == 100 { // Skip ratings with count less than 100
 				beforeContinue(rm.Id, "Cannot get rating.", err)
 				continue
 			}
