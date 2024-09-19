@@ -302,11 +302,11 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 301,Alvin i wiewiórki: Wielka wyprawa,80063956,686358,Alvin i wiewiórki: Wielka wyprawa,2015,film,film_cinema,Alvin and the Chipmunks: The Road Chip,/63/58/686358/7716971_1.$.jpg,6.48237,9982,3313
 302,Cały ten rap,81716585,10055819,Cały ten rap,2024,serial,mini_serial,Cały ten rap,/58/19/10055819/8138059.$.jpg,5.00642,2647,710
 303,Ciche miejsce,80213226,795912,Ciche miejsce,2018,film,film_cinema,A Quiet Place,/59/12/795912/7837616_1.$.jpg,6.63709,119371,22301
-304,"Czekam, aż stanie się coś pięknego",81685656
+304,"Czekam, aż stanie się coś pięknego",81685656,10048330,"Czekam, aż stanie się coś pięknego",2024,film,film_cinema,Il treno dei bambini,/83/30/10048330/8136450.$.jpg,0,0,13
 305,Uzależniona,70294663,701122,Uzależniona,2014,film,film_cinema,Addicted,/11/22/701122/7624160_1.$.jpg,5.38093,7256,2003
 306,Asterix ,81316606,30896,Asterix i Obelix: Misja Kleopatra,2002,film,film_cinema,Astérix & Obélix: Mission Cléopâtre,/08/96/30896/6900390_1.$.jpg,7.32394,229430,5678
 307,Agent do zadań domowych,81771382,10032180,Agent do zadań domowych,2024,film,film_cinema,Keuroseu,/21/80/10032180/8136029.$.jpg,5.50168,297,52
-308,Prawdziwy dżentelmen,81610282
+308,Prawdziwy dżentelmen,81610282,10059904,Prawdziwy dżentelmen,2024,film,film_cinema,Tam Bir Centilmen,,0,0,5
 309,NCIS,70142386,125075,Agenci NCIS,2003,serial,serial_tv,Navy NCIS: Naval Criminal Investigative Service,/50/75/125075/7975010_1.$.jpg,7.38855,32145,5236
 310,Młodzi Tytani: Akcja!,80103408,685663,Młodzi Tytani: Akcja!,2013,serial,serial_tv,Teen Titans Go!,/56/63/685663/7859868_2.$.jpg,5.38963,2469,233
 311,Charlie i fabryka czekolady,70021648,104541,Charlie i fabryka czekolady,2005,film,film_cinema,Charlie and the Chocolate Factory,/45/41/104541/7107721_1.$.jpg,7.11113,353736,21306
@@ -389,7 +389,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 388,Zwierzęta z bliska,81145024,10003469,Zwierzęta z bliska,2021,serial,serial_tv,Animal,/34/69/10003469/7983055_1.$.jpg,7.75428,643,155
 389,Adam Sandler: Love You,81757746,10059491,Adam Sandler: Love You,2024,tvshow,,Adam Sandler: Love You,/94/91/10059491/8141314.$.jpg,6.20513,39,20
 390,AlRawabi School for Girls,81034661,877204,AlRawabi School for Girls,2021,serial,serial_tv,AlRawabi School for Girls,/72/04/877204/7967336_1.$.jpg,7.0684,1038,213
-391,Ángel Di María: Zburzyliśmy mur,81689477
+391,Ángel Di María: Zburzyliśmy mur,81689477,10059750,Ángel Di María: Zburzyliśmy mur,2024,serial,mini_serial,Ángel Di María: Romper la pared,/97/50/10059750/8142855.$.jpg,7.51515,33,23
 392,Junji Ito: Makabryczne japońskie opowieści,81295011,10022792,Junji Ito: Makabryczne japońskie opowieści,2023,serial,episode_anthology,Itou Junji: Maniac,/27/92/10022792/8055250_1.$.jpg,6.07591,1449,516
 393,Morska bestia,81018682,10011435,Morska bestia,2022,film,film_cinema,The Sea Beast,/14/35/10011435/8019240_2.$.jpg,6.6825,10633,1595
 394,Futro z misia,81500097,835333,Futro z misia,2019,film,film_cinema,Futro z misia,/53/33/835333/7902252_2.$.jpg,3.29603,17147,2344
@@ -439,7 +439,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 438,BOŻE CIAŁO,81278730,808863,Boże Ciało,2019,film,film_cinema,Boże Ciało,/88/63/808863/7897966_2.$.jpg,7.69235,203992,24563
 439,Berserk,80243876,769749,Berserk,2016,serial,serial_tv,Berserk,/97/49/769749/8110059_2.$.jpg,6.29108,1065,667
 440,Barbarzyńcy,81622499,10015211,Barbarzyńcy,2022,film,film_cinema,Barbarian,/52/11/10015211/8019796_1.$.jpg,6.12739,21368,4225
-441,Zmierzch bogów,81153122
+441,Zmierzch bogów,81153122,10055084,Zmierzch bogów,2024,serial,serial_tv,Twilight of the Gods,/50/84/10055084/8143243.$.jpg,7.5,2,130
 442,Berlin,81586657,10030822,Berlin,2023,serial,serial_tv,Berlín,/08/22/10030822/8102051_1.$.jpg,6.76912,12842,2907
 443,Byliśmy królami,81601351,11616,Kiedy byliśmy królami,1996,film,film_cinema,When We Were Kings,/16/16/11616/7150038_1.$.jpg,7.62279,509,1186
 444,Brzydka prawda,70103759,465494,Brzydka prawda,2009,film,film_cinema,The Ugly Truth,/54/94/465494/7276637_2.$.jpg,6.90533,131786,11073
@@ -488,7 +488,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 487,Bitwa,81002685,818385,Bitwa,2018,film,film_cinema,Battle,/83/85/818385/7875613_2.$.jpg,5.77969,3191,225
 488,Blondynka,80174263,576938,Blondynka,2022,film,film_cinema,Blonde,/69/38/576938/8024096_1.$.jpg,5.43479,18342,7912
 489,Break Point,81569920,10026084,Break Point,2023,serial,serial_tv,Break Point,/60/84/10026084/8049413_1.$.jpg,6.75456,1536,477
-490,"Idź przodem, bracie",81613239
+490,"Idź przodem, bracie",81613239,10025580,"Idź przodem, bracie",2024,serial,serial_tv,"Idź przodem, bracie",,0,0,313
 491,Śnieżne Bractwo,81268316,10039434,Śnieżne bractwo,2023,film,film_cinema,La sociedad de la nieve,/94/34/10039434/8087732_1.$.jpg,7.28581,38186,9406
 492,Egzorcysta,81221649,1315,Egzorcysta,1973,film,film_cinema,The Exorcist,/13/15/1315/7368591_1.$.jpg,7.51745,130487,28441
 493,Brian Banks,80990660,723244,Brian Banks,2018,film,film_cinema,Brian Banks,/32/44/723244/7888384_1.$.jpg,7.0087,2760,506
@@ -579,7 +579,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 578,Ciało w ogniu,81306170,10034055,Ciało w ogniu,2023,serial,mini_serial,El cuerpo en llamas,/40/55/10034055/8090760_2.$.jpg,6.43023,2494,728
 579,Dziewczyny z Dubaju,81700296,847757,Dziewczyny z Dubaju®,2021,film,film_cinema,Dziewczyny z Dubaju®,/77/57/847757/7980924_2.$.jpg,4.70563,41822,4579
 580,SpongeBob Film: Na ratunek,81312563,758138,SpongeBob Film: Na ratunek,2020,film,film_cinema,The SpongeBob Movie: Sponge on the Run,/81/38/758138/7905081_2.$.jpg,6.23828,4222,1028
-581,Rez Ball,81426668
+581,Rez Ball,81426668,10058502,Rez Ball,2024,film,film_cinema,Rez Ball,/85/02/10058502/8139229.$.jpg,0,0,26
 582,Between,80022632,738325,Between,2015,serial,serial_tv,Between,/83/25/738325/7694372_1.$.jpg,6.09171,2726,982
 583,Krwawe dziedzictwo,81675438,698957,Krwawe dziedzictwo,2013,film,film_cinema,Bloodline,/89/57/698957/7589418_1.$.jpg,3.28629,496,76
 584,W głowie Billa Gatesa,80184771,838533,W głowie Billa Gatesa,2019,serial,mini_serial,Inside Bill's Brain: Decoding Bill Gates,/85/33/838533/8129907.$.jpg,7.23997,4709,1143
@@ -596,7 +596,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 595,To tylko seks,70167075,587358,To tylko seks,2011,film,film_cinema,Friends with Benefits,/73/58/587358/7390941_1.$.jpg,6.71019,214498,12943
 596,Sonic. Szybki jak błyskawica,80217006,764224,Sonic: Szybki jak błyskawica,2020,film,film_cinema,Sonic the Hedgehog,/42/24/764224/7915886_2.$.jpg,6.25287,23324,4036
 597,Królowa piękna z Jerozolimy,81562501,10013319,Królowa piękna z Jerozolimy,2021,serial,serial_tv,Malkat HaYofi shel Yerushalayim,/33/19/10013319/8080395_1.$.jpg,7.24887,1109,390
-598,Funkcjonariusz z czarnym pasem,81702144
+598,Funkcjonariusz z czarnym pasem,81702144,10058179,Funkcjonariusz z czarnym pasem,2024,film,film_cinema,Mudosilmugwan,/81/79/10058179/8139717.$.jpg,6.54869,421,110
 599,Fatalna czarownica,80130521,774283,Fatalna czarownica,2017,serial,serial_tv,The Worst Witch,/42/83/774283/7797511_2.$.jpg,6.40127,790,214
 600,Matka panny młodej,81459080,10049256,Matka panny młodej,2024,film,film_cinema,Mother of the Bride,/92/56/10049256/8122081_1.$.jpg,4.56558,3126,219
 601,Tajemnice Polskich Fortun,81731801,10044224,Tajemnice polskich fortun,2023,serial,serial_tv,Tajemnice polskich fortun,/42/24/10044224/8107386_1.$.jpg,5.74434,3004,608
@@ -622,7 +622,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 621,Ciemniejsza strona Greya,80131194,735860,Ciemniejsza strona Greya,2017,film,film_cinema,Fifty Shades Darker,/58/60/735860/7774489_1.$.jpg,5.01133,78831,6733
 622,Nikt tego nie chce,81591296
 623,Kolory zła: Czerwień,81619384,10035783,Kolory zła: Czerwień,2024,film,film_cinema,Kolory zła: Czerwień,/57/83/10035783/8129195.$.jpg,6.28398,32400,3941
-624,Sto lat samotności,81087583
+624,Sto lat samotności,81087583,867710,Sto lat samotności,2024,serial,serial_tv,Cien años de soledad,,0,0,274
 625,Cień i kość,80236319,832857,Cień i kość,2021,serial,serial_tv,Shadow and Bone,/28/57/832857/7956455_1.$.jpg,7.02131,19991,5553
 626,Kler,81168900,810402,Kler,2018,film,film_cinema,Kler,/04/02/810402/7856555_1.$.jpg,6.99113,203292,19694
 627,Czy to ciasto?,81333845,10009374,Czy to ciasto?,2022,tvshow,,Is It Cake?,/93/74/10009374/8073740_1.$.jpg,6.28261,920,55
@@ -684,8 +684,8 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 683,Czego nauczyła mnie ośmiornica,81045007,860225,Czego nauczyła mnie ośmiornica,2020,film,film_cinema,My Octopus Teacher,/02/25/860225/7931025_2.$.jpg,7.7575,25052,6301
 684,Charing Cross 84,60023132,3509,Charing Cross 84,1987,film,film_cinema,84 Charing Cross Road,/35/09/3509/7180664_1.$.jpg,7.11027,5677,2179
 685,Czy drzewo upada bezgłośnie?,81654427,10045644,Czy drzewo upada bezgłośnie?,2024,serial,serial_tv,Amudo eobsneun supsokeseo,/56/44/10045644/8138512.$.jpg,6.66776,304,265
-686,Comedy Revenge,81782308
-687,W ogień: Utracona córka,81769165
+686,Comedy Revenge,81782308,144381,A Rich Revenge,1910,film,film_cinema,A Rich Revenge,,0,0,3
+687,W ogień: Utracona córka,81769165,10059751,W ogień: Utracona córka,2024,serial,mini_serial,Into the Fire: The Lost Daughter,/97/51/10059751/8142861.$.jpg,7.13551,428,144
 688,Kod 8,81194641,809454,Kod 8,2019,film,film_cinema,Code 8,/94/54/809454/7919988_2.$.jpg,5.94621,12102,2236
 689,Celebrytka,81361096,10029655,Celebrytka,2023,serial,serial_tv,Selleobeuriti,/96/55/10029655/8073948_1.$.jpg,6.96738,981,358
 690,Cesarstwo Rzymskie,80096545,774897,Cesarstwo Rzymskie,2016,serial,serial_tv,Roman Empire: Reign of Blood,/48/97/774897/7792840_1.$.jpg,6.46751,1339,465
@@ -751,7 +751,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 750,DJ Cinderella,80245601,825070,DJ Cinderella,2019,film,film_cinema,Cinderela Pop,/50/70/825070/7926249_1.$.jpg,4.90715,1454,82
 751,Chico: Małpka złota rączka,80201451,852945,Chico: Małpka złota rączka,2020,serial,serial_tv,Chico Bon Bon: Monkey with a Tool Belt,,6,11,6
 752,The Circle – USA,81044551,845699,The Circle - USA,2020,tvshow,,The Circle,/56/99/845699/8122107_1.$.jpg,6.60583,1441,180
-753,Co dalej? Przyszłość oczami Billa Gatesa,81609333
+753,Co dalej? Przyszłość oczami Billa Gatesa,81609333,10031876,Co dalej? Przyszłość oczami Billa Gatesa,2024,serial,serial_tv,What's Next? The Future with Bill Gates,/18/76/10031876/8143897.$.jpg,4.16667,6,43
 754,Człowiek od środka,81139212,874805,Człowiek od środka,2021,serial,serial_tv,Human: The World Within,/48/05/874805/8015508_1.$.jpg,6.55606,437,172
 755,Cowboy Bebop,80207033,98666,Cowboy Bebop,1998,serial,serial_tv,Cowboy Bebop,/86/66/98666/7981662_1.$.jpg,8.29838,21188,9923
 756,"Jakby coś, kocham was",81349306,863716,"Jakby coś, kocham was",2020,film,film_cinema,If Anything Happens I Love You,/37/16/863716/7945063_1.$.jpg,6.63601,10080,1191
@@ -763,7 +763,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 762,Devil May Cry,81506915,379259,Devil May Cry,2007,serial,serial_tv,Devil May Cry,/92/59/379259/7222056_1.$.jpg,7.33687,4340,1406
 763,Cząstki kobiety,81128745,854517,Cząstki kobiety,2020,film,film_cinema,Pieces of a Woman,/45/17/854517/7937573_2.$.jpg,7.05986,28652,10697
 764,Kingsman: Złoty krąg,80183188,743496,Kingsman: Złoty Krąg,2017,film,film_cinema,Kingsman: The Golden Circle,/34/96/743496/7801653_1.$.jpg,6.83298,101522,21509
-765,Tomb Raider: Legenda Lary Croft,81361105
+765,Tomb Raider: Legenda Lary Croft,81361105,868992,Tomb Raider: Legenda Lary Croft,2024,serial,serial_tv,Tomb Raider: The Legend of Lara Croft,/89/92/868992/8143242.$.jpg,0,0,484
 766,"Do wszystkich chłopców, których kochałam",80203147,805947,"Do wszystkich chłopców, których kochałam",2018,film,film_cinema,To All the Boys I've Loved Before,/59/47/805947/7853509_2.$.jpg,6.7995,68085,5962
 767,Król wyjęty spod prawa,80190859,803186,Król wyjęty spod prawa,2018,film,film_cinema,Outlaw King,/31/86/803186/7861372_1.$.jpg,6.65144,21798,5408
 768,Córka Stalina,80123614
@@ -796,7 +796,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 795,Rebel Moon – część 1: Dziecko ognia,81464239,876601,Rebel Moon - Część 1: Dziecko ognia,2023,film,film_cinema,Rebel Moon - Part One: A Child of Fire,/66/01/876601/8076755_1.$.jpg,5.12476,20656,4139
 796,Łowcy trolli: Opowieści z Arkadii,80075820,773155,Łowcy trolli: Opowieści z Arkadii,2016,serial,serial_tv,Trollhunters: Tales of Arcadia,/31/55/773155/7773693_1.$.jpg,8.03539,4747,2075
 797,Rebel Moon – część 2: Zadająca rany,81624666,10040725,Rebel Moon - Część 2: Zadająca rany,2024,film,film_cinema,Rebel Moon - Part 2: The Scargiver,/07/25/10040725/8123882_1.$.jpg,4.57531,8910,1331
-798,Rozwodnicy,81698959
+798,Rozwodnicy,81698959,10031660,Rozwodnicy,2024,film,film_cinema,Rozwodnicy,,0,0,457
 799,Dama,80991090,10034787,Dama,2024,film,film_cinema,Damsel,/47/87/10034787/8112071_1.$.jpg,5.4946,15655,2279
 800,Dość milczenia,81557682,10050903,Dość milczenia,2024,serial,serial_tv,Ni una más,/09/03/10050903/8127217.$.jpg,6.74702,3024,1016
 801,Dom zły,81500098,470384,Dom zły,2009,film,film_cinema,Dom zły,/03/84/470384/7296558_2.$.jpg,7.39312,182664,48822
@@ -835,7 +835,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 834,Doskonale dopasowani,81497817,10029897,Doskonale dopasowani,2023,tvshow,,Perfect Match,/98/97/10029897/8058405_1.$.jpg,5.4899,396,58
 835,Karppi,80243728,802429,Karppi,2018,serial,serial_tv,Karppi,/24/29/802429/8111324_2.$.jpg,6.90622,7422,2685
 836,Dziewczyna Influencera,81760159,10044213,Dziewczyna influencera,2024,film,film_cinema,Dziewczyna influencera,/42/13/10044213/8105742_2.$.jpg,3.59092,7463,1113
-837,Platforma 2,81284730
+837,Platforma 2,81284730,10052749,Platforma 2,2024,film,film_cinema,El hoyo 2,/27/49/10052749/8135912.$.jpg,0,0,581
 838,Dni,81233755,848518,Dni,2020,film,film_cinema,Rizi,/85/18/848518/7914129_1.$.jpg,6.69393,428,717
 839,Smok życzeń,81153694,812420,Smok życzeń,2021,film,film_cinema,Wish Dragon,/24/20/812420/7961152_2.$.jpg,7.27556,9802,1000
 840,Totalna porażka,70252898,484288,Totalna porażka,2007,serial,serial_tv,Total Drama,/42/88/484288/7483509_1.$.jpg,7.61202,10998,879
@@ -942,7 +942,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 941,Einstein i bomba,81474469,801983,Einstein i bomba,2024,film,film_cinema,Einstein and the Bomb,/19/83/801983/8114538_1.$.jpg,5.98455,1424,310
 942,"Jedz, módl się, kochaj",70130445,382375,"Jedz, módl się, kochaj",2010,film,film_cinema,Eat Pray Love,/23/75/382375/7337503_2.$.jpg,6.21184,82257,16381
 943,Escape Room,81001691,813880,Escape Room,2019,film,film_cinema,Escape Room,/38/80/813880/7885897_1.$.jpg,6.02269,39834,4698
-944,Zazdrosna,81687655
+944,Zazdrosna,81687655,10059754,Zazdrosna,2024,serial,serial_tv,Envidiosa,/97/54/10059754/8143272.$.jpg,6.75,4,13
 945,Erin Brockovich,60000165,883,Erin Brockovich,2000,film,film_cinema,Erin Brockovich,/08/83/883/7488046_1.$.jpg,7.55905,90950,21601
 946,Neon Genesis Evangelion,81033445,100434,Neon Genesis Evangelion,1995,serial,serial_tv,Shin Seiki Evangerion,/04/34/100434/7975284_2.$.jpg,8.10374,16551,5478
 947,Ever After High,70300626,705813,Ever After High,2013,serial,serial_tv,Ever After High,/58/13/705813/7794911_1.$.jpg,6.89352,432,89
@@ -1176,7 +1176,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 1175,Grobowiec świetlików,557010,34655,Grobowiec świetlików,1988,film,film_cinema,Hotaru no Haka,/46/55/34655/7589836_1.$.jpg,8.06648,51986,32458
 1176,Na skrzydłach ambicji,81303889,867649,Na skrzydłach ambicji,2022,serial,serial_tv,Kuş Uçuşu,/76/49/867649/8017429_1.$.jpg,6.83382,686,217
 1177,Ogień i żar,81397422,10012796,Ogień i żar,2022,serial,telenovela,Donde hubo fuego,/27/96/10012796/8050261_1.$.jpg,6.27988,343,122
-1178,Królowa faweli,81641273
+1178,Królowa faweli,81641273,10060649,Królowa faweli,2024,film,film_cinema,Bandida: A Número Um,/06/49/10060649/8143401.$.jpg,5.15,60,20
 1179,Prognozy pogody i miłości,81572781,10001351,Prognozy pogody i miłości,2022,serial,serial_tv,Gi-sang-cheong: Sa-nae-yeon-ae Jan-hok-sa Pyeon,/13/51/10001351/7998012_1.$.jpg,6.77668,609,100
 1180,Kochane kłopoty,70155618,98248,Kochane kłopoty,2000,serial,serial_tv,Gilmore Girls,/82/48/98248/7190235_1.$.jpg,7.81358,31676,7131
 1181,Jestem Georgina,81423622,10006079,Jestem Georgina,2022,tvshow,,Soy Georgina,/60/79/10006079/8064244_1.$.jpg,4.31029,1982,164
@@ -1220,7 +1220,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 1219,Dziewczyna ze zdjęcia,81212487,10014829,Dziewczyna ze zdjęcia,2022,film,film_cinema,Girl in the Picture,/48/29/10014829/8019258_1.$.jpg,6.67016,9638,2065
 1220,"Gabriel lglesias: Przepraszam za to, co powiedziałem, gdy byłem głodny",80117628
 1221,Najszczęśliwsza dziewczyna na świecie,80992607,10007405,Najszczęśliwsza dziewczyna na świecie,2022,film,film_cinema,Luckiest Girl Alive,/74/05/10007405/8029246_2.$.jpg,6.02394,17878,2652
-1222,Wiedźmin: Syreny z głębin,81484026
+1222,Wiedźmin: Syreny z głębin,81484026,10043627,Wiedźmin: Syreny z głębin,2024,film,film_cinema,The Witcher: Sirens of the Deep,,0,0,234
 1223,Gabriel Iglesias: Stadium Fluffy,81045453,10017603,Gabriel Iglesias: Stadium Fluffy,2022,tvshow,,Gabriel Iglesias: Stadium Fluffy,/76/03/10017603/8036655_1.$.jpg,6.76667,60,6
 1224,Mój sąsiad Totoro,60032294,34656,Mój sąsiad Totoro,1988,film,film_cinema,Tonari no Totoro,/46/56/34656/7180814_1.$.jpg,7.79817,71088,21166
 1225,Gokarty,80241136,836594,Gokarty,2020,film,film_cinema,Go!,/65/94/836594/7912540_2.$.jpg,5.8779,1466,102
@@ -1424,7 +1424,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 1423,Imaginacja,81565710,10019400,Imaginacja,2023,film,film_cinema,Yaneura no Rudger,/94/00/10019400/8134406.$.jpg,6.28488,172,142
 1424,Toskania,81498233,10012459,Toskania,2022,film,film_cinema,Toscana,/24/59/10012459/8012631_1.$.jpg,5.23487,5518,345
 1425,Iliza Shlesinger: Elder Millennial,80213658
-1426,Wojna i rewolta,81672158
+1426,Wojna i rewolta,81672158,10051737,Wojna i rewolta,2024,film,film_cinema,"Jeon, ran",/17/37/10051737/8142783.$.jpg,0,0,18
 1427,Swatamy swoich szefów,80184100,801964,Swatamy swoich szefów,2018,film,film_cinema,Set It Up,/19/64/801964/7844875_2.$.jpg,6.1528,33345,3232
 1428,"Miłość jest ślepa, habibi",81622654
 1429,Igrając z ogniem,81221835,830604,Igrając z ogniem,2019,film,film_cinema,Playing with Fire,/06/04/830604/7893284_1.$.jpg,5.33675,2049,285
@@ -1550,7 +1550,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 1549,Pokémon: Najwspanialsze podróże – Seria,81291578,867574,Pokémon: Podróże - Seria,2019,serial,serial_tv,Pocket Monsters,/75/74/867574/7993542_1.$.jpg,7.23707,232,67
 1550,Tylko sprawiedliwość,80207506,824190,Tylko sprawiedliwość,2019,film,film_cinema,Just Mercy,/41/90/824190/7915632_2.$.jpg,7.16374,11146,6887
 1551,Miłość jest ślepa,80996601,849224,Miłość jest ślepa,2020,tvshow,,Love Is Blind,/92/24/849224/8114193_1.$.jpg,6.39723,4111,434
-1552,Czym jest szczęście?,81645161
+1552,Czym jest szczęście?,81645161,688762,Czym jest szczęście,2012,film,film_cinema,What Hapiness Is,,0,0,4
 1553,Pokémon: Podróże Mistrzów – Serial,81291575
 1554,Kamienie na szaniec,80108229,682011,Kamienie na szaniec,2014,film,film_cinema,Kamienie na szaniec,/20/11/682011/7596545_2.$.jpg,6.73061,98425,25159
 1555,Król,80182016,817462,Król,2019,film,film_cinema,The King,/74/62/817462/7896483_1.$.jpg,7.13993,62603,14932
@@ -1576,7 +1576,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 1575,Kryptonim: Polska,81664300,876037,Kryptonim Polska,2022,film,film_cinema,Kryptonim Polska,/60/37/876037/8025391_1.$.jpg,4.91089,15184,2093
 1576,Kobieta z domu naprzeciwko dziewczyny w oknie,81305952,10005531,Kobieta z domu naprzeciwko dziewczyny w oknie,2022,serial,mini_serial,The Woman in the House Across the Street from the Girl in the Window,/55/31/10005531/7995152_1.$.jpg,6.22036,11953,2004
 1577,Wielkie przygody Kapitana Majtasa w kosmosie,81147421,856899,Wielkie przygody Kapitana Majtasa w kosmosie,2020,serial,serial_tv,The Epic Tales of Captain Underpants in Space,/68/99/856899/7926169_1.$.jpg,6.19231,26,14
-1578,Królowa łotrów,81351263
+1578,Królowa łotrów,81351263,10015656,Królowa łotrów,2024,serial,serial_tv,Gokuaku Joō,/56/56/10015656/8136092.$.jpg,0,0,38
 1579,Pop Star Academy: KATSEYE,81587828,10057838,Pop Star Academy: Katseye,2024,serial,serial_tv,Pop Star Academy: Katseye,/78/38/10057838/8139252.$.jpg,5.94444,54,15
 1580,Kret,81286686,527534,Kret,2010,film,film_cinema,Kret,/75/34/527534/7383623_2.$.jpg,6.52219,27668,7259
 1581,The Kissing Booth 3,81026819,857496,The Kissing Booth 3,2021,film,film_cinema,The Kissing Booth 3,/74/96/857496/7971253_2.$.jpg,4.91362,10720,823
@@ -1607,7 +1607,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 1606,Kradzież,81520685,10049541,Kradzież,2024,film,film_cinema,Stöld,,5.14876,484,92
 1607,Konferencja,81517749,10041692,Konferencja,2023,film,film_cinema,Konferensen,/16/92/10041692/8095711_1.$.jpg,4.76205,3858,506
 1608,KAKEGURUI TWIN,81176966,10007814,Kakegurui Twin,2022,serial,serial_tv,Kakegurui Twin,/78/14/10007814/8017792_1.$.jpg,6.58967,368,61
-1609,Kulinarna walka klas,81728365
+1609,Kulinarna walka klas,81728365,10059753,Kulinarna walka klas,2024,tvshow,,Heugbaekyorisa: Yori gyegeub jeonjaeng,/97/53/10059753/8142265.$.jpg,7.75,4,12
 1610,Komisarz Montalbano: Złodziej kanapek,81411721
 1611,Małe kobietki,81140933,810357,Małe kobietki,2019,film,film_cinema,Little Women,/03/57/810357/7911788_2.$.jpg,7.40922,76096,27235
 1612,Wielkie przygody Kapitana Majtasa,80179782,810273,Wielkie przygody Kapitana Majtasa,2018,serial,serial_tv,The Epic Tales of Captain Underpants,/02/73/810273/7876226_2.$.jpg,6.36232,69,15
@@ -1673,7 +1673,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 1672,Lou,81058695,873393,Lou,2022,film,film_cinema,Lou,/33/93/873393/8027626_1.$.jpg,5.62334,6401,674
 1673,Loving,80099974,745930,Loving,2016,film,film_cinema,Loving,/59/30/745930/7736507_2.$.jpg,6.19289,5967,6255
 1674,Love Never Lies: Polska,81582706,10027152,Love Never Lies: Polska,2023,tvshow,,Love Never Lies: Polska,/71/52/10027152/8055888_1.$.jpg,5.69901,2834,195
-1675,Planeta samotności,81157573
+1675,Planeta samotności,81157573,10060598,Planeta samotności,2024,film,film_cinema,Lonely Planet,,0,0,59
 1676,Legiony,81278719,823437,Legiony,2019,film,film_cinema,Legiony,/34/37/823437/7899260_2.$.jpg,5.77985,15612,5771
 1677,LEGO: City Adventures,81280732,833886,LEGO City: Miasto przygód,2019,serial,serial_tv,LEGO City Adventures,,6.65,60,35
 1678,Prawnik z lincolna,81303831,544006,Prawnik z Lincolna,2011,film,film_cinema,The Lincoln Lawyer,/40/06/544006/7444559_2.$.jpg,7.47871,82588,20238
@@ -1705,7 +1705,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 1704,Powrót do liceum,80217525,870024,Powrót do liceum,2022,film,film_cinema,Senior Year,/00/24/870024/8008923_1.$.jpg,5.20629,17277,835
 1705,Londyn na sprzedaż,81577024,10050990,Londyn na sprzedaż,2024,tvshow,,Buying London,/09/90/10050990/8129062.$.jpg,5.42623,61,11
 1706,Lookism,81177634,10020868,Lookism,2022,serial,serial_tv,Oemojisangjuui,/08/68/10020868/8045777_1.$.jpg,7.09244,476,117
-1707,Too Hot to Handle,80241027
+1707,Too Hot to Handle,80241027,151555,West of Tombstone,1942,film,film_cinema,West of Tombstone,,0,0,3
 1708,"Luksemburg, Luksemburg",81687038,10016765,"Luksemburg, Luksemburg",2022,film,film_cinema,"Lyuksemburh, Lyuksemburh",/67/65/10016765/8028741_1.$.jpg,6.27665,394,142
 1709,LEGO® Friends: Następny Rozdział,81700960
 1710,Miłość jest ślepa: Szwecja,81626839,10034902,Miłość jest ślepa: Szwecja,2024,tvshow,,Love Is Blind: Sverige,/49/02/10034902/8109138_1.$.jpg,6.55797,276,43
@@ -1765,9 +1765,9 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 1764,Mumie,81664346,10022878,Mumie,2023,film,film_cinema,Momias,/28/78/10022878/8049010_2.$.jpg,5.83445,3280,537
 1765,Specjalista od niczego,80049714,753764,Specjalista od niczego,2015,serial,serial_tv,Master of None,/37/64/753764/7713877_1.$.jpg,7.49016,10266,7085
 1766,Wyjdź za mnie,81041317,852253,Wyjdź za mnie,2022,film,film_cinema,Marry Me,/22/53/852253/7994397_2.$.jpg,5.84827,12773,2336
-1767,Wyspa miliarderów,81615974
+1767,Wyspa miliarderów,81615974,10059235,Wyspa miliarderów,2024,serial,serial_tv,Milliardærøya,/92/35/10059235/8141034.$.jpg,5.46341,123,85
 1768,Making a Murderer,80000770,752805,Making a Murderer,2015,serial,serial_tv,Making a Murderer,/28/05/752805/7860325_1.$.jpg,7.97714,14132,15802
-1769,Matki Pingwinów,81628561
+1769,Matki Pingwinów,81628561,10049727,Matki pingwinów,2024,serial,serial_tv,Matki pingwinów,,0,0,141
 1770,Magik wśród ludzi,80190510,852930,Magik wśród ludzi,2018,tvshow,,Magic for Humans,/29/30/852930/7921654_1.$.jpg,6.55556,126,39
 1771,Media antyspołecznościowe: Memy problem,81456528,10049311,Media antyspołecznościowe: Memy problem,2024,film,film_cinema,The Antisocial Network: Memes to Mayhem,/93/11/10049311/8121687_1.$.jpg,5.47222,288,92
 1772,Between Two Ferns: Film,80243600,838822,Between Two Ferns: Film,2019,film,film_cinema,Between Two Ferns: The Movie,/88/22/838822/7897294_1.$.jpg,5.42294,5424,1040
@@ -1971,7 +1971,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 1970,Piotruś Pan,60031292,35151,Piotruś Pan,1953,film,film_cinema,Peter Pan,/51/51/35151/7501169_1.$.jpg,7.2708,36053,3259
 1971,Paranormalne doświadczenia,80195378,851159,Paranormalne doświadczenia,2018,serial,serial_tv,Haunted,/11/59/851159/7918530_1.$.jpg,5.17871,761,154
 1972,Trucizna na talerzu,81460481,10039345,Trucizna na talerzu,2023,film,film_cinema,Poisoned: The Dirty Truth About Your Food,/93/45/10039345/8084134_1.$.jpg,6.26233,831,112
-1973,Projekt UFO,81634683
+1973,Projekt UFO,81634683,10035504,Projekt UFO,2024,serial,serial_tv,Projekt UFO,,0,0,327
 1974,Parasyte: The Maxim,80191008,713323,Kiseijū,2014,serial,serial_tv,Kiseijū,/33/23/713323/7692055_1.$.jpg,7.9,4920,1799
 1975,Plan lekcji,81498377,10022445,Plan lekcji,2022,film,film_cinema,Plan lekcji,/24/45/10022445/8043947_1.$.jpg,4.36076,8263,662
 1976,Pożegnanie z Ozark,81519166
@@ -2020,7 +2020,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 2019,Russian Doll,80211627,810037,Russian Doll,2019,serial,serial_tv,Russian Doll,/00/37/810037/8009269_1.$.jpg,7.13053,35876,9068
 2020,Royalteen,81430236,10015327,Royalteen: Następca tronu,2022,film,film_cinema,Royalteen,/53/27/10015327/8024953_2.$.jpg,4.9,1780,105
 2021,"Ronja, córka zbójnika",81737131,708161,"Ronja, córka zbójnika",2014,serial,serial_tv,Sanzoku no Musume Rōnja,/81/61/708161/7778206_1.$.jpg,7.52713,129,317
-2022,The Residence,81005297
+2022,The Residence,81005297,10016604,The Residence,2023,serial,serial_tv,The Residence,,0,0,39
 2023,Receiver,81733809,10055291,Receiver,2024,serial,serial_tv,Receiver,/52/91/10055291/8135900.$.jpg,6.75714,70,23
 2024,Renowatorzy z Doliny Rdzy,80203254,836971,Renowatorzy z Doliny Rdzy,2018,serial,serial_tv,Rust Valley Restorers,/69/71/836971/7929805_1.$.jpg,7.66241,548,71
 2025,Oats Studios,81483047
@@ -2068,7 +2068,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 2067,Sprint,81685880,10055285,Sprint,2024,serial,serial_tv,Sprint,/52/85/10055285/8132097.$.jpg,7.15569,334,114
 2068,Straight Outta Compton,80041415,652435,Straight Outta Compton,2015,film,film_cinema,Straight Outta Compton,/24/35/652435/7992406_2.$.jpg,7.61252,58667,22191
 2069,The Spy,80178151,810934,The Spy,2019,serial,mini_serial,The Spy,/09/34/810934/7897226_1.$.jpg,7.82047,15596,5996
-2070,Sektor 36,81777258
+2070,Sektor 36,81777258,10059752,Sektor 36,2024,film,film_cinema,Sector 36,/97/52/10059752/8142862.$.jpg,6.02793,179,83
 2071,Searching,81053209,808132,Searching,2018,film,film_cinema,Searching,/81/32/808132/7857577_1.$.jpg,6.78998,32744,9620
 2072,Snowpiercer,80177458,792940,Snowpiercer,2020,serial,serial_tv,Snowpiercer,/29/40/792940/7921655_1.$.jpg,6.74685,17282,5913
 2073,Shazam!,81030627,271514,Shazam!,2019,film,film_cinema,Shazam!,/15/14/271514/7881757_1.$.jpg,6.47639,69088,10319
@@ -2133,7 +2133,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 2132,Top Boy: Summerhouse,70236561
 2133,Terytorium,81591574,10007209,Terytorium,2022,film,film_cinema,The Territory,/72/09/10007209/8016613_1.$.jpg,6.66134,313,241
 2134,Trevor Noah: I Wish You Would,81228515,10022199,Trevor Noah: I Wish You Would,2022,tvshow,,Trevor Noah: I Wish You Would,/21/99/10022199/8043353_1.$.jpg,6.69863,73,7
-2135,"Człowiek, który kochał UFO",81507289
+2135,"Człowiek, który kochał UFO",81507289,10059227,"Człowiek, który kochał UFO",2024,film,film_cinema,El hombre que amaba los platos voladores,,0,0,2
 2136,Zaufanie: Gra chciwości,81590663,10044981,Zaufanie: Gra chciwości,2024,tvshow,,The Trust,/49/81/10044981/8105851_1.$.jpg,6.22917,192,42
 2137,Tore,81589003,10041307,Tore,2023,serial,serial_tv,Tore,/13/07/10041307/8097720_1.$.jpg,6.45783,498,153
 2138,T・P BON,81497635,10052828,T・P Bon,2024,serial,serial_tv,T・P Bon,/28/28/10052828/8125655.$.jpg,5.38462,13,12
@@ -2167,7 +2167,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 2166,Robocar Poli,80059047,873466,Roboka Poli,2011,serial,serial_tv,Roboka Poli,,2,2,1
 2167,Życie w cuglach: Walentynki,81001413
 2168,Cupcake i Dino – do usług,80198459,810673,Cupcake i Dino - do usług,2018,serial,serial_tv,Cupcake & Dino – General Services,/06/73/810673/7856701_1.$.jpg,6.11321,53,19
-2169,50 m²,81103322
+2169,50 m²,81103322,260425,Buddy's Downfall,1914,film,film_cinema,Buddy's Downfall,,0,0,1
 2170,Dance Monsters,81094767,10024313,Dance Monsters,2022,tvshow,,Dance Monsters,/43/13/10024313/8047637_1.$.jpg,5.74074,27,9
 2171,Dwanaście na zawsze,80210294,806783,Dwanaście na zawsze,2019,serial,serial_tv,Twelve Forever,/67/83/806783/7898620_1.$.jpg,6.51724,87,39
 2172,10 dni z życia dobrego człowieka,81426851,10030107,10 dni z życia dobrego człowieka,2023,film,film_cinema,İyi Adamın 10 Günü,/01/07/10030107/8137265.$.jpg,5.36383,459,106
@@ -3227,7 +3227,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 3226,Nico la película,81471222
 3227,Inocente,81471168,669813,Inocente,2012,film,film_cinema,Inocente,/98/13/669813/7499474_1.$.jpg,6.55263,38,500
 3228,León y Olvido,81471451,243047,Leon i Olvido,2004,film,film_cinema,León y Olvido,/30/47/243047/7012700_3.$.jpg,6.4375,32,35
-3229,Las huellas del samurái,81471389
+3229,Las huellas del samurái,81471389,10042403,Las huellas del samurai,2018,film,film_cinema,Las huellas del samurai,,0,0,1
 3230,La última cena,81506551,34587,Ostatnia wieczerza,1976,film,film_cinema,La última cena,/45/87/34587/6972664_1.$.jpg,7.20513,39,103
 3231,El ciclo Dreyer,81470387,360440,El Ciclo Dreyer,2006,film,film_cinema,El Ciclo Dreyer,/04/40/360440/7125488_3.$.jpg,3.8,5,1
 3232,"Fantaghirò, en busca del Kuorum",81470691,603185,Księżniczka Fantaghiro,2000,film,film_tv,Fantaghiró: En busca del Kuorum,/31/85/603185/8079218_1.$.jpg,5.83333,30,12
@@ -3249,14 +3249,14 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 3248,Antonio Fernández Alba,81466973
 3249,Rafael Moneo,81471138
 3250,Un lugar en el cine,81506613,689572,Un Lugar en el cine,2008,film,film_cinema,Un Lugar en el cine,/95/72/689572/7695137_2.$.jpg,4.16667,6,6
-3251,Menese,81471304
+3251,Menese,81471304,10042402,Menese,2019,film,film_cinema,Menese,,0,0,1
 3252,Manuel Gallego,81471281
 3253,Maestros,70025555,88516,Mistrzowie,2000,film,film_cinema,Maestros,/85/16/88516/7496213_1.$.jpg,5.8,15,14
 3254,W pogoni za marzeniem,81466620
 3255,Benidorm mon amour,81506536,785584,Benidorm mon amour,2016,film,film_cinema,Benidorm mon amour,/55/84/785584/7943522_1.$.jpg,3.625,8,3
 3256,Regresa el Cepa,81471112,834157,Regresa El Cepa,2019,film,film_cinema,Regresa El Cepa,/41/57/834157/7891200_1.$.jpg,6,4,5
-3257,Oriol Bohigas,81471282
-3258,Los Tigres del Norte w więzieniu Folsom,81030342
+3257,Oriol Bohigas,81471282,806510,Union Leader,2017,film,film_cinema,Union Leader,,0,0,2
+3258,Los Tigres del Norte w więzieniu Folsom,81030342,10024531,Los Tigres del Norte w więzieniu Folsom,2019,film,film_cinema,Los Tigres del Norte at Folsom Prison,,0,0,3
 3259,Antonio Vázquez de Castro,81466977
 3260,Refugio,81471120,10011135,Harlan Coben: Schronienie,2023,serial,serial_tv,Harlan Coben's Shelter,/11/35/10011135/8080079_1.$.jpg,5.87742,1501,665
 3261,Federico Correa,81470702
@@ -3307,7 +3307,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 3306,Más allá de las estrellas. Fotografiando un agujero negro,81506548
 3307,La dama del bosque maldíto,81471234,708687,La dama del bosque maldito,2017,film,film_cinema,La dama del bosque maldito,,2.4,70,5
 3308,Los gnomos en la nieve,70258997
-3309,La curva de la felicidad,81471231
+3309,La curva de la felicidad,81471231,171294,Les femmes... ou les enfants d'abord...,2002,film,film_cinema,Les femmes... ou les enfants d'abord...,/12/94/171294/7460650_1.$.jpg,0,0,4
 3310,Sandokan,81470576,417110,Sandokan,1992,serial,serial_tv,Sandokan,/71/10/417110/7434021_1.$.jpg,7.34138,580,90
 3311,Coś wielkiego,80132381,89447,Coś wielkiego,1971,film,film_cinema,Something Big,/94/47/89447/7985412_1.$.jpg,5.78667,75,38
 3312,Academia de gladiadores la película,81471055
@@ -3442,7 +3442,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 3441,Followers,80233221,848142,Followers,2020,serial,serial_tv,Followers,/81/42/848142/7912274_1.$.jpg,6.57488,207,121
 3442,HOMUNCULUS,81179841,873369,Homunculus,2021,film,film_cinema,Homunculus,/33/69/873369/7957547_1.$.jpg,5.1589,837,142
 3443,Mów mi Chihiro,81486812,10027142,Mów mi Chihiro,2023,film,film_cinema,Chihirosan,/71/42/10027142/8060494_1.$.jpg,6.48742,954,393
-3444,Milion jenów od kobiety,80170687
+3444,Milion jenów od kobiety,80170687,799805,Milion jenów od kobiety,2017,serial,serial_tv,"1,000,000 yen no Onnatachi",/98/05/799805/7876982_2.$.jpg,6.87295,244,54
 3445,"Śpiew, taniec, sztuka: Kabuki z Tōmą Ikutą",81485700,10012003,"Śpiew, taniec, sztuka: Kabuki z Tōmą Ikutą",2022,film,film_cinema,Ikuta Tōma: Idomu,/20/03/10012003/8009059_1.$.jpg,6.45161,31,20
 3446,Hibana: Spark,80095626
 3447,MAKE MY DAY,81176967,10030069,Make My Day,2023,serial,serial_tv,Make My Day,/00/69/10030069/8057322_1.$.jpg,5.29655,145,26
@@ -3461,7 +3461,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 3460,Eden,80992783,627594,Eden,2012,film,film_cinema,Eden,/75/94/627594/7567620_1.$.jpg,6.84841,6168,4053
 3461,The Violence Action,81623164,10022443,Violence Action,2022,film,film_cinema,Violence Action,/24/43/10022443/8039348_2.$.jpg,4.11475,122,19
 3462,Hot Gimmick: Girl Meets Boy,81043135,839189,Hot Gimmick: Girl Meets Boy,2019,film,film_cinema,Hot Gimmick: Girl Meets Boy,/91/89/839189/7899963_1.$.jpg,4.25267,281,28
-3463,Rilakkuma w parku rozrywki,81341765
+3463,Rilakkuma w parku rozrywki,81341765,139958,Dunrulin,1990,film,film_tv,Dunrulin,,0,0,1
 3464,GODZILLA The Planet Eater,80198623,810785,Godzilla: Hoshi wo Kū Mono,2018,film,film_cinema,Godzilla: Hoshi wo Kū Mono,/07/85/810785/8125976_2.$.jpg,5.10911,1054,151
 3465,Ikebukuro West Gate Park,81642952,112911,Ikebukuro West Gate Park,2000,serial,serial_tv,Ikebukuro West Gate Park,/29/11/112911/8112863_1.$.jpg,7.63025,119,82
 3466,Blazing Transfer Students,80175822,803481,Blazing Transfer Students,2017,serial,serial_tv,Blazing Transfer Students,/34/81/803481/7831707_1.$.jpg,5.52632,38,8
@@ -3612,13 +3612,13 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 3611,Policjanci z Amsterdamu,81582705,837916,Policjanci z Amsterdamu,2019,film,film_cinema,Baantjer: Het Begin,,5.39806,103,13
 3612,Wild,81466411,694545,Dzika droga,2014,film,film_cinema,Wild,/45/45/694545/7655752_2.$.jpg,7.0076,59437,29300
 3613,Snuf de Hond en de Jacht op Vliegende Volckert,70277693,762298,Sniff i duch z bagien,2008,film,film_cinema,Snuf de hond en de jacht op vliegende Volckert,,4.77778,36,13
-3614,Het Schildersleven van Vincent van Gogh,81509565
+3614,Het Schildersleven van Vincent van Gogh,81509565,10055735,Het Schildersleven van Vincent van Gogh,2008,film,film_tv,Het Schildersleven van Vincent van Gogh,,0,0,1
 3615,Fashion Chicks,81014643,760019,Fashion Chicks,2015,film,film_cinema,Fashion Chicks,/00/19/760019/7741955_2.$.jpg,4.46377,69,12
 3616,Okruszek,81408943,32643,Okruszek,1999,film,film_cinema,Kruimeltje,/26/43/32643/7562785_1.$.jpg,7.04494,89,50
 3617,Met Grote Blijdschap,81589005,170584,Met grote blijdschap,2001,film,film_cinema,Met grote blijdschap,/05/84/170584/7024365_3.$.jpg,5.54545,33,10
 3618,De Held,80182657,781530,De Held,2016,film,film_cinema,De Held,/15/30/781530/7806892_2.$.jpg,5.13793,29,5
 3619,Het schildersleven van Rembrandt van Rijn,81509556
-3620,Przeszkody,81408999
+3620,Przeszkody,81408999,38875,Same Przeszkody,2001,film,film_cinema,Just Impediment,,0,0,2
 3621,Lew z Flandrii,81409080,176305,Lew z Flandrii,1985,film,film_cinema,De Leeuw van Vlaanderen,/63/05/176305/7069529_3.$.jpg,4.39516,124,22
 3622,Apenstreken,80106929,745762,Apenstreken met aap noot mies,2015,film,film_cinema,Apenstreken met aap noot mies,/57/62/745762/7829417_2.$.jpg,5.625,16,8
 3623,Tuintje in mijn Hart,80182922,805239,Tuintje in mijn Hart,2017,film,film_cinema,Tuintje in mijn Hart,/52/39/805239/7893752_1.$.jpg,3.78571,14,5
@@ -3775,7 +3775,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 3774,Hazel Brugger: Tropical,81335421,865992,Hazel Brugger: Tropical,2020,tvshow,,Hazel Brugger: Tropical,/59/92/865992/7938387_1.$.jpg,5.75,8,2
 3775,RebellComedy: Prosto z zoo,81187207,870035,RebellComedy: Prosto z zoo,2021,tvshow,,RebellComedy: Raus Aus'm Zoo,/00/35/870035/7950624_1.$.jpg,3.71429,7,3
 3776,Carolin Kebekus: The Last Christmas Special,81212708,10005038,Carolin Kebekus: The Last Christmas Special,2021,tvshow,,Carolin Kebekus: The Last Christmas Special,/50/38/10005038/7987931_1.$.jpg,5.3,10,4
-3777,Dzika Szwajcaria,81457251
+3777,Dzika Szwajcaria,81457251,10026549,Dzika Szwajcaria,2017,serial,mini_serial,Wunderwelt Schweiz,,0,0,1
 3778,Dziki Iran,81457040,10021155,Dziki Iran,2012,serial,mini_serial,Wilder Iran,,6.88889,9,2
 3779,In Search… A journey to womanhood,81471166
 3780,Tour du Faso,81467045,707989,Tour du Faso,2014,film,film_cinema,Tour du Faso,/79/89/707989/7609549_2.$.jpg,5.72414,29,9
@@ -3995,7 +3995,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 3994,Farma aniołów: Drugie lato,81382195,106223,Dom Aniołów - drugie lato,1994,film,film_cinema,Änglagard - andra sommaren,/62/23/106223/7952731_2.$.jpg,5.84,25,11
 3995,Pechowy cadillac,80025409,283328,Pechowy cadillac,2006,film,film_cinema,Babas bilar,/33/28/283328/7070918_1.$.jpg,5.24528,53,31
 3996,Tak różne,81382190,541969,Tak różne,2009,film,film_cinema,Så olika,/19/69/541969/7300328_2.$.jpg,5.46429,28,17
-3997,Douche,81506579
+3997,Douche,81506579,766167,Douche,2011,film,film_cinema,Douche,/61/67/766167/7795190_1.$.jpg,0,0,0
 3998,Konstruktor Svensson,81382134,135600,Konstruktor Svensson,1929,film,film_cinema,Konstgjorda Svensson,/56/00/135600/7944046_2.$.jpg,4.84,25,7
 3999,Wszyscy kochają Alice,81382071
 4000,Banici,70101535,103520,Banici,1918,film,film_cinema,Berg-Ejvind Och Hans Hustru,/35/20/103520/7245091_1.$.jpg,6.74317,366,285
@@ -4289,7 +4289,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 4288,Kapil Sharma: I'm Not Done Yet,81386962
 4289,Endless Loop,81505032,857941,Endless Loop,2022,film,film_cinema,Looop Lapeta,/79/41/857941/7996351_1.$.jpg,4.98113,53,29
 4290,AK vs AK,81227759,866653,AK vs AK,2020,film,film_cinema,AK vs AK,/66/53/866653/7939736_1.$.jpg,4.92742,124,22
-4291,Milestone,81381748
+4291,Milestone,81381748,219869,Milestone,1995,film,film_cinema,Milestone,,0,0,4
 4292,Qala,81423081,10011278,Qala,2022,film,film_cinema,Qala,/12/78/10011278/8046165_1.$.jpg,6.07317,41,31
 4293,Róża Bombaju,81270289,862613,Róża Bombaju,2019,film,film_cinema,Bombay Rose,/26/13/862613/7938089_1.$.jpg,5.71779,163,99
 4294,Bombay Talkies,70275753,680360,Bombay Talkies,2013,film,film_cinema,Bombay Talkies,/03/60/680360/7535749_1.$.jpg,7.44238,269,248
@@ -4608,7 +4608,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 4607,Podwodni przyjaciele,81095076,10012557,Podwodni przyjaciele,2022,serial,serial_tv,Sea of Love,/25/57/10012557/8016022_1.$.jpg,5.78571,14,7
 4608,Baranek Shaun: Odlotowe święta,81193166,10005036,Baranek Shaun: Odlotowe święta,2021,film,film_cinema,Shaun the Sheep: The Flight Before Christmas,/50/36/10005036/7986430_1.$.jpg,6.77116,839,80
 4609,Dzieciaki straszaki: Potworna impreza,81002336
-4610,Tańcz i śpiewaj z Tru,80996626
+4610,Tańcz i śpiewaj z Tru,80996626,10024527,Tańcz i śpiewaj z Tru,2018,serial,serial_tv,Dance & Sing With True,,0,0,1
 4611,Chłopiec zwany Gwiazdką,81029733,839153,Chłopiec zwany Gwiazdką,2021,film,film_cinema,A Boy Called Christmas,/91/53/839153/7994136_1.$.jpg,6.48535,6109,730
 4612,Mighty Express: Wielki wyścig,81349242,10024726,Mighty Express: Wielki wyścig,2022,film,film_cinema,Mighty Express: Mighty Trains Race,,3.27273,11,3
 4613,Nierozłączki: Lilka i Pestka,81338302,10016200,Nierozłączki: Lilka i Pestka,2022,film,film_cinema,Ivy & Bean,/62/00/10016200/8027666_2.$.jpg,5.69697,99,16
@@ -4661,7 +4661,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 4660,The Miracle Club,81743382,10034430,Klub cudownych kobiet,2023,film,film_cinema,The Miracle Club,/44/30/10034430/8091687_2.$.jpg,6.19016,915,1204
 4661,Gangs of London,80197467,834428,Gangi Londynu,2020,serial,serial_tv,Gangs of London,/44/28/834428/8038688_1.$.jpg,7.54408,3494,3482
 4662,The Teachers' Lounge,81725559,10031652,Pokój nauczycielski,2023,film,film_cinema,Das Lehrerzimmer,/16/52/10031652/8113362_2.$.jpg,7.07767,3412,5463
-4663,"Love, Charlie: The Rise and Fall of Chef Charlie Trotter",81633762
+4663,"Love, Charlie: The Rise and Fall of Chef Charlie Trotter",81633762,10039860,"Love, Charlie: The Rise and Fall of Chef Charlie Trotter",2021,film,film_cinema,"Love, Charlie: The Rise and Fall of Chef Charlie Trotter",/98/60/10039860/8084575_1.$.jpg,0,0,2
 4664,The Super Mario Bros. Movie,81640914,850581,Super Mario Bros. Film,2023,film,film_cinema,The Super Mario Bros. Movie,/05/81/850581/8057312_1.$.jpg,6.62002,16514,3628
 4665,Minionki,80033394,680413,Minionki,2015,film,film_cinema,Minions,/04/13/680413/7695336_1.$.jpg,6.80803,103849,10752
 4666,Trolls Band Together,81725540,10004795,Trolle 3,2023,film,film_cinema,Trolls Band Together,/47/95/10004795/8095624_1.$.jpg,6.08918,2108,1022
@@ -4778,3 +4778,13 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 4777,Podróżnicy,80105699,774221,Podróżnicy,2016,serial,serial_tv,Travelers,/42/21/774221/7778696_1.$.jpg,7.41598,8825,4236
 4778,Santa Clarita Diet,80095815,762028,Santa Clarita Diet,2017,serial,serial_tv,Santa Clarita Diet,/20/28/762028/7784149_2.$.jpg,7.02801,15997,5200
 4779,Chłopiec pochłania wszechświat,81449940,10043222,Chłopiec pochłania wszechświat,2024,serial,mini_serial,Boy Swallows Universe,/32/22/10043222/8108547_1.$.jpg,7.39046,2369,2116
+4780,Chłopiec w pasiastej piżamie,70101375,420136,Chłopiec w pasiastej piżamie,2008,film,film_cinema,The Boy in the Striped Pyjamas,/01/36/420136/7347382_1.$.jpg,8.09909,410793,70397
+4781,Lepsi niż my,81026915,832286,Lepsi niż my,2018,serial,serial_tv,"Luchshe, chem lyudi",/22/86/832286/7889244_1.$.jpg,7.36985,4226,1628
+4782,Podróbki,81446305,10017544,Podróbki,2022,serial,serial_tv,Fakes,/75/44/10017544/8035883_1.$.jpg,5.77236,246,71
+4783,On My Block,80117809,802929,On My Block,2018,serial,serial_tv,On My Block,/29/29/802929/7879468_1.$.jpg,7.23353,3811,1435
+4784,"Wszystko, teraz!",81437049,10041275,"Wszystko, teraz!",2023,serial,serial_tv,Everything Now,/12/75/10041275/8094383_1.$.jpg,6.06902,681,236
+4785,Jutro,81503460,10010850,Jutro,2022,serial,serial_tv,Nae-il,/08/50/10010850/8006089_1.$.jpg,8.13468,1292,746
+4786,Dziewczyna w masce,81516491,10024766,Dziewczyna w masce,2023,serial,serial_tv,Maseukeugeol,/47/66/10024766/8081554_2.$.jpg,6.8492,1691,630
+4787,Tiny Pretty Things,81017308,838382,Tiny Pretty Things,2020,serial,serial_tv,Tiny Pretty Things,/83/82/838382/7937601_2.$.jpg,6.19226,7313,1054
+4788,Big Vape: Rozkwit i upadek firmy Juul,81444184,10041795,Big Vape: Rozkwit i upadek firmy Juul,2023,serial,mini_serial,Big Vape: The Rise and Fall of Juul,/17/95/10041795/8095693_1.$.jpg,6.28873,426,122
+4789,Przepis na romantyczne święta,81696232,10036918,Przepis na romantyczne święta,2022,film,film_tv,Catering Christmas,/69/18/10036918/8104190_2.$.jpg,4.90157,1595,58
