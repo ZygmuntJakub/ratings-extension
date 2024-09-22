@@ -18,7 +18,7 @@ type QueueEntity struct {
 
 var (
 	brokenQueue = make(map[uint]bool)
-	TIME_OFFSET = 50
+	TIME_OFFSET = 300
 )
 
 func beforeContinue(id uint, message string, err error) {
