@@ -293,7 +293,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 292,Alvin i wiewiórki 3,70189308,592999,Alvin i wiewiórki 3,2011,film,film_cinema,Alvin and the Chipmunks: Chipwrecked,/29/99/592999/7743195_1.$.jpg,6.19505,19621,2471
 293,Alvin i wiewiórki 2,70115628,488821,Alvin i wiewiórki 2 ,2009,film,film_cinema,Alvin and the Chipmunks: The Squeakquel,/88/21/488821/7743097_1.$.jpg,6.23199,29519,1744
 294,A.X.L.,80195967,792123,A.X.L.,2018,film,film_cinema,A.X.L.,/21/23/792123/7899820_2.$.jpg,5.63227,3663,676
-295,Potwory: Historia Lyle’a i Erika Menendezów,81665094
+295,Potwory: Historia Lyle’a i Erika Menendezów,81665094,157334,Bigeom,1970,film,film_cinema,Bigeom,,0,0,1
 296,Rodzinka.pl,81713156,599540,Rodzinka.pl,2011,serial,serial_tv,Rodzinka.pl,/95/40/599540/7369585_1.$.jpg,7.07205,111964,9634
 297,Alba,81423382,867173,Alba,2021,serial,serial_tv,Alba,/71/73/867173/7952153_1.$.jpg,6.25799,2597,565
 298,Arnold,81317673,10035856,Arnold,2023,serial,mini_serial,Arnold,/58/56/10035856/8070489_1.$.jpg,7.33397,5252,1244
@@ -446,7 +446,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 445,Battleship: Bitwa o Ziemię,70217908,540909,Battleship: Bitwa o Ziemię,2012,film,film_cinema,Battleship,/09/09/540909/7519144_2.$.jpg,5.92742,75599,9211
 446,Bielmo,81444818,870411,Bielmo,2022,film,film_cinema,The Pale Blue Eye,/04/11/870411/8041911_1.$.jpg,6.40442,35488,8307
 447,Będziesz następna!,81709600,490549,Ty będziesz następna,2009,film,film_cinema,Sorority Row,/05/49/490549/7565182_2.$.jpg,5.47692,13061,3303
-448,Brawurowe ucieczki: Więzienny romans,81654970
+448,Brawurowe ucieczki: Więzienny romans,81654970,10061541,Brawurowe ucieczki: Więzienny romans,2024,film,film_cinema,Jailbreak: Love on the Run,/15/41/10061541/8144801.$.jpg,5.51389,72,13
 449,Bloodline,80010655,708487,Bloodline,2015,serial,serial_tv,Bloodline,/84/87/708487/7675165_1.$.jpg,7.25355,8870,11897
 450,Blade: Wieczny łowca II,60022707,4225,Blade: Wieczny łowca II,2002,film,film_cinema,Blade II,/42/25/4225/7538074_1.$.jpg,6.93382,80534,5785
 451,Blade: Mroczna Trójca,60036252,98534,Blade: Mroczna Trójca,2004,film,film_cinema,Blade: Trinity,/85/34/98534/7537328_1.$.jpg,6.54828,65054,5089
@@ -620,7 +620,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 619,Chicago,60024946,33246,Chicago,2002,film,film_cinema,Chicago,/32/46/33246/6974577_1.$.jpg,7.37132,94476,23297
 620,Carmen Sandiego,80167821,800444,Carmen Sandiego,2019,serial,serial_tv,Carmen Sandiego,/04/44/800444/7869859_1.$.jpg,7.39576,1415,542
 621,Ciemniejsza strona Greya,80131194,735860,Ciemniejsza strona Greya,2017,film,film_cinema,Fifty Shades Darker,/58/60/735860/7774489_1.$.jpg,5.01133,78831,6733
-622,Nikt tego nie chce,81591296
+622,Nikt tego nie chce,81591296,10059634,Nikt tego nie chce,2024,serial,serial_tv,Nobody Wants This,/96/34/10059634/8141724.$.jpg,6.9697,231,300
 623,Kolory zła: Czerwień,81619384,10035783,Kolory zła: Czerwień,2024,film,film_cinema,Kolory zła: Czerwień,/57/83/10035783/8129195.$.jpg,6.28398,32400,3941
 624,Sto lat samotności,81087583,867710,Sto lat samotności,2024,serial,serial_tv,Cien años de soledad,,0,0,274
 625,Cień i kość,80236319,832857,Cień i kość,2021,serial,serial_tv,Shadow and Bone,/28/57/832857/7956455_1.$.jpg,7.02131,19991,5553
@@ -637,7 +637,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 636,CTRL,81769841
 637,Czysta krew,70157135,399264,Czysta krew,2008,serial,serial_tv,True Blood,/92/64/399264/7685221_2.$.jpg,7.35326,74170,30907
 638,Co zrobiła Jennifer,81586385,10050016,Co zrobiła Jennifer,2024,film,film_cinema,What Jennifer Did,/00/16/10050016/8122278_1.$.jpg,5.3607,1949,189
-639,"Ciało, które działa",81729799
+639,"Ciało, które działa",81729799,10043058,"Ciało, które dziala",2023,serial,serial_tv,A Body That Works,/30/58/10043058/8097726_1.$.jpg,7.1886,228,67
 640,Piep*zyć Mickiewicza,81766794,10039375,Piep*zyć Mickiewicza,2024,film,film_cinema,Piep*zyć Mickiewicza,/93/75/10039375/8103558_1.$.jpg,5.20302,20348,3182
 641,Chce się żyć,81192958,648982,Chce się żyć,2013,film,film_cinema,Chce się żyć,/89/82/648982/7566099_1.$.jpg,7.68827,123673,50836
 642,Collateral,80185171,106414,Zakładnik,2004,film,film_cinema,Collateral,/64/14/106414/7517913_2.$.jpg,7.23302,73497,18737
@@ -1333,7 +1333,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 1332,Robin Hood,70111323,430661,Robin Hood,2010,film,film_cinema,Robin Hood,/06/61/430661/7326376_2.$.jpg,6.88198,125262,17834
 1333,Historia w pytaniach i odpowiedziach,81116168,852951,Historia w pytaniach i odpowiedziach,2020,serial,serial_tv,History 101,/29/51/852951/7922828_1.$.jpg,6.90401,1573,439
 1334,Siostra Śmierć,81478662,876513,Siostra Śmierć,2023,film,film_cinema,Hermana Muerte,/65/13/876513/8091478_2.$.jpg,5.25553,3933,608
-1335,Will i Harper,81760197
+1335,Will i Harper,81760197,10039906,Will i Harper,2024,film,film_cinema,Will & Harper,/99/06/10039906/8142521.$.jpg,5.70588,17,50
 1336,Mama,70254522,709353,Mama,2014,film,film_cinema,Mommy,/93/53/709353/7635414_1.$.jpg,7.87777,40874,51295
 1337,Jak zostać bossem mafii,81596971,10042870,Jak zostać bossem mafii,2023,serial,mini_serial,How to Become a Mob Boss,/28/70/10042870/8100698_1.$.jpg,6.23183,289,65
 1338,W wysokiej trawie,80237905,744250,W wysokiej trawie,2019,film,film_cinema,In the Tall Grass,/42/50/744250/7898575_1.$.jpg,4.93143,26266,2450
@@ -1408,7 +1408,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 1407,Izzy w świecie koali,81142848,860229,Izzy w świecie koali,2020,serial,serial_tv,Izzy's Koala World,,7.73,100,36
 1408,Ogniem i mieczem,70308739,137,Ogniem i mieczem,1999,film,film_cinema,Ogniem i mieczem,/01/37/137/8022320_1.$.jpg,6.90624,131329,5198
 1409,Infiesto,81478537,10030058,Infiesto,2023,film,film_cinema,Infiesto,/00/58/10030058/8055885_1.$.jpg,5.10697,2337,225
-1410,Liczy się wnętrze,81758866
+1410,Liczy się wnętrze,81758866,10049085,Liczy się wnętrze,2024,film,film_cinema,It's What's Inside,/90/85/10049085/8144953.$.jpg,8.33333,3,188
 1411,Spadek,81500431,10052777,Spadek,2024,film,film_cinema,Spadek,/27/77/10052777/8132019.$.jpg,4.58834,10210,816
 1412,iBOY,80099016,703800,iBoy,2017,film,film_cinema,iBoy,/38/00/703800/7784155_2.$.jpg,5.75554,14207,3035
 1413,Niezłomny,70305949,693142,Niezłomny,2014,film,film_cinema,Unbroken,/31/42/693142/7655941_1.$.jpg,7.19655,75781,31947
@@ -1707,7 +1707,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 1706,Lookism,81177634,10020868,Lookism,2022,serial,serial_tv,Oemojisangjuui,/08/68/10020868/8045777_1.$.jpg,7.09244,476,117
 1707,Too Hot to Handle,80241027,151555,West of Tombstone,1942,film,film_cinema,West of Tombstone,,0,0,3
 1708,"Luksemburg, Luksemburg",81687038,10016765,"Luksemburg, Luksemburg",2022,film,film_cinema,"Lyuksemburh, Lyuksemburh",/67/65/10016765/8028741_1.$.jpg,6.27665,394,142
-1709,LEGO® Friends: Następny Rozdział,81700960
+1709,LEGO® Friends: Następny Rozdział,81700960,10054174,LEGO® Friends: Następny rozdział,2023,serial,serial_tv,Lego Friends: The Next Chapter,/41/74/10054174/8129643.$.jpg,7.66667,3,2
 1710,Miłość jest ślepa: Szwecja,81626839,10034902,Miłość jest ślepa: Szwecja,2024,tvshow,,Love Is Blind: Sverige,/49/02/10034902/8109138_1.$.jpg,6.55797,276,43
 1711,Życie po śmierci według Tylera Henry’ego,81190041,10009245,Życie po śmierci według Tylera Henry’ego,2022,tvshow,,Life After Death with Tyler Henry,/92/45/10009245/8004651_1.$.jpg,6.1677,161,39
 1712,Rekin i Lava,70021640,191451,Rekin i Lava: Przygoda w 3D,2005,film,film_cinema,The Adventures of Sharkboy and Lavagirl 3-D,/14/51/191451/7730482_2.$.jpg,4.98188,9715,660
@@ -2174,7 +2174,7 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 2173,Tut Tut Autka: Tosia za kółkiem,81064382,10001722,Tut Tut Autka: Tosia za kółkiem,2021,film,film_cinema,Go! Go! Cory Carson: Chrissy Takes the Wheel,/17/22/10001722/7975386_1.$.jpg,5.47059,17,4
 2174,Dave Chappelle: Equanimity ,80230402,814062,Dave Chappelle: Equanimity,2017,tvshow,,Dave Chappelle: Equanimity,/40/62/814062/7878416_1.$.jpg,7.45532,235,25
 2175,Ula,81774200,10033149,Ula,2023,film,film_cinema,Ula,,6.17279,272,44
-2176,Zabijaj uważnie,81554969
+2176,Zabijaj uważnie,81554969,10025367,Zabijaj uważnie,2024,serial,serial_tv,Achtsam Morden,,0,0,2
 2177,Układanka,81015514,10008791,Układanka,2022,serial,serial_tv,Pieces of Her,/87/91/10008791/8000839_1.$.jpg,5.69204,5663,977
 2178,Ultraman: Rising,81007144,10043597,Ultraman: Rising,2024,film,film_cinema,Ultraman: Rising,/35/97/10043597/8116381_2.$.jpg,6.52403,437,146
 2179,UFO: Odtajnione projekty,81018709,876597,UFO: Odtajnione projekty,2021,serial,serial_tv,Top Secret UFO Projects: Declassified,/65/97/876597/8016963_1.$.jpg,5.75337,742,127
@@ -4788,8 +4788,77 @@ id,movieData_pl_title,streaming_netflix_internalId,rating_filmweb_internalId,rat
 4787,Tiny Pretty Things,81017308,838382,Tiny Pretty Things,2020,serial,serial_tv,Tiny Pretty Things,/83/82/838382/7937601_2.$.jpg,6.19226,7313,1054
 4788,Big Vape: Rozkwit i upadek firmy Juul,81444184,10041795,Big Vape: Rozkwit i upadek firmy Juul,2023,serial,mini_serial,Big Vape: The Rise and Fall of Juul,/17/95/10041795/8095693_1.$.jpg,6.28873,426,122
 4789,Przepis na romantyczne święta,81696232,10036918,Przepis na romantyczne święta,2022,film,film_tv,Catering Christmas,/69/18/10036918/8104190_2.$.jpg,4.90157,1595,58
-4790,BLOCKBUSTER,81468289,,,,,,,,,,
-4791,Profesor Iglesias,80209013,,,,,,,,,,
-4792,Pretty Smart,81327503,,,,,,,,,,
-4793,O Yeti!,81088173,,,,,,,,,,
-4794,Secret City,80211136,,,,,,,,,,
+4790,BLOCKBUSTER,81468289,10020084,Blockbuster,2022,serial,serial_tv,Blockbuster,/00/84/10020084/8037724_1.$.jpg,4.59267,464,80
+4791,Profesor Iglesias,80209013,832082,Profesor Iglesias,2019,serial,serial_tv,Mr. Iglesias,/20/82/832082/7890737_2.$.jpg,6.60755,874,125
+4792,Pretty Smart,81327503,10001706,Pretty Smart,2021,serial,serial_tv,Pretty Smart,/17/06/10001706/7976424_1.$.jpg,5.61853,734,143
+4793,O Yeti!,81088173,794644,O Yeti!,2019,film,film_cinema,Abominable,/46/44/794644/7901484_2.$.jpg,7.0625,7952,2126
+4794,Secret City,80211136,744611,Secret City,2016,serial,serial_tv,Secret City,/46/11/744611/7747715_2.$.jpg,6.99457,1841,893
+4795,Dzień Przyjaciółki,80081987,761626,Dzień przyjaciółki,2017,film,film_cinema,Girlfriend's Day,/16/26/761626/7774806_1.$.jpg,4.7119,1319,293
+4796,Sun Dogs,80226962,784545,Sun Dogs,2017,film,film_cinema,Sun Dogs,/45/45/784545/7836871_1.$.jpg,5.71986,282,190
+4797,Pulp Fiction,880640,1039,Pulp Fiction,1994,film,film_cinema,Pulp Fiction,/10/39/1039/7517880_1.$.jpg,8.34683,680472,64162
+4798,Wanted - Ścigani,70075479,386028,Wanted - Ścigani,2008,film,film_cinema,Wanted,/60/28/386028/7196253_2.$.jpg,6.68738,175341,23547
+4799,Bracia,70114495,459973,Bracia,2009,film,film_cinema,Brothers,/99/73/459973/7569264_2.$.jpg,7.48591,137440,41482
+4800,Batwheels,81687176,10009489,Batwheels,2022,serial,serial_tv,Batwheels,/94/89/10009489/8016297_2.$.jpg,4.53846,39,31
+4801,Shaft,80232655,1419,Shaft,2000,film,film_cinema,Shaft,/14/19/1419/6944041_1.$.jpg,6.52245,25949,4367
+4802,Wu Assassins,80230293,810427,Wu Assassins,2019,serial,serial_tv,Wu Assassins,/04/27/810427/7893136_1.$.jpg,5.51763,2042,512
+4803,Bestia,81579532,10039413,Bestia,2023,film,film_cinema,La bête,/94/13/10039413/8138598.$.jpg,5.90335,1583,3743
+4804,West of Memphis,70228187,643003,West of Memphis,2012,film,film_cinema,West of Memphis,/30/03/643003/7498762_1.$.jpg,7.44622,1376,1838
+4805,Mr. McMahon,81048394,10060129,Mr. McMahon,2024,serial,mini_serial,Mr. McMahon,/01/29/10060129/8142510.$.jpg,8.03571,28,64
+4806,W ciemność. Star Trek,70262640,521206,W ciemność. Star Trek,2013,film,film_cinema,Star Trek Into Darkness,/12/06/521206/7541967_1.$.jpg,7.11771,85046,13403
+4807,Annabelle wraca do domu,81095126,827355,Annabelle wraca do domu,2019,film,film_cinema,Annabelle Comes Home,/73/55/827355/7888267_1.$.jpg,5.49224,31056,4507
+4808,Bangkok Breaking: Między niebem a piekłem,81662479,10059907,Bangkok Breaking: Między niebem a piekłem,2024,film,film_cinema,Bangkok Breaking: Fa Narok Mueang Thewada,/99/07/10059907/8142038.$.jpg,4.08696,23,27
+4809,Trzech tatuśków,81674327,,,,,,,,,,
+4810,City Hunter,81454087,,,,,,,,,,
+4811,The Do-Over,80063265,,,,,,,,,,
+4812,Miesiąc miodowy,81711005,,,,,,,,,,
+4813,Miłość w przestworzach,81674530,,,,,,,,,,
+4814,Sing,80117526,700243,Sing,2016,film,film_cinema,Sing,/02/43/700243/7773099_2.$.jpg,7.2765,91367,10927
+4815,Ku jezioru,81302258,,,,,,,,,,
+4816,Ellen DeGeneres: For Your Approval,81037130,,,,,,,,,,
+4817,Star Trek: W nieznane,80096630,,,,,,,,,,
+4818,Tru: Dzień psotnych przysmaków,81035117,,,,,,,,,,
+4819,My Little Pony: Zmieniaj świat,81443471,,,,,,,,,,
+4820,Superaki,81489520,,,,,,,,,,
+4821,Tygrysek Daniel i jego sąsiedzi,70278879,,,,,,,,,,
+4822,Potężny mały Bheem,80211492,,,,,,,,,,
+4823,Miasto Rymowanek: Śpiewaj z nami,81221345,,,,,,,,,,
+4824,Barbie: A Touch of Magic,81607695,,,,,,,,,,
+4825,Polly Pocket,81196539,,,,,,,,,,
+4826,Barbie: Skipper - przygody opiekunek,81607691,,,,,,,,,,
+4827,Barbie: It Takes Two,81246530,,,,,,,,,,
+4828,Świat Winx,80007778,,,,,,,,,,
+4829,Mustang: Duch wolności: Akademia Jazdy Konnej,81054417,,,,,,,,,,
+4830,Moc księżniczek,80222411,,,,,,,,,,
+4831,LOL Surprise: Zimowy pokaz mody,81604831,,,,,,,,,,
+4832,Mermaze Mermaidz,81604827,,,,,,,,,,
+4833,LEGO Elves: Tajemnice Elvendale,80105933,,,,,,,,,,
+4834,LOL: Dom niespodzianek,81604836,,,,,,,,,,
+4835,LEGO: Friends,70304718,,,,,,,,,,
+4836,Tru: Dzień Przyjaźni,81035126,,,,,,,,,,
+4837,LOL Surprise: Film,81445141,,,,,,,,,,
+4838,LEGO Friends: Opowieści z Heartlake,81587731,,,,,,,,,,
+4839,Mustang: Duch wolności,80115432,,,,,,,,,,
+4840,Ridley Jones: Strażniczka muzeum,81074666,,,,,,,,,,
+4841,Święta Angeli,80230507,,,,,,,,,,
+4842,H2O: Syrenie przygody,80025553,,,,,,,,,,
+4843,Kumpel terapeuta,80239306,,,,,,,,,,
+4844,Pszczółka Maja,80028146,,,,,,,,,,
+4845,Osobliwy dom pani Peregrine,80079257,,,,,,,,,,
+4846,Van Helsing,80121349,,,,,,,,,,
+4847,Merlí. Sapere aude,81498294,,,,,,,,,,
+4848,DAN DA DAN,81736884,,,,,,,,,,
+4849,Krew z Krwi,81919645,,,,,,,,,,
+4850,Obłędny Cyfrowy Cyrk,81936142,,,,,,,,,,
+4851,Kawiarnia Minamdang,81568217,,,,,,,,,,
+4852,Pan Wilk i spółka: Koszmarny napad,81686326,10061965,Pan Wilk i spółka: Koszmarny napad,2024,film,film_cinema,The Bad Guys: Haunted Heist,/19/65/10061965/8145735.$.jpg,5.21905,105,38
+4853,Historia braci Menendezów,81506509,,,,,,,,,,
+4854,Bezsenność w Seattle,973331,,,,,,,,,,
+4855,Patriota,60001044,,,,,,,,,,
+4856,Szeregowiec Ryan,21878564,,,,,,,,,,
+4857,Kolekcjoner kości,27828200,,,,,,,,,,
+4858,Predator,80236391,,,,,,,,,,
+4859,Wysyp żywych trupów,70003227,,,,,,,,,,
+4860,Star Trek,70101276,,,,,,,,,,
+4861,Johnny English: Nokaut,80991406,,,,,,,,,,
+4862,Strażnicy cnoty,80213295,,,,,,,,,,
+4863,Cuba Libre: Historia gorącej wyspy,80109535,,,,,,,,,,
